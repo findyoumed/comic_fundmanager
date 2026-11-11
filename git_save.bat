@@ -12,8 +12,10 @@ git status --short
 set "MSG="
 set /p "MSG=Commit message (blank uses default): "
 if not defined MSG set "MSG=Update project files"
-choice /c YN /n /m "Stage all changes and create local commit? [Y/N] "
-if errorlevel 2 goto CANCEL
+set "CONFIRM=Y"
+set /p "CONFIRM=Stage all changes and create local commit? [Y/n]: "
+if /i "!CONFIRM!"=="N" goto CANCEL
+if /i not "!CONFIRM!"=="Y" goto CANCEL
 git add -A
 if errorlevel 1 goto ERROR
 git diff --cached --quiet

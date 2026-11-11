@@ -33,8 +33,10 @@ git diff --cached --stat
 git diff --cached --quiet
 if errorlevel 1 (
   echo.
-  choice /c YN /n /m "Commit all staged changes with message '!MSG!'? [Y/N] "
-  if errorlevel 2 goto CANCEL
+  set "CONFIRM=Y"
+  set /p "CONFIRM=Commit all staged changes with message '!MSG!'? [Y/n]: "
+  if /i "!CONFIRM!"=="N" goto CANCEL
+  if /i not "!CONFIRM!"=="Y" goto CANCEL
   git commit -m "!MSG!"
   if errorlevel 1 goto ERROR
 ) else (
@@ -42,8 +44,10 @@ if errorlevel 1 (
 )
 
 echo.
-choice /c YN /n /m "Push main to origin now? [Y/N] "
-if errorlevel 2 goto CANCEL
+set "CONFIRM=Y"
+set /p "CONFIRM=Push main to origin now? [Y/n]: "
+if /i "!CONFIRM!"=="N" goto CANCEL
+if /i not "!CONFIRM!"=="Y" goto CANCEL
 git ls-remote --exit-code --heads origin main >nul 2>&1
 if errorlevel 1 (
   echo Remote main is absent or unreachable; attempting initial push.

@@ -19,8 +19,10 @@ if errorlevel 1 goto ERROR
 echo.
 echo WARNING: tracked files in the working tree will be overwritten.
 echo Staged changes and untracked files will be left untouched.
-choice /c YN /n /m "Restore tracked files from !HASH!? [Y/N] "
-if errorlevel 2 goto CANCEL
+set "CONFIRM=Y"
+set /p "CONFIRM=Restore tracked files from !HASH!? [Y/n]: "
+if /i "!CONFIRM!"=="N" goto CANCEL
+if /i not "!CONFIRM!"=="Y" goto CANCEL
 git restore --source="!HASH!" --worktree -- .
 if errorlevel 1 goto ERROR
 echo Tracked working files restored from !HASH!.
