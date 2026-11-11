@@ -1,0 +1,10 @@
+{
+  "id": "06",
+  "title": "정부는 언제 지갑을 열까?",
+  "source_pages": "투자자산운용사 제3과목 제8장 거시경제 - 재정정책 절",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "status": "legacy-page-draft",
+  "checks": {"source_review": {"status": "pending", "evidence": "원전 대조 예정."}, "economic_review": {"status": "pending", "evidence": "재정정책 승수와 구축효과 검토 예정."}, "character_review": {"status": "pending", "evidence": "설정표 대조 예정."}, "webtoon_textbook_review": {"status": "pending", "evidence": "세로 흐름과 학습 박스 검토 예정."}}
+}
