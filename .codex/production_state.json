@@ -1,27 +1,43 @@
 {
-  "goal": "Complete Chapter 05 Topics 07–18 sequentially",
+  "goal": "Complete Chapter 05 Topics 12-18 sequentially using only p1192 PDF, preserving saved cuts and stopping at any source gap.",
   "status": "active",
-  "currentEpisode": "05-08",
-  "stage": "image-generation-running",
+  "currentEpisode": "05-12",
+  "stage": "paused-tool-limit",
   "expectedCuts": 10,
-  "liveExecCellId": "g2:156",
-  "liveExecDescription": "10 built-in image_gen calls; each completed output copied immediately into chapters/05-08/scroll.",
-  "resumeInstruction": "Poll existing live exec g2:156 with functions.wait; do not restart on timeout. Review saved PNGs individually or at most two per view_image exec to avoid discarded image outputs. Compare every formula against chapters/05-08/source_review.md and production.json. Correct errors using image_gen. Export with scripts/episode_tools.py export 05-08, inspect actual 690px JPGs, write truthful passed review statuses, finalize with scripts/finalize_episode.py 05-08, then continue 05-09.",
-  "sourceRenderDirectory": "C:/Users/new01/AppData/Local/Temp/codex-comic-ch05-source",
+  "liveExecCellId": null,
+  "liveExecDescription": null,
+  "resumeInstruction": "Resume at 05-12-005 when image_gen is available. Preserve saved cuts 001-004; create and checkpoint only missing cuts 005-010, finish visual and source review/export, then continue Topic order.",
+  "sourceRenderDirectory": ".codex/source-renders/chapter05",
   "characterReference": "chapters/14/014.png",
-  "sourcePdf": "../책_투자자산운용사_p1476.pdf",
+  "sourcePdf": "../책_투자자산운용사_p1192.pdf",
   "plan": "AUTO_PRODUCTION_PLAN.md",
-  "sourceCaveat": "08: 1129-1130 identical duplicate p270. YTM is discount rate. Discount example recalculated 9876.88/9406.55 differs from textbook whole-won approximations. Coupon example component-rounded sum 10555.01 versus exact-final-rounded 10555.02; explicitly distinguish.",
+  "sourceCaveat": "p1192 physical pp.926-927 visually verified; Topic 12 printed pp.279-280. Price change formula, modified duration periodicity, worked example and hedge example transcribed directly.",
   "visuallyReviewedCuts": [
-    "05-08-001",
-    "05-08-002"
+    "05-12-001",
+    "05-12-002",
+    "05-12-003",
+    "05-12-004"
   ],
   "missingPageAudit": "Adjacent image-object and footer audit: all 1476 image objects referenced; PDF physical 1104-1231 footer contact sheets inspected, no printed 301-302 found in this range. Full other-position search remains open.",
   "pendingCorrectionCells": {},
   "pendingCorrectionCuts": [],
-  "savedCutCount": 2,
+  "savedCutCount": 4,
   "pushHelperFix": "push_github.bat delegates to scripts/push_github.ps1. Real --check passed; mocked Success, NoChanges, AuthFailure and Diverged passed. No real commit or push executed.",
   "sourceCorrection": "05-06 physical 1123-1124 are identical duplicate scans of printed 265, confirmed pixel-for-pixel. Metadata, script, source map, plan and reader corrected.",
-  "lastCompletedEpisode": "05-07",
-  "pdfEquivalenceAudit": "p1476 contains 1192 unique embedded image payload hashes; p1192 contains exactly those 1192 images in first-occurrence order. No additional scans in p1192."
+  "lastCompletedEpisode": "05-11",
+  "pdfEquivalenceAudit": "Do not use p1476 as source. Historic cross-edition hash notes are archival only; all current page references must be verified in p1192.",
+  "missingCuts": [
+    "05-12-005",
+    "05-12-006",
+    "05-12-007",
+    "05-12-008",
+    "05-12-009",
+    "05-12-010"
+  ],
+  "sourcePhysicalPages": [
+    926,
+    927
+  ],
+  "lastExecHandleCheck": "Third consecutive retry after goal resume failed for 05-12-005: HTTP 429 usage_limit_reached, resets_at=1794712686, resets_in_seconds=13029. No image created; no live exec cell.",
+  "nextEpisode": "05-12"
 }

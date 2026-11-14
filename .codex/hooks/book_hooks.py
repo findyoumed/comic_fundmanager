@@ -158,6 +158,73 @@ def validate_chapter_scope(root, scope, manifests):
     return progress, errors
 
 
+def validate_production_checkpoint(root, scope):
+    """Check that the resumable production state reflects the actual saved cuts."""
+    if scope != '05-':
+        return None, []
+    errors = []
+    state_path = root / '.codex' / 'production_state.json'
+    if not state_path.is_file():
+        return None, [f'missing {state_path} for Chapter 5 continuous production']
+    try:
+        state = json.loads(state_path.read_text(encoding='utf-8-sig'))
+    except Exception as exc:
+        return None, [f'{state_path}: {exc}']
+    if state.get('sourcePdf') != '../책_투자자산운용사_p1192.pdf':
+        errors.append(f'{state_path}: sourcePdf must be the authorized p1192 PDF')
+    episode_id = state.get('currentEpisode')
+    if episode_id is not None and not re.fullmatch(r'05-\d{2}', episode_id):
+        errors.append(f'{state_path}: invalid currentEpisode {episode_id!r}')
+    complete = []
+    for manifest in sorted((root / 'chapters').glob('05-*/chapter.json')):
+        try:
+            data = json.loads(manifest.read_text(encoding='utf-8-sig'))
+            if data.get('status') == 'complete':
+                complete.append(data.get('id', manifest.parent.name))
+        except Exception:
+            continue
+    expected_current = next((f'05-{i:02d}' for i in range(1, 19) if f'05-{i:02d}' not in complete), None)
+    if episode_id != expected_current:
+        errors.append(f'{state_path}: currentEpisode must be next incomplete Topic {expected_current!r}, found {episode_id!r}')
+    checkpoint = {
+        'episode': episode_id,
+        'stage': state.get('stage'),
+        'saved_cuts': state.get('savedCutCount'),
+        'expected_cuts': state.get('expectedCuts'),
+        'missing_cuts': state.get('missingCuts', []),
+        'live_cell_id': state.get('liveExecCellId'),
+    }
+    if episode_id:
+        folder = root / 'chapters' / episode_id
+        chapter_path = folder / 'chapter.json'
+        spec_path = folder / 'production.json'
+        try:
+            if chapter_path.is_file():
+                episode = json.loads(chapter_path.read_text(encoding='utf-8-sig'))
+                expected_count = int(episode.get('plannedCutCount', 0))
+            elif spec_path.is_file():
+                episode = json.loads(spec_path.read_text(encoding='utf-8-sig'))
+                expected_count = len(episode.get('cuts', []))
+            else:
+                expected_count = 0
+            actual = sorted(p.stem for p in (folder / 'scroll').glob('*.png')) if (folder / 'scroll').is_dir() else []
+            expected = [f'{episode_id}-{i:03d}' for i in range(1, expected_count + 1)]
+            missing = [cut for cut in expected if cut not in actual]
+            unexpected = [cut for cut in actual if cut not in expected]
+            if state.get('expectedCuts') != expected_count:
+                errors.append(f'{state_path}: expectedCuts does not match {episode_id} manifest')
+            if state.get('savedCutCount') != len(actual):
+                errors.append(f'{state_path}: savedCutCount does not match PNG files for {episode_id}')
+            if state.get('missingCuts', []) != missing:
+                errors.append(f'{state_path}: missingCuts does not match PNG files for {episode_id}')
+            if unexpected:
+                errors.append(f'{folder}/scroll: unexpected cut names {unexpected}')
+            checkpoint.update(saved_cuts=len(actual), expected_cuts=expected_count, missing_cuts=missing)
+        except Exception as exc:
+            errors.append(f'{state_path}: cannot reconcile checkpoint: {exc}')
+    return checkpoint, errors
+
+
 def check(root=ROOT, scope=None):
     errors = []
     warnings = []
@@ -249,6 +316,8 @@ if __name__ == '__main__':
         [m for m in sorted((ROOT / 'chapters').glob('*/chapter.json')) if args.scope and m.parent.name.startswith(args.scope)],
     )
     errors.extend(chapter_errors)
+    production_checkpoint, checkpoint_errors = validate_production_checkpoint(root=ROOT, scope=args.scope)
+    errors.extend(checkpoint_errors)
     ready = not errors and not warnings
     result = {
         'scope': args.scope or 'all',
@@ -259,6 +328,7 @@ if __name__ == '__main__':
         'webtoon_warnings': warnings,
         'preserved_draft_assets': draft_assets,
         'chapter_progress': chapter_progress,
+        'production_checkpoint': production_checkpoint,
         'note': 'Scoped checks do not hide warnings from other chapters. Verify current Naver creator upload requirements before publication.',
     }
     print(json.dumps(result, ensure_ascii=False))

@@ -1,0 +1,50 @@
+{
+  "id": "05-11",
+  "title": "맥컬레이 듀레이션",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 11 맥컬레이 듀레이션(Macaulay Duration)",
+  "sourcePage": "인쇄 pp.276–278 (지정된 p1192 PDF 물리 pp.923–925)",
+  "sourceDetails": "2026-11-15 p1192 물리 pp.923–925를 확대 렌더로 직접 확인했다. 듀레이션은 미래 현금흐름 현재가치로 가중한 평균 회수기간이며 가격 민감도와 연관된다. 인쇄 p.276 핵심 예제는 액면 10,000원, 잔존 3년, 표면이율 6%, 연 1회 후급, YTM 4%다. 현금흐름 600, 600, 10,600원의 현재가치는 원전 표시대로 576.92, 554.73, 9,423.36원이고 합계 10,555.01원이다. t×현재가치 가중합은 29,956.46원이며 나누면 2.838년이다. 원전 지시대로 소수 둘째 자리 미만 절사하여 2.83년으로 표기한다(통상 반올림 결과와 구분). 계산 표는 설명용으로 재구성하고 원문 선택지를 옮기지 않는다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "맥컬레이 듀레이션을 현금흐름 현재가치의 가중평균 회수기간으로 설명하고, 교재 예제의 가중합·분모·절사 기준에 따라 계산한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 10,
+  "scrollAssets": [
+    "scroll/05-11-001.png",
+    "scroll/05-11-002.png",
+    "scroll/05-11-003.png",
+    "scroll/05-11-004.png",
+    "scroll/05-11-005.png",
+    "scroll/05-11-006.png",
+    "scroll/05-11-007.png",
+    "scroll/05-11-008.png",
+    "scroll/05-11-009.png",
+    "scroll/05-11-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-11",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

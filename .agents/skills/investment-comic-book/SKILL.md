@@ -7,6 +7,17 @@ description: Produce a Korean investment education textbook as source-aligned Na
 
 Read `GOAL.md`, `CHARACTER_SHEET.md`, the relevant chapter goal, and the scoped hook output before production. Read `SOURCE_TOC_MAP.md` and `SOURCE_VARIANT_NOTE.md` before changing source mappings or episode content.
 
+## Continuous production and recovery
+
+- `GOAL.md` names the only authorized source PDF. Use that file for every current source claim and physical-page citation; archival notes about other editions are not source authority.
+- At session start, read `.codex/production_state.json`. If it names a live exec cell, poll that exact cell. If the handle is missing or terminal, rescan the active episode's `scroll/` directory and run `python scripts/episode_tools.py checkpoint NN-TT` before resuming.
+- Keep the active episode and source mapping in the state file. Generate cuts in numeric order. Save each image to its final `scroll/NN-TT-SSS.png` path immediately, then checkpoint before requesting the next image. Never regenerate a saved cut just because the overall image-generation call stopped.
+- After saving the last planned cut, inspect each saved image, correct failures, export and inspect the real 690px JPGs, record only reviews actually passed, run finalize and the chapter-scoped hook, then immediately start the next Topic from the authorized PDF. Repeat until the authorized range ends or the PDF has a source gap.
+- If the tool call yields a live cell, record its returned cell ID in `.codex/production_state.json`. On resume, poll that cell before starting replacement work. If it no longer exists, clear the stale ID and continue from the `missingCuts` checkpoint.
+- If image generation returns a usage-limit/rate-limit response (for example HTTP 429), do not loop retries or replace saved cuts. Record the failed cut, exact tool response, saved count, and missing cut IDs in `.codex/production_state.json`; set a paused stage and resume at the first missing cut when the tool is available again. A quota failure is a pause, not a source gap or completed review.
+- After each successful image response, copy the image to its final numbered `scroll/NN-TT-SSS.png` path and run the checkpoint command before requesting another image. If generation is interrupted, reconcile the state against actual numbered PNGs rather than trusting a stale count.
+- A source gap, unavailable source page, failed visual review, or failed hook stops the chain at that episode. Record the exact blocker and keep later Topics unstarted until it is resolved.
+
 ## Workflow
 
 1. Verify the source edition, chapter/topic title, printed page range, and PDF physical page range. Visually inspect scanned pages; do not infer the table of contents from a prior adaptation plan.

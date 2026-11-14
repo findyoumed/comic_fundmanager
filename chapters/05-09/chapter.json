@@ -1,0 +1,50 @@
+{
+  "id": "05-09",
+  "title": "채권수익률의 종류와 계산",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 09 채권수익률의 종류와 계산",
+  "sourcePage": "인쇄 pp.272–273 (지정된 p1192 PDF 물리 pp.919–920)",
+  "sourceDetails": "2026-11-15 p1192 물리 pp.919–920 확대 렌더로 직접 확인. 경상수익률 C/P, 만기수익률(YTM)의 간이법, 복리의 실효 연수익률을 구분한다. 인쇄 p.272 핵심문제의 조건은 액면 10,000원·표면이율 8%·만기 3년·시장가격 9,600원이고 묻는 값은 경상수익률이다. 연 이자 800원을 현재 가격 9,600원으로 나누어 약 8.33%다. 인쇄 p.273 보충 예제의 액면 10,000원·4년·쿠폰 6%·가격 9,200원 간이 YTM은 [600+(10,000−9,200)/4]/[(10,000+9,200)/2]=800/9,600=8.33%다. 이 값은 간이법 추정치다. 분기 이율 2%의 연 실효수익률은 (1+0.08/4)^4−1≈8.24%이며 단순 연환산 8%와 구분한다. 원전 선택지를 그대로 복제하지 않는다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "경상수익률, 간이 만기수익률, 실효 연수익률의 분자·분모와 가정을 구분하고 가격이 오를 때 경상수익률이 낮아지는 이유를 설명한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 10,
+  "scrollAssets": [
+    "scroll/05-09-001.png",
+    "scroll/05-09-002.png",
+    "scroll/05-09-003.png",
+    "scroll/05-09-004.png",
+    "scroll/05-09-005.png",
+    "scroll/05-09-006.png",
+    "scroll/05-09-007.png",
+    "scroll/05-09-008.png",
+    "scroll/05-09-009.png",
+    "scroll/05-09-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-09",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

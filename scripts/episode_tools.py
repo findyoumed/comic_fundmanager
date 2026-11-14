@@ -20,6 +20,44 @@ def write_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 
 
+def checkpoint(folder, live_cell_id=None):
+    """Persist asset progress so interrupted image generation resumes at missing cuts."""
+    state_path = ROOT/'.codex'/'production_state.json'
+    if not state_path.is_file():
+        raise FileNotFoundError(state_path)
+    state = json.loads(state_path.read_text(encoding='utf-8-sig'))
+    episode_id = folder.name
+    if state.get('currentEpisode') not in (None, episode_id):
+        raise ValueError(f'production state is on {state.get("currentEpisode")}, not {episode_id}')
+    chapter_path = folder/'chapter.json'
+    spec_path = folder/'production.json'
+    if chapter_path.is_file():
+        episode = json.loads(chapter_path.read_text(encoding='utf-8-sig'))
+        expected_count = int(episode.get('plannedCutCount', 0))
+    elif spec_path.is_file():
+        episode = json.loads(spec_path.read_text(encoding='utf-8-sig'))
+        expected_count = len(episode.get('cuts', []))
+    else:
+        raise FileNotFoundError(f'{chapter_path} or {spec_path}')
+    actual = sorted(p.stem for p in (folder/'scroll').glob('*.png'))
+    expected = [f'{episode_id}-{i:03d}' for i in range(1, expected_count+1)]
+    unexpected = [name for name in actual if name not in expected]
+    if unexpected:
+        raise ValueError(f'unexpected cut files: {unexpected}')
+    missing = [name for name in expected if name not in actual]
+    state.update(
+        currentEpisode=episode_id,
+        stage='image-generation' if missing else 'visual-review',
+        expectedCuts=expected_count,
+        savedCutCount=len(actual),
+        missingCuts=missing,
+        liveExecCellId=live_cell_id,
+        liveExecDescription='Sequential image_gen with per-cut saved checkpoints' if live_cell_id else None,
+    )
+    write_json(state_path, state)
+    print(json.dumps({'episode': episode_id, 'saved': len(actual), 'expected': expected_count, 'missing': missing}, ensure_ascii=False))
+
+
 def prepare(folder):
     spec = json.loads((folder/'production.json').read_text(encoding='utf-8-sig'))
     assert not (folder/'chapter.json').exists(), 'Existing episode must be edited explicitly'
@@ -48,6 +86,7 @@ def prepare(folder):
     write_json(folder/'chapter.json',data)
     write_json(folder/'webtoon_review.json',{**{k:'pending' for k in ['mobile_readability','scroll_flow','character_consistency','source_accuracy','naver_export_check']},'notes':'원전 시각 대조와 대본·콘티 확정. 그림 검토 전.'})
     print(f'Prepared {spec["id"]}: {len(prompts)} cuts')
+    checkpoint(folder)
 
 
 def export(folder):
@@ -76,9 +115,10 @@ def export(folder):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('operation',choices=['prepare','export'])
+    parser.add_argument('operation',choices=['prepare','export','checkpoint'])
     parser.add_argument('episode')
+    parser.add_argument('--live-cell-id')
     args=parser.parse_args()
     folder=(ROOT/'chapters'/args.episode).resolve()
     assert folder.parent == (ROOT/'chapters').resolve(), 'Invalid episode path'
-    {'prepare':prepare,'export':export}[args.operation](folder)
+    {'prepare':prepare,'export':export,'checkpoint':checkpoint}[args.operation](folder, **({'live_cell_id':args.live_cell_id} if args.operation=='checkpoint' else {}))
