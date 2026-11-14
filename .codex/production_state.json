@@ -38,6 +38,6 @@
     926,
     927
   ],
-  "lastExecHandleCheck": "Retried image_gen for 05-12-005 on 2026-11-15; HTTP 429 usage_limit_reached, resets_in_seconds=14634. No image created; no live cell remains.",
+  "lastExecHandleCheck": "Re-attempted 05-12-005 on 2026-11-15; image_gen again returned HTTP 429 usage_limit_reached, resets_at=1794712685, resets_in_seconds=14438. No image created; no live cell remains.",
   "nextEpisode": "05-12"
 }
