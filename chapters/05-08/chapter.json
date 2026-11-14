@@ -1,0 +1,27 @@
+{
+  "id": "05-08",
+  "title": "채권가격계산",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 08 채권가격계산",
+  "sourcePage": "인쇄 pp.270–271 (PDF 물리 pp.1129–1131; 1129–1130은 인쇄 p.270 중복 스캔)",
+  "sourceDetails": "2026-11-14 원전 물리 pp.1129,1131을 시각 확인하고 pp.1129–1130의 동일 렌더 픽셀을 확인했다. 할인채·복리채·이표채 계산식과 원전 예제 조건을 대조하고 Decimal로 재계산했다. 원전 이표채의 10,555.01원은 반올림한 중간 항들의 합이며 정밀 계산 후 최종 반올림과 0.01원 차이가 있어 기준을 표시한다. 참고 상자의 %는 표면금리로 표기되어 있지만 할인계수에는 예제처럼 만기수익률을 사용하도록 구분한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "현금흐름과 시점을 구분하여 만기일시상환채·할인채·이표채의 현재가치를 계산하고 표면금리와 만기수익률의 쓰임을 구별한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "art-in-progress",
+  "plannedCutCount": 10,
+  "scrollAssets": [],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-08",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "sourceReview": "source_review.md",
+  "imageGenerationStatus": {
+    "state": "in-progress",
+    "assetCount": 0,
+    "expectedCuts": 10
+  }
+}

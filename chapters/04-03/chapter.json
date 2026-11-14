@@ -1,0 +1,24 @@
+﻿{
+    "sourceChapter":  "제3과목 제4장 주식투자운용/투자전략",
+    "sourceStatus":  "source-verified",
+    "exportDirectory":  "../../upload_ready/naver_challenge/04-03",
+    "sourceTopic":  "Topic 03 자산배분의 개념",
+    "storyboard":  "storyboard.md",
+    "status":  "complete",
+    "scrollAssets":  [
+                         "scroll/04-03-001.png",
+                         "scroll/04-03-002.png",
+                         "scroll/04-03-003.png",
+                         "scroll/04-03-004.png"
+                     ],
+    "episodeGoal":  "자산군 사이의 비중을 정하는 자산배분이 상위 의사결정임을 설명하고 전략적 자산배분과 전술적 자산배분을 구분한다.",
+    "sourcePage":  "인쇄 pp.208–209 (PDF 물리 pp.1053–1055)",
+    "review":  "webtoon_review.json",
+    "exportManifest":  "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+    "script":  "script.md",
+    "format":  "naver-webtoon-vertical-scroll",
+    "explanation":  "explanation.md",
+    "title":  "자산배분의 개념",
+    "naverRequirementsVerified":  "https://help.naver.com/service/5635/contents/18779?lang=ko\u0026osType=COMMONOS",
+    "id":  "04-03"
+}

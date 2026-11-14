@@ -1,0 +1,9 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "7컷 PNG와 실제 690×1035 JPG를 모두 확인했다. 05-01-003은 특수채·금융채의 구분, 05-01-004는 가상 비교 사례, 05-01-005는 원전 분류표에 근거한 재구성 확인 문제임을 대본에 명시했다. 인쇄 pp.252–253/PDF 물리 pp.1109–1110 및 캐릭터 참조 chapters/14/014.png를 대조했다. 2026-11-13 네이버 도전만화 공식 안내의 가로 690px, JPG/GIF, 파일당 5MB·전체 50MB 제한을 확인했다."
+}
+

@@ -1,9 +1,20 @@
-{
-  "id": "08-07",
-  "sourceChapter": "Chapter 8 Macroeconomics",
-  "sourceTopic": "Money supply and interest rates",
-  "sourcePage": "p.417",
-  "title": "Money supply and interest rates",
-  "episodeGoal": "Separate the initial interest-rate effect of monetary expansion from later income and price responses.",
-  "status": "legacy-page-draft"
+﻿{
+    "id":  "08-07",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 07 통화량 증가에 의한 이자율변동",
+    "sourcePage":  "인쇄 pp.417–418 (PDF 물리 pp.1317–1318)",
+    "title":  "통화량 증가에 의한 이자율변동",
+    "episodeGoal":  "통화량 증가 뒤 금리변화의 세 효과와 시차, 국제수지·환율의 복수 경로를 구분한다.",
+    "sourceStatus":  "source-reviewed-art-in-progress",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "scroll-draft-in-progress",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-07-001.png",
+                         "scroll/08-07-002.png",
+                         "scroll/08-07-003.png",
+                         "scroll/08-07-004.png"
+                     ]
 }

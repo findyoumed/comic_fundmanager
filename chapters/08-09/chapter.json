@@ -1,9 +1,19 @@
-{
-  "id": "08-09",
-  "sourceChapter": "Chapter 8 Macroeconomics",
-  "sourceTopic": "Economic indicators",
-  "sourcePage": "p.422",
-  "title": "Economic indicators",
-  "episodeGoal": "Explain what business, price, and monetary indicators measure and their limits.",
-  "status": "legacy-page-draft"
+﻿{
+    "id":  "08-09",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 09 경기지수, 물가지수 및 통화관련 지표",
+    "sourcePage":  "인쇄 pp.422–423 (PDF 물리 pp.1323–1324)",
+    "title":  "경기지수, 물가지수 및 통화관련 지표",
+    "episodeGoal":  "경기선행·동행·후행지수, CPI·PPI·GDP 디플레이터, 통화량·통화유통속도를 구분한다.",
+    "sourceStatus":  "source-reviewed-art-in-progress",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "scroll-draft-in-progress",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-09-001.png",
+                         "scroll/08-09-002.png",
+                         "scroll/08-09-003.png"
+                     ]
 }

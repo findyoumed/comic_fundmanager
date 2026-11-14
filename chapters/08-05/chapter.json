@@ -1,9 +1,21 @@
-{
-  "id": "08-05",
-  "sourceChapter": "????嫄곗떆寃쎌젣",
-  "sourceTopic": "?댁옄??寃곗젙?대줎",
-  "sourcePage": "p.412",
-  "title": "?댁옄?⑥? ?대뼸寃??뺥빐吏덇퉴",
-  "episodeGoal": "?뷀룓???섏슂? 怨듦툒???댁옄??寃곗젙???곌껐?섎뒗 湲곕낯 ?먮━瑜??댄빐?쒕떎.",
-  "status": "legacy-page-draft"
+﻿{
+    "id":  "08-05",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 05 이자율 결정이론",
+    "sourcePage":  "인쇄 pp.412–414 (PDF 물리 pp.1310–1314)",
+    "title":  "이자율 결정이론",
+    "episodeGoal":  "고전학파와 케인즈학파를 비교하고 화폐수요·현대 대부자금설·피셔방정식을 구분한다.",
+    "sourceStatus":  "source-reviewed-art-in-progress",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "scroll-draft-in-progress",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-05-001.png",
+                         "scroll/08-05-002.png",
+                         "scroll/08-05-003.png",
+                         "scroll/08-05-004.png",
+                         "scroll/08-05-005.png"
+                     ]
 }

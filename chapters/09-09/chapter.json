@@ -1,0 +1,29 @@
+{
+  "id": "09-09",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 09 포트폴리오 투자성과평가",
+  "sourcePage": "인쇄 pp.461–463 (PDF 물리 pp.1369–1372; p.463 중복 스캔 포함)",
+  "title": "포트폴리오 투자성과평가",
+  "episodeGoal": "보유기간·다기간 수익률과 산술·기하·내부수익률을 구분하고, 위험조정 성과지표의 질문과 계산을 설명한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-09-001.png",
+    "scroll/09-09-002.png",
+    "scroll/09-09-003.png",
+    "scroll/09-09-004.png",
+    "scroll/09-09-005.png",
+    "scroll/09-09-006.png",
+    "scroll/09-09-007.png",
+    "scroll/09-09-008.png",
+    "scroll/09-09-009.png",
+    "scroll/09-09-010.png",
+    "scroll/09-09-011.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/09-09"
+}

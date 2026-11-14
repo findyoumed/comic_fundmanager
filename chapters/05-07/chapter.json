@@ -1,0 +1,52 @@
+{
+  "id": "05-07",
+  "title": "유통시장(Secondary Market)",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 07 유통시장(Secondary Market)",
+  "sourcePage": "인쇄 pp.268–269 (PDF 물리 pp.1127–1128)",
+  "sourceDetails": "2026-11-14 p1476 판본의 PDF 물리 pp.1127–1128을 시각 대조했다. 원전 표는 과거 시장 구분과 2026년 주석이 함께 실려 있어 거래단위·결제·PD 수치는 교재 학습 기준으로 표시한다. 원전 문제 선택지를 재현하지 않고 설명 자료로 각색한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "유통시장의 기능과 장내·장외 구조, IDM·IDB·PD의 역할을 구분하고 거래단위·결제·딜러 의무 수치를 교재 기준으로 해석한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 11,
+  "scrollAssets": [
+    "scroll/05-07-001.png",
+    "scroll/05-07-002.png",
+    "scroll/05-07-003.png",
+    "scroll/05-07-004.png",
+    "scroll/05-07-005.png",
+    "scroll/05-07-006.png",
+    "scroll/05-07-007.png",
+    "scroll/05-07-008.png",
+    "scroll/05-07-009.png",
+    "scroll/05-07-010.png",
+    "scroll/05-07-011.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-07",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 11,
+    "completedAt": "2026-11-14",
+    "tool": "built-in image_gen"
+  },
+  "sourceReview": "source_review.md",
+  "naverRequirementsVerifiedAt": "2026-11-14",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-14"
+  }
+}

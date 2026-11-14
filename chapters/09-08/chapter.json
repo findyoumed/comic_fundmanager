@@ -1,0 +1,28 @@
+{
+  "id": "09-08",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 08 포트폴리오 투자전략",
+  "sourcePage": "인쇄 pp.458–460 (PDF 물리 pp.1366–1368)",
+  "title": "포트폴리오 투자전략",
+  "episodeGoal": "소극적·적극적 전략의 차이, 자산배분과 포트폴리오 수정, 트레이너-블랙 모형의 종목별 비중 계산을 설명한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-08-001.png",
+    "scroll/09-08-002.png",
+    "scroll/09-08-003.png",
+    "scroll/09-08-004.png",
+    "scroll/09-08-005.png",
+    "scroll/09-08-006.png",
+    "scroll/09-08-007.png",
+    "scroll/09-08-008.png",
+    "scroll/09-08-009.png",
+    "scroll/09-08-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/09-08"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "04-13",
+  "title": "주식포트폴리오 운용전략의 종류",
+  "sourceChapter": "제3과목 제4장 주식투자운용/투자전략",
+  "sourceTopic": "Topic 13 주식포트폴리오 운용전략의 종류",
+  "sourcePage": "인쇄 pp.228–230 (PDF 물리 pp.1080–1085; 중복 스캔 포함)",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "패시브·액티브·준액티브 운용과 혼합전략의 목표·방법을 비교한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "status": "complete",
+  "scrollAssets": [
+    "scroll/04-13-001.png",
+    "scroll/04-13-002.png",
+    "scroll/04-13-003.png",
+    "scroll/04-13-004.png",
+    "scroll/04-13-005.png",
+    "scroll/04-13-006.png",
+    "scroll/04-13-007.png"
+  ],
+  "exportDirectory": "../../upload_ready/naver_challenge/04-13",
+  "review": "webtoon_review.json",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS"
+}

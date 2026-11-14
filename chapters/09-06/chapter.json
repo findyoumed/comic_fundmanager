@@ -1,0 +1,27 @@
+{
+  "id": "09-06",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 06 샤프의 단일지표모형",
+  "sourcePage": "인쇄 pp.452–454 (PDF 물리 pp.1360–1362)",
+  "title": "샤프의 단일지표모형",
+  "episodeGoal": "단일지표모형의 시장요인·잔차 분해와 베타·포트폴리오 베타·공분산 계산을 이해한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-06-001.png",
+    "scroll/09-06-002.png",
+    "scroll/09-06-003.png",
+    "scroll/09-06-004.png",
+    "scroll/09-06-005.png",
+    "scroll/09-06-006.png",
+    "scroll/09-06-007.png",
+    "scroll/09-06-008.png",
+    "scroll/09-06-009.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/09-06"
+}

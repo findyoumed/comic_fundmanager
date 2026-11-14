@@ -1,0 +1,45 @@
+{
+  "id": "05-04",
+  "title": "주식관련채권(CB, BW, EB)",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 04 주식관련채권(CB, BW, EB)",
+  "sourcePage": "인쇄 pp.259–261 (PDF 물리 pp.1116–1119; 물리 pp.1117–1118 중복 스캔)",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "CB·BW·EB의 권리와 행사 결과를 비교하고 전환사채 패리티·괴리·괴리율을 계산한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "scrollAssets": [
+    "scroll/05-04-001.png",
+    "scroll/05-04-002.png",
+    "scroll/05-04-003.png",
+    "scroll/05-04-004.png",
+    "scroll/05-04-005.png",
+    "scroll/05-04-006.png",
+    "scroll/05-04-007.png",
+    "scroll/05-04-008.png",
+    "scroll/05-04-009.png",
+    "scroll/05-04-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-04",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "sourceDetails": "Printed pp.259–261 checked against PDF physical pp.1116–1119; duplicate physical scans 1117–1118 both contain printed p.260.",
+  "naverRequirementsVerifiedAt": "2026-11-13",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": ["jpg", "gif"],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-13"
+  },
+  "imageGenerationStatus": {
+    "state": "complete",
+    "completedAt": "2026-11-14",
+    "assetCount": 10
+  }
+}

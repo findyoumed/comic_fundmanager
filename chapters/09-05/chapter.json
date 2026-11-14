@@ -1,0 +1,26 @@
+{
+  "id": "09-05",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 05 자본자산가격 결정모형(CAPM)-(2) 증권시장선(SML)",
+  "sourcePage": "인쇄 pp.448–451 (PDF 물리 pp.1355–1359)",
+  "title": "자본자산가격 결정모형(CAPM)-(2) 증권시장선(SML)",
+  "episodeGoal": "베타와 시장위험프리미엄으로 CAPM 요구수익률을 계산하고 SML을 CML과 구분한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-05-001.png",
+    "scroll/09-05-002.png",
+    "scroll/09-05-003.png",
+    "scroll/09-05-004.png",
+    "scroll/09-05-005.png",
+    "scroll/09-05-006.png",
+    "scroll/09-05-007.png",
+    "scroll/09-05-008.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/09-05"
+}

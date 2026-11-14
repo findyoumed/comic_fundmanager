@@ -1,0 +1,26 @@
+{
+  "id": "09-03",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 03 최적증권의 선택 원리",
+  "sourcePage": "인쇄 pp.440–443 (PDF 물리 pp.1346–1349)",
+  "title": "최적증권의 선택 원리",
+  "episodeGoal": "효율적 투자선과 투자자 효용을 설명하고 위험회피도에 따라 위험자산 비중과 최적 포트폴리오가 달라지는 이유를 이해한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-03-001.png",
+    "scroll/09-03-002.png",
+    "scroll/09-03-003.png",
+    "scroll/09-03-004.png",
+    "scroll/09-03-005.png",
+    "scroll/09-03-006.png",
+    "scroll/09-03-007.png",
+    "scroll/09-03-008.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/09-03"
+}

@@ -1,0 +1,25 @@
+﻿{
+    "id":  "04-08",
+    "title":  "전술적 자산배분-(1) 개념 및 이론적 배경",
+    "sourceChapter":  "제3과목 제4장 주식투자운용/투자전략",
+    "sourceTopic":  "Topic 08 전술적 자산배분-(1) 개념 및 이론적 배경",
+    "sourcePage":  "인쇄 pp.217–218 (PDF 물리 pp.1065–1068; p.1066 중복 스캔)",
+    "sourceStatus":  "source-verified",
+    "format":  "naver-webtoon-vertical-scroll",
+    "episodeGoal":  "전술적 배분과 전략적 배분을 구분하고 역투자·평균반전·랜덤워크의 조건을 설명한다.",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "status":  "complete",
+    "scrollAssets":  [
+                         "scroll/04-08-001.png",
+                         "scroll/04-08-002.png",
+                         "scroll/04-08-003.png",
+                         "scroll/04-08-004.png",
+                         "scroll/04-08-005.png"
+                     ],
+    "exportDirectory":  "../../upload_ready/naver_challenge/04-08",
+    "review":  "webtoon_review.json",
+    "exportManifest":  "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+    "naverRequirementsVerified":  "https://help.naver.com/service/5635/contents/18779?lang=ko\u0026osType=COMMONOS"
+}

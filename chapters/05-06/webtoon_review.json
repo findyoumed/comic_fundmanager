@@ -1,0 +1,15 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "reviewedAt": "2026-11-14",
+  "notes": "전체 10컷 PNG 및 실제 690px JPG 시각 검토. 승인 참조의 주요 외형·발행자/투자자 자금 흐름·미매각 위험 부담·입찰 예시 A~G·Conventional/Dutch/차등가격 적용금리·국채/통안증권 발행방식·통합발행 조건 대조. 법규·시장관행은 교재 기준으로 명시. 원문 문제를 그대로 재현하지 않고 교재 예시를 설명 자료로 각색. 첫 컷 투자자 라벨 및 002·003 표기를 수정 후 재검토. 010의 가격 상승처럼 보이는 차트는 거래량 막대 도식으로 교정하여 유동성 증가와 가격 상승을 혼동하지 않게 했다.",
+  "exportFiles": 10,
+  "exportTotalBytes": 2912218,
+  "evidence": [
+    "review/jpg-review-001-005.jpg",
+    "review/jpg-review-006-010.jpg"
+  ]
+}

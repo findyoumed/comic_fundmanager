@@ -1,0 +1,218 @@
+{
+  "id": "05-08",
+  "title": "채권가격계산",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 08 채권가격계산",
+  "sourcePage": "인쇄 pp.270–271 (PDF 물리 pp.1129–1131; 1129–1130은 인쇄 p.270 중복 스캔)",
+  "sourceDetails": "2026-11-14 원전 물리 pp.1129,1131을 시각 확인하고 pp.1129–1130의 동일 렌더 픽셀을 확인했다. 할인채·복리채·이표채 계산식과 원전 예제 조건을 대조하고 Decimal로 재계산했다. 원전 이표채의 10,555.01원은 반올림한 중간 항들의 합이며 정밀 계산 후 최종 반올림과 0.01원 차이가 있어 기준을 표시한다. 참고 상자의 %는 표면금리로 표기되어 있지만 할인계수에는 예제처럼 만기수익률을 사용하도록 구분한다.",
+  "goal": "현금흐름과 시점을 구분하여 만기일시상환채·할인채·이표채의 현재가치를 계산하고 표면금리와 만기수익률의 쓰임을 구별한다.",
+  "conflict": "만기에 받을 금액이 곧 오늘 가격이라고 생각한 남자 친구가 현금흐름의 시점과 할인율을 나누어 계산한다.",
+  "explanation": "# 채권가격 계산 해설\n\n채권 가격은 약정된 미래 현금흐름의 현재가치다. 표면금리는 현금흐름을 정하며, 만기수익률 y는 그 현금흐름을 할인하는 데 사용한다. 기호의 금리와 현금흐름 지급 주기를 일치시켜야 한다.\n\n만기에 한 번 지급하는 연단위 복리채는 액면 F, 표면금리 c, 발행부터 만기까지 T년에 대해 S=F(1+c)^T를 먼저 구한다. 잔존기간 n년 d일의 관행적 복할인은 P=S/[(1+y)^n(1+y d/365)]다. 이론적 복할인 P=S/(1+y)^(n+d/365)과 구분한다(인쇄 p.270).\n\n교재 핵심 예제의 F=10,000원, c=3%, T=5년, y=5.5%, 잔존 3년 94일을 그대로 재계산하면 S=11,592.740743원, P≈9,734.65원이다. 만화는 원문 문제의 선택지를 옮기지 않고 계산 과정으로 재구성한다.\n\n할인채의 만기금액은 액면 10,000원이다. 교재 예제의 YTM 5%, 잔존 91일이면 9,876.877283…원, 1년 91일이면 9,406.549793…원이다. 만화에서는 소수 둘째 자리로 반올림해 9,876.88원과 9,406.55원으로 표시한다. 교재의 원 단위 근삿값 9,876원·9,406원과 표시 정밀도가 다르며 표면금리 4%를 분자나 분모에 넣지 않는다(인쇄 p.270).\n\n연 1회 후급 이표채 예제는 액면 10,000원, 표면금리 6%, 만기 3년, 발행일 매입, YTM 4%다. 1·2·3년 말에 600원·600원·10,600원을 받는다. 각 현재가치를 먼저 소수 둘째 자리로 반올림하면 576.92원+554.73원+9,423.36원=10,555.01원으로 교재와 같다. 정밀 합계는 10,555.018206…원이므로 마지막에 한 번만 반올림하면 10,555.02원이다. 두 표기는 반올림 시점이 다르다(인쇄 p.271).\n\n연금현가계수로는 P=C×PVIFA(y,n)+F×PVIF(y,n)이다. 원전 참고 상자의 % 설명은 표면금리라고 되어 있으나, 가격 계산의 할인율은 원전 예제처럼 만기수익률이다. 만화에서는 y=YTM을 명시하여 혼동을 피한다. 이 계산은 약정 현금흐름과 해당 할인율을 가정한 평가이며 실제 체결가격·실현수익을 보장하지 않는다.\n",
+  "cuts": [
+    {
+      "title": "미래에 받을 돈, 오늘은 얼마일까?",
+      "source": "인쇄 p.270 / PDF 물리 pp.1129–1130(중복); 인쇄 p.271 / PDF 물리 p.1131",
+      "scene": "카페에서 남자 친구가 만기 금액을 곧바로 오늘 가격으로 착각한다. 누나가 미래의 현금흐름을 오늘로 가져오는 다리를 그린다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "나중에 받을 돈이 채권 가격인 거 아니야?"
+        },
+        {
+          "speaker": "누나",
+          "text": "언제 얼마를 받는지 먼저 보고, 그 돈을 현재가치로 할인해야 해."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "약정 이자를 정하는 금리와 할인에 쓰는 금리는 구분하자."
+        }
+      ],
+      "labels": [
+        "표면금리: 약정 현금흐름 계산",
+        "만기수익률: 현재가치 할인"
+      ],
+      "constraints": "No invented amounts. Future cash to present is a LEFTWARD discounting arrow, not a profit increase."
+    },
+    {
+      "title": "만기에 한 번 받는 채권부터",
+      "source": "인쇄 p.270 / PDF 물리 pp.1129–1130(중복)",
+      "scene": "하나의 만기 현금흐름 S만 있는 시간선. 연단위 복리채의 만기금액을 액면과 표면금리로 구한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "연단위 복리채는 이자가 쌓인 만기금액 S를 먼저 구해."
+        }
+      ],
+      "labels": [
+        "F: 액면금액",
+        "c: 표면금리",
+        "T: 발행부터 만기까지 전체 연수",
+        "S = F × (1+c)^T",
+        "할인채는 만기에 액면금액 F를 받음"
+      ],
+      "constraints": "One final cash flow only. Do not draw periodic coupons for a compound-at-maturity bond. T is original term, not remaining term."
+    },
+    {
+      "title": "잔존기간은 정수 연수와 남은 일수로",
+      "source": "인쇄 p.270 / PDF 물리 pp.1129–1130(중복)",
+      "scene": "오늘부터 만기까지 n년과 d일로 구분된 시간선. 위에는 관행적 복할인, 아래에는 이론적 복할인의 분모를 비교한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "분자는 받을 돈, 분모는 남은 기간의 할인 방식이네."
+        }
+      ],
+      "labels": [
+        "y = 만기수익률(YTM)",
+        "잔존기간: n년 + d일 · 1년=365일",
+        "관행적 복할인",
+        "P = S ÷ [(1+y)^n × (1+y×d/365)]",
+        "이론적 복할인",
+        "P = S ÷ (1+y)^(n+d/365)"
+      ],
+      "constraints": "Render both formulas exactly and separately in large type. Conventional is compound for n whole years and SIMPLE discount factor for fractional year. Do not put fractional days in the exponent of the conventional formula."
+    },
+    {
+      "title": "복리채: 표면금리와 YTM을 바꿔 넣지 말자",
+      "source": "인쇄 p.270 / PDF 물리 pp.1129–1130(중복)",
+      "scene": "교재 예시 조건을 위에 제시하고, 중간에는 만기금액, 아래에는 오늘 가격 계산을 분리한다. 계산값임을 표시.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "만기금액에는 표면금리 3%, 할인에는 YTM 5.5%를 써."
+        }
+      ],
+      "labels": [
+        "교재 예시 재계산",
+        "액면 10,000원 · 표면금리 3%",
+        "전체 만기 5년 · 잔존 3년 94일 · YTM 5.5%",
+        "S = 10,000 × (1.03)^5",
+        "S = 11,592.740743원",
+        "P = S ÷ [(1.055)^3 × (1+0.055×94/365)]",
+        "P ≈ 9,734.65원"
+      ],
+      "constraints": "Exact numeric formula. Original term 5 years belongs ONLY to S. Remaining 3 years and 94 days belong ONLY to discount factor. No quiz choices."
+    },
+    {
+      "title": "할인채: 만기에는 액면을 받는다",
+      "source": "인쇄 p.270 / PDF 물리 pp.1129–1130(중복)",
+      "scene": "한 번의 10,000원 만기 현금흐름과 두 잔존기간 사례를 비교. 표면금리 4% 입력카드는 할인채 계산식에서 제외하는 모습을 보여준다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "할인채에는 표면금리 4%를 곱하지 않는구나."
+        }
+      ],
+      "labels": [
+        "교재 예시 재계산 · YTM 5% · 1년=365일",
+        "잔존 91일",
+        "P = 10,000 ÷ (1+0.05×91/365)",
+        "P ≈ 9,876.88원",
+        "잔존 1년 91일",
+        "P = 10,000 ÷ [1.05×(1+0.05×91/365)]",
+        "P ≈ 9,406.55원",
+        "계산값은 소수 둘째 자리 반올림"
+      ],
+      "constraints": "Do not use the 4% coupon as discount rate or add any coupon to the terminal 10000. These are recalculated source examples, not quoted textbook rounded amounts."
+    },
+    {
+      "title": "이표채는 받을 돈이 여러 번",
+      "source": "인쇄 p.271 / PDF 물리 p.1131",
+      "scene": "발행일 매입, 연 1회 후급 이표채 시간선. 연말 1·2·3 시점의 현금흐름을 정확히 표시하고 마지막 원금과 쿠폰을 색으로 분리.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "표면금리 6%라서 매년 쿠폰은 600원이야. 마지막에는 원금도 더해."
+        }
+      ],
+      "labels": [
+        "교재 예시",
+        "액면 10,000원 · 표면금리 6% · 만기 3년",
+        "발행일 매입 · 연 1회 후급 · YTM 4%",
+        "1년 말: 600원",
+        "2년 말: 600원",
+        "3년 말: 10,600원 = 원금 10,000원 + 쿠폰 600원"
+      ],
+      "constraints": "Only three future cash flow nodes. Do not pay principal at year 1 or 2. Do not depict 10600 as only principal. No fabricated time-zero price yet."
+    },
+    {
+      "title": "각 현금흐름을 따로 할인한다",
+      "source": "인쇄 p.271 / PDF 물리 p.1131",
+      "scene": "세 개 미래 현금흐름 각각에서 오늘로 돌아오는 할인 화살표. 세 현재가치를 큰 산식 카드로 세로 배열한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "받는 시점이 달라서 할인 횟수도 다르네."
+        }
+      ],
+      "labels": [
+        "교재 예시 · 할인율은 YTM 4%",
+        "1년 말: 600 ÷ (1.04)^1 ≈ 576.92원",
+        "2년 말: 600 ÷ (1.04)^2 ≈ 554.73원",
+        "3년 말: 10,600 ÷ (1.04)^3 ≈ 9,423.36원"
+      ],
+      "constraints": "All discount arrows point toward TODAY on the LEFT. Exponents exactly 1,2,3. Use 4% YTM, NOT 6% coupon, in denominator."
+    },
+    {
+      "title": "가격은 현재가치를 더한 값",
+      "source": "인쇄 p.271 / PDF 물리 p.1131",
+      "scene": "세 할인 금액이 오늘 가격 상자로 모인다. 반올림된 항을 합산하는 교재 방식과 정밀 계산 차이를 작은 별도 메모로 분리.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "미래 금액을 그냥 더하는 게 아니라, 할인한 금액을 더하는 거네."
+        }
+      ],
+      "labels": [
+        "교재 방식: 각 항을 소수 둘째 자리로 반올림 후 합산",
+        "576.92 + 554.73 + 9,423.36",
+        "P = 10,555.01원",
+        "계산 참고: 정밀 계산 후 최종 반올림은 10,555.02원",
+        "0.01원 차이는 반올림 시점의 차이"
+      ],
+      "constraints": "Both prices are correct under their explicitly different rounding conventions. Do not label either as a promised return. No new invented example."
+    },
+    {
+      "title": "연금현가계수로 묶어도 같은 원리",
+      "source": "인쇄 p.271 / PDF 물리 p.1131",
+      "scene": "동일 쿠폰 묶음과 마지막 액면금액을 분리한 뒤 PVIFA·PVIF 식을 세로로 보여준다. 할인율 y를 강조한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "같은 쿠폰이 반복되면 연금현가계수로 묶을 수도 있어. 할인율은 y야."
+        }
+      ],
+      "labels": [
+        "연 1회 후급 · 정수 잔존기간 n",
+        "C: 매회 쿠폰 · F: 액면금액 · y: YTM",
+        "P = C×PVIFA(y,n) + F×PVIF(y,n)",
+        "PVIF(y,n) = 1/(1+y)^n",
+        "PVIFA(y,n) = [1−(1+y)^(-n)]/y",
+        "단위와 지급 주기를 일치시킨다"
+      ],
+      "constraints": "Source reference box's percent label must not cause use of coupon rate as discount rate. y in every factor is YTM. No coupon principal double count."
+    },
+    {
+      "title": "현금흐름부터, 할인은 그다음",
+      "source": "인쇄 p.270 / PDF 물리 pp.1129–1130(중복); 인쇄 p.271 / PDF 물리 p.1131",
+      "scene": "세 사람이 노트에 만기 일시지급과 이표채를 비교한다. 남자 친구는 c와 y 카드를 올바른 단계에 놓고 가격이 달라질 수 있음을 이해한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "받을 돈의 크기는 표면금리로, 오늘의 가치는 YTM으로 계산하자."
+        },
+        {
+          "speaker": "누나",
+          "text": "다음에는 여러 수익률의 뜻과 계산을 살펴보자."
+        }
+      ],
+      "labels": [
+        "① 현금흐름과 지급 시점 확인",
+        "② 잔존기간·할인 방식 확인",
+        "③ 현재가치 계산 후 합산",
+        "계산가격이 실제 매매가격이나 수익을 보장하지는 않음"
+      ],
+      "constraints": "No repetitive review quiz. No chapter or episode IDs. Do not imply a theoretical valuation guarantees execution price."
+    }
+  ]
+}

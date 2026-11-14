@@ -1,0 +1,26 @@
+{
+  "id": "09-04",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 04 자본자산가격 결정모형(CAPM)-(1) 자본시장선(CML)",
+  "sourcePage": "인쇄 pp.444–447 (PDF 물리 pp.1350–1354)",
+  "title": "자본자산가격 결정모형(CAPM)-(1) 자본시장선(CML)",
+  "episodeGoal": "무위험자산과 시장포트폴리오를 결합한 기대수익률·위험을 계산하고 CAL과 CML 및 RVAR를 구분한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-04-001.png",
+    "scroll/09-04-002.png",
+    "scroll/09-04-003.png",
+    "scroll/09-04-004.png",
+    "scroll/09-04-005.png",
+    "scroll/09-04-006.png",
+    "scroll/09-04-007.png",
+    "scroll/09-04-008.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/09-04"
+}

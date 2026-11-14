@@ -1,0 +1,27 @@
+{
+  "id": "04-19",
+  "title": "운용형태별 수익과 위험",
+  "sourceChapter": "제3과목 제4장 주식투자운용/투자전략",
+  "sourceTopic": "Topic 19 운용형태별 수익과 위험",
+  "sourcePage": "인쇄 pp.242–243 (PDF 물리 pp.1098–1099)",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "총위험의 표준편차와 잔차위험의 추적오차를 구분하고 운용형태별 차이를 이해한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "status": "complete",
+  "scrollAssets": [
+    "scroll/04-19-001.png",
+    "scroll/04-19-002.png",
+    "scroll/04-19-003.png",
+    "scroll/04-19-004.png",
+    "scroll/04-19-005.png",
+    "scroll/04-19-006.png",
+    "scroll/04-19-007.png"
+  ],
+  "exportDirectory": "../../upload_ready/naver_challenge/04-19",
+  "review": "webtoon_review.json",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS"
+}

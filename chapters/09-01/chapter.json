@@ -1,0 +1,22 @@
+{
+  "id": "09-01",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 01 기대수익률과 위험",
+  "sourcePage": "인쇄 pp.434–436 (PDF 물리 pp.1339–1342)",
+  "title": "기대수익률과 위험",
+  "episodeGoal": "상태별 확률로 기대수익률을 계산하고, 분산·표준편차·상관관계가 포트폴리오 위험에 주는 정보를 구분한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-01-001.png",
+    "scroll/09-01-002.png",
+    "scroll/09-01-003.png",
+    "scroll/09-01-004.png",
+    "scroll/09-01-005.png",
+    "scroll/09-01-006.png"
+  ]
+}

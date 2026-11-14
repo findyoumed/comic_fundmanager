@@ -1,0 +1,49 @@
+{
+  "id": "05-06",
+  "title": "발행시장(Primary Market)",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 06 발행시장(Primary Market)",
+  "sourcePage": "인쇄 pp.265–267 (PDF 물리 pp.1123–1126; 1123–1124는 인쇄 p.265 중복 스캔)",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "발행 참여자·발행방식·발행위험 부담·입찰금리 적용방식을 구분한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "scrollAssets": [
+    "scroll/05-06-001.png",
+    "scroll/05-06-002.png",
+    "scroll/05-06-003.png",
+    "scroll/05-06-004.png",
+    "scroll/05-06-005.png",
+    "scroll/05-06-006.png",
+    "scroll/05-06-007.png",
+    "scroll/05-06-008.png",
+    "scroll/05-06-009.png",
+    "scroll/05-06-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-06",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "sourceDetails": "2026-11-14 PDF 1123–1126 재확인. 1123–1124는 렌더 픽셀이 동일한 인쇄 p.265의 중복 스캔이다. 1125=p.266, 1126=p.267. 교재의 제도·관행은 교재 기준으로 표시.",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-14",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-14",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-14"
+  }
+}

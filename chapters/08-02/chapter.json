@@ -1,9 +1,19 @@
 {
-  "id": "08-02",
-  "sourceChapter": "Chapter 8 Macroeconomics",
-  "sourceTopic": "IS-LM model",
-  "sourcePage": "p.404",
-  "title": "IS-LM model",
-  "episodeGoal": "Explain the joint equilibrium of goods and money markets.",
-  "status": "legacy-page-draft"
+    "id":  "08-02",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 02 IS-LM모형",
+    "sourcePage":  "인쇄 p.404–406 (PDF 물리 p.1299–1304, 중복 스캔 포함)",
+    "title":  "IS-LM모형",
+    "episodeGoal":  "IS·LM 곡선의 뜻과 기울기, 외생변수에 따른 곡선 이동, 새 균형의 방향을 설명한다.",
+    "sourceStatus":  "adaptation-draft",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "scroll-draft-in-progress",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-02-001.png",
+                         "scroll/08-02-002.png",
+                         "scroll/08-02-003.png"
+                     ]
 }

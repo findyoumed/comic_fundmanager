@@ -1,0 +1,8 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "6컷 PNG와 690px JPG를 폰 폭에서 순서대로 확인했다. 완전복제·표본추출·최적화와 주가가중·시가총액가중·동일가중, 맞춤형 인덱스의 조건을 인쇄 pp.231–232와 대조했다. 표본추출 그림의 업종 그룹은 가상 도식으로 해설에 명시했다. 캐릭터는 승인 기준 이미지 chapters/14/014.png와 비교했고, 네이버 형식 690x1035 JPG와 각 파일 5MB 이하를 확인했다."
+}

@@ -1,17 +1,22 @@
-# Naver Webtoon Only: Chapter 8 Production Goal
+# 제8장 거시경제 제작 목표
 
-## Reader outcome
+## 학습자 목표
 
-Readers should understand how macroeconomic variables connect to investment decisions and learn to interpret indicators in context.
+거시경제의 변수와 지표가 서로 어떻게 연결되는지 이해하고, 각 지표의 방향·범위·한계를 구분해 투자 환경을 해석한다.
 
-## Episode structure
+## 구성
 
-- Preserve all 10 source Topics in order.
-- Set a learning goal before writing each episode.
-- Build each episode only as a vertical-scroll sequence for Naver Webtoon, with clear mobile reading flow, panel spacing, and mobile-readable lettering.
-- Use the approved Chapter 14 image as the character reference.
-- Put only the Topic title in the artwork; keep the episode number in filenames.
+- 원전 Topic 01~10을 원전 순서로 각각 회차에 반영한다.
+- 모든 회차는 네이버웹툰 세로 스크롤 형식으로 제작한다.
+- 캐릭터는 승인 참조 `chapters/14/014.png`와 일치시킨다.
+- 제목은 필요한 경우 첫 컷에만 표시하고, 회차 번호는 파일명으로만 관리한다.
 
-## Production gate
+## 완료 및 보완 상태
 
-An episode is complete only after its script, storyboard, explanation, sequential vertical-scroll artwork, mobile-readability review, character/source review, and Naver export check are done. Preserve existing fixed-page images as drafts; redraw their stories into the scroll format. A portrait page image or fixed panel grid is not a final episode. Verify current Naver creator upload rules before calling any export platform-ready. Do not produce alternate book-page or non-Naver formats for this project.
+- Topic 01~10의 대본·콘티·해설·세로 컷·검토·업로드용 JPG 내보내기를 완료했다. Topic 10 보완본은 여섯 컷이다.
+- Topic 10 경기순환은 원전 인쇄 pp.424–426, PDF 물리 pp.1325–1327까지 이어진다.
+- 원전 기준은 DI 0–100(50 전환점), BSI·CSI 0–200(100 전환점)이다. CI는 여러 지표를 합성해 경기변동의 진폭과 속도를 반영한다. 08-10-006에 구분을 보완하고 업로드본과 검토를 갱신했다.
+
+## 검토 기준
+
+회차별 원전 범위, 경제적 방향성, 캐릭터 일관성, 모바일 가독성, 스크롤 순서, 최신 네이버 업로드 규격을 확인한다. 반복 복습 질문은 넣지 않는다.

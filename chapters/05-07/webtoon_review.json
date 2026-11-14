@@ -1,0 +1,25 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "reviewedAt": "2026-11-14",
+  "notes": "전체 11컷 PNG와 실제 690px JPG를 시각 검토했다. 원전 인쇄 pp.268–269/PDF pp.1127–1128과 대조하여 장내/장외·IDM/IDB/PD·거래단위·결제·딜러 의무 수치를 확인했다. 수치는 교재 기준임을 표시하고 유동성과 원금 보장을 구분했다. 005의 잘못된 IDM 과거 분류 표시를 교정 후 재검토했다. 승인 캐릭터 주요 외형과 컷 순서·말풍선·숫자 가독성을 확인했다. 네이버 공식 안내를 재확인하여 690px JPG 11개를 내보냈다. OS 임시 연락판은 보관 산출물에 포함하지 않는다.",
+  "exportFiles": 11,
+  "exportTotalBytes": 3353195,
+  "evidence": [
+    "../../upload_ready/naver_challenge/05-07/05-07-001.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-002.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-003.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-004.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-005.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-006.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-007.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-008.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-009.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-010.jpg",
+    "../../upload_ready/naver_challenge/05-07/05-07-011.jpg"
+  ],
+  "sourceEvidence": "source_review.md"
+}

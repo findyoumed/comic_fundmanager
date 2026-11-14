@@ -1,0 +1,14 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "reviewedAt": "2026-11-14",
+  "notes": "10컷 PNG와 실제 690px JPG를 시각 검토. 승인 참조 외형, 콜=발행자/풋=투자자, 금리 방향, 가치 산식, 교재 금리 예시 표시, 배당 비보장 문구 확인. 009 그래프는 정량식이 아닌 가치 관계 개념도다. 원전 인쇄 pp.262–264와 대본 대조. JPG 10개 총 2656380bytes; 공식 네이버 안내 재확인.",
+  "evidence": [
+    "review/jpg-review.jpg",
+    "scroll/05-05-009.png",
+    "scroll/05-05-010.png"
+  ]
+}

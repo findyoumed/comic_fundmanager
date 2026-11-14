@@ -1,0 +1,27 @@
+{
+  "id": "04-01",
+  "sourceChapter": "제3과목 제4장 주식투자운용/투자전략",
+  "sourceTopic": "Topic 01 자산운용조직의 변화",
+  "sourcePage": "?? pp.204?205 (PDF ?? pp.1049?1050)",
+  "title": "자산운용조직의 변화",
+  "episodeGoal": "현대 자산운용이 여러 전문조직의 협업과 역할분리로 운영되며, 자산배분→스타일배분→증권선택의 순서를 따른다는 점을 설명한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/04-01-001.png",
+    "scroll/04-01-002.png",
+    "scroll/04-01-003.png",
+    "scroll/04-01-004.png",
+    "scroll/04-01-005.png",
+    "scroll/04-01-006.png",
+    "scroll/04-01-007.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/04-01",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS"
+}

@@ -1,0 +1,8 @@
+﻿{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "3개 PNG를 순서대로 확인하고 690px JPG 내보내기를 모바일 폭에서 검토했다. 원전 pp.206–207/PDF 물리 pp.1051–1052와 승인 캐릭터 참조를 대조했다. 설명용 비율과 임의의 주가 숫자는 넣지 않았다. JPG 합계 869,159 bytes; 개별 5MB·회차 50MB 기준 통과."
+}

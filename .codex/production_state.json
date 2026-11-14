@@ -1,0 +1,27 @@
+{
+  "goal": "Complete Chapter 05 Topics 07–18 sequentially",
+  "status": "active",
+  "currentEpisode": "05-08",
+  "stage": "image-generation-running",
+  "expectedCuts": 10,
+  "liveExecCellId": "g2:156",
+  "liveExecDescription": "10 built-in image_gen calls; each completed output copied immediately into chapters/05-08/scroll.",
+  "resumeInstruction": "Poll existing live exec g2:156 with functions.wait; do not restart on timeout. Review saved PNGs individually or at most two per view_image exec to avoid discarded image outputs. Compare every formula against chapters/05-08/source_review.md and production.json. Correct errors using image_gen. Export with scripts/episode_tools.py export 05-08, inspect actual 690px JPGs, write truthful passed review statuses, finalize with scripts/finalize_episode.py 05-08, then continue 05-09.",
+  "sourceRenderDirectory": "C:/Users/new01/AppData/Local/Temp/codex-comic-ch05-source",
+  "characterReference": "chapters/14/014.png",
+  "sourcePdf": "../책_투자자산운용사_p1476.pdf",
+  "plan": "AUTO_PRODUCTION_PLAN.md",
+  "sourceCaveat": "08: 1129-1130 identical duplicate p270. YTM is discount rate. Discount example recalculated 9876.88/9406.55 differs from textbook whole-won approximations. Coupon example component-rounded sum 10555.01 versus exact-final-rounded 10555.02; explicitly distinguish.",
+  "visuallyReviewedCuts": [
+    "05-08-001",
+    "05-08-002"
+  ],
+  "missingPageAudit": "Adjacent image-object and footer audit: all 1476 image objects referenced; PDF physical 1104-1231 footer contact sheets inspected, no printed 301-302 found in this range. Full other-position search remains open.",
+  "pendingCorrectionCells": {},
+  "pendingCorrectionCuts": [],
+  "savedCutCount": 2,
+  "pushHelperFix": "push_github.bat delegates to scripts/push_github.ps1. Real --check passed; mocked Success, NoChanges, AuthFailure and Diverged passed. No real commit or push executed.",
+  "sourceCorrection": "05-06 physical 1123-1124 are identical duplicate scans of printed 265, confirmed pixel-for-pixel. Metadata, script, source map, plan and reader corrected.",
+  "lastCompletedEpisode": "05-07",
+  "pdfEquivalenceAudit": "p1476 contains 1192 unique embedded image payload hashes; p1192 contains exactly those 1192 images in first-occurrence order. No additional scans in p1192."
+}

@@ -1,9 +1,20 @@
 {
-  "id": "08-04",
-  "sourceChapter": "Chapter 8 Macroeconomics",
-  "sourceTopic": "Liquidity trap",
-  "sourcePage": "p.409",
-  "title": "Liquidity trap",
-  "episodeGoal": "Explain why monetary policy may be less effective when rates are very low.",
-  "status": "legacy-page-draft"
+    "id":  "08-04",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 04 거시정책이론-(2) 유동성함정 (Liquidity Trap)",
+    "sourcePage":  "인쇄 p.409–411 (PDF 물리 p.1307–1309)",
+    "title":  "거시정책이론-(2) 유동성함정",
+    "episodeGoal":  "유동성함정의 수평 LM과 정책 효과, 탈출 경로, 관련 정책무용성 이론을 구분한다.",
+    "sourceStatus":  "adaptation-draft",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "scroll-draft-in-progress",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-04-001.png",
+                         "scroll/08-04-002.png",
+                         "scroll/08-04-003.png",
+                         "scroll/08-04-004.png"
+                     ]
 }

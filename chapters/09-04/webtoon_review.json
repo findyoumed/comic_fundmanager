@@ -1,0 +1,8 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "All eight ordered cuts reviewed at mobile width; graph direction, CAL/CML distinction, textbook arithmetic, character continuity, and current official Naver JPG width and size limits checked."
+}

@@ -1,0 +1,21 @@
+﻿{
+    "format":  "naver-webtoon-vertical-scroll",
+    "episode":  "08-03",
+    "mobile_readability":  "passed",
+    "scroll_flow":  "passed",
+    "character_consistency":  "passed",
+    "source_accuracy":  "passed",
+    "naver_export_check":  "passed",
+    "notes":  [
+                  "Three sequential segments saved as 08-03-001.png through 08-03-003.png.",
+                  "Episode title appears only in segment 001.",
+                  "All segments previewed stacked at 375px mobile width; dialogue and the IS-LM graph remain readable.",
+                  "Character designs compared with approved reference chapters/14/014.png.",
+                  "Printed pp.407–408 were visually checked for the definition, the IS-LM path, fiscal-versus-monetary policy, and complete/partial/zero cases.",
+                  "The liquidity-trap case is described as a horizontal-LM condition; detailed trap mechanics remain in Topic 4.",
+                  "375px stacked mobile preview checked after updating artwork; graphs and case labels remain legible.",
+                  "The previous artwork is preserved under scroll/draft-v1/; current art follows the complete Topic 3 scope.",
+                  "Current Naver export specifications remain unverified.",
+                  "업로드용 JPG 가로 690px, 파일당 5MB 이하, 회차당 50MB 이하를 확인했다. 네이버웹툰 공식 도전만화 안내 기준."
+              ]
+}

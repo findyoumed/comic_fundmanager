@@ -1,0 +1,7 @@
+# Regenerable source renders, previews, and one-off work files
+/tmp/
+# Derived print/export artifacts; canonical webtoon art lives in chapters/
+/output/
+# Python bytecode caches
+__pycache__/
+*.py[cod]

@@ -1,0 +1,8 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "11개 컷 전체와 계산이 많은 002·003·006·007·008·010을 모바일 폭으로 시각 대조함. 원전 p.461 보유기간수익률 15%, p.462 산술 30%·기하 28.5% 및 Jensen 알파 5.2%/5% 비교, p.463 현금흐름·산술 27.5%·기하 27.47%·IRR 약 26.8%를 대조함. Sharpe·Treynor·Jensen·평가비율 공식, 승인 캐릭터, 세로 흐름을 확인함. 모든 JPG는 690px 너비, 컷당 5MB 이하, 회차 총 50MB 이하."
+}

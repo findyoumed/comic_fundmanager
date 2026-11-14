@@ -1,9 +1,22 @@
-{
-  "id": "08-10",
-  "sourceChapter": "Chapter 8 Macroeconomics",
-  "sourceTopic": "Business cycle",
-  "sourcePage": "p.424",
-  "title": "Business cycle",
-  "episodeGoal": "Explain expansion, peak, contraction, trough, and the uncertainty of timing.",
-  "status": "legacy-page-draft"
+﻿{
+    "id":  "08-10",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 10 경기순환(Business Cycle)",
+    "sourcePage":  "인쇄 pp.424–426 (PDF 물리 pp.1325–1327)",
+    "title":  "경기순환",
+    "episodeGoal":  "경기순환의 국면·주기·진폭과 경기예측 지표·방법의 의미를 구분한다.",
+    "sourceStatus":  "source-reviewed",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "complete",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-10-001.png",
+                         "scroll/08-10-002.png",
+                         "scroll/08-10-003.png",
+                         "scroll/08-10-004.png",
+                         "scroll/08-10-005.png",
+                         "scroll/08-10-006.png"
+                     ]
 }

@@ -1,0 +1,20 @@
+﻿{
+    "format":  "naver-webtoon-vertical-scroll",
+    "episode":  "08-04",
+    "mobile_readability":  "passed",
+    "scroll_flow":  "passed",
+    "character_consistency":  "passed",
+    "source_accuracy":  "passed",
+    "naver_export_check":  "passed",
+    "notes":  [
+                  "Three sequential segments saved as 08-04-001.png through 08-04-003.png.",
+                  "Episode title appears only in segment 001.",
+                  "All segments previewed stacked at 375px mobile width; dialogue and the horizontal LM segment remain readable.",
+                  "Character designs compared with approved reference chapters/14/014.png.",
+                  "Printed pp.409–411 were visually checked against the liquidity-trap definition, horizontal LM, policy effects, Pigou effect, Ricardian equivalence, and rational-expectations argument.",
+                  "Four numbered scroll segments now cover the verified Topic 4 range; the earlier three-cut version is preserved under scroll/draft-v1/.",
+                  "375px stacked mobile preview checked after replacement; source notes remain cautious about theory assumptions.",
+                  "Current Naver export specifications remain unverified.",
+                  "업로드용 JPG 가로 690px, 파일당 5MB 이하, 회차당 50MB 이하를 확인했다. 네이버웹툰 공식 도전만화 안내 기준."
+              ]
+}

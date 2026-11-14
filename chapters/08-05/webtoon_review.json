@@ -1,0 +1,17 @@
+﻿{
+    "format":  "naver-webtoon-vertical-scroll",
+    "episode":  "08-05",
+    "mobile_readability":  "passed",
+    "scroll_flow":  "passed",
+    "character_consistency":  "passed",
+    "source_accuracy":  "passed",
+    "naver_export_check":  "passed",
+    "notes":  [
+                  "대본과 새 세로 컷을 원전 인쇄 페이지와 PDF 물리 페이지에서 대조했다.",
+                  "375px 모바일 폭의 세로 미리보기를 확인했다.",
+                  "인물 외형을 승인 기준 이미지 chapters/14/014.png와 대조했다.",
+                  "회차 제목은 첫 컷에만 배치했다.",
+                  "네이버웹툰 업로드 규격 검증은 남아 있다.",
+                  "업로드용 JPG 가로 690px, 파일당 5MB 이하, 회차당 50MB 이하를 확인했다. 네이버웹툰 공식 도전만화 안내 기준."
+              ]
+}

@@ -1,0 +1,20 @@
+﻿{
+    "format":  "naver-webtoon-vertical-scroll",
+    "episode":  "08-02",
+    "mobile_readability":  "passed",
+    "scroll_flow":  "passed",
+    "character_consistency":  "passed",
+    "source_accuracy":  "passed",
+    "naver_export_check":  "passed",
+    "notes":  [
+                  "Three sequential segments saved as 08-02-001.png through 08-02-003.png.",
+                  "Episode title appears only in segment 001.",
+                  "All three segments previewed stacked at 375px mobile width; dialogue and graph labels remain readable.",
+                  "Character designs compared with approved reference chapters/14/014.png.",
+                  "Printed pp.404–406 were visually checked against curve meanings and slopes, endogenous/exogenous variables, IS/LM shifts, and equilibrium effects.",
+                  "375px stacked mobile preview checked after updating artwork; labels and policy-shift directions remain legible.",
+                  "The prior artwork is preserved under scroll/draft-v1/; the active cuts follow the complete Topic 2 scope.",
+                  "Current Naver export specifications remain unverified.",
+                  "업로드용 JPG 가로 690px, 파일당 5MB 이하, 회차당 50MB 이하를 확인했다. 네이버웹툰 공식 도전만화 안내 기준."
+              ]
+}

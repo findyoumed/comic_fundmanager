@@ -1,17 +1,20 @@
-# Naver Webtoon Only: Chapter 9 Production Goal
+# 제9장 분산투자기법 제작 목표
 
-## Reader outcome
+## 학습자 목표
 
-Readers should understand how diversification, portfolio risk, asset pricing models, and performance evaluation inform investment analysis.
+분산투자와 포트폴리오 위험, 자산가격 모형, 포트폴리오 성과 평가의 원리를 이해하고 각 개념이 어떤 질문에 답하는지 구분한다.
 
-## Episode structure
+## 구성 원칙
 
-- Preserve all 9 source Topics in order.
-- Set a learning goal before writing each episode.
-- Build each episode only as a vertical-scroll sequence for Naver Webtoon, with clear mobile reading flow, panel spacing, and mobile-readable lettering.
-- Use the approved Chapter 14 image as the character reference.
-- Put only the Topic title in the artwork; keep the episode number in filenames.
+- 실제 PDF의 제9장 목차에서 9개 Topic의 순서·제목·시작 쪽수를 확인했다. 본문 경계 페이지도 다음 Topic의 시작면과 대조해 기록했다.
+- `CHAPTER_09_PLAN.md`와 `SOURCE_TOC_MAP.md`를 제9장 원전 매핑의 기준 문서로 사용한다.
+- 검증한 Topic 01(인쇄 pp.434–436)부터 대본·콘티·필요한 해설·세로 스크롤 컷을 완성한 다음 다음 Topic으로 순차 진행한다.
+- 캐릭터 참조는 `chapters/14/014.png`; 회차 파일명은 `09-토픽-컷순번.png` 형식으로 한다.
 
-## Production gate
+## 진행 상태
 
-An episode is complete only after its script, storyboard, explanation, sequential vertical-scroll artwork, mobile-readability review, character/source review, and Naver export check are done. Preserve existing fixed-page images as drafts; redraw their stories into the scroll format. A portrait page image or fixed panel grid is not a final episode. Verify current Naver creator upload rules before calling any export platform-ready. Do not produce alternate book-page or non-Naver formats for this project.
+Topic 01–09까지 원전의 9개 회차를 순서대로 모두 완성했다. 마지막 Topic 09(인쇄 pp.461–463)는 11개 PNG 세로 컷, 네이버 업로드용 JPG, 대본·콘티·해설·원전 및 모바일 검토 기록까지 갖췄다. scoped hook 검토도 통과했다.
+
+## 회차 완료 기준
+
+원전 범위와 학습 목표, 대본, 콘티, 필요한 해설, 순번이 맞는 세로 스크롤 컷, 모바일·스크롤·캐릭터·원전 검토, 최신 네이버웹툰 내보내기 확인이 모두 갖춰져야 완료다. 반복 복습 질문이나 불필요한 고정 섹션은 넣지 않는다.

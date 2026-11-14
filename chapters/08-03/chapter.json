@@ -1,9 +1,19 @@
 {
-  "id": "08-03",
-  "sourceChapter": "Chapter 8 Macroeconomics",
-  "sourceTopic": "Crowding out effect",
-  "sourcePage": "p.407",
-  "title": "Crowding out effect",
-  "episodeGoal": "Explain how higher government spending may raise rates and reduce private investment.",
-  "status": "legacy-page-draft"
+    "id":  "08-03",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 03 거시정책이론-(1) 구축효과 (Crowding Out Effect)",
+    "sourcePage":  "인쇄 p.407–408 (PDF 물리 p.1305–1306)",
+    "title":  "거시정책이론-(1) 구축효과",
+    "episodeGoal":  "구축효과의 경로와 완전·부분·무구축효과, 확대 통화정책과의 차이를 설명한다.",
+    "sourceStatus":  "adaptation-draft",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "scroll-draft-in-progress",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-03-001.png",
+                         "scroll/08-03-002.png",
+                         "scroll/08-03-003.png"
+                     ]
 }

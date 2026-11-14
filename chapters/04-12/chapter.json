@@ -1,0 +1,28 @@
+{
+  "id": "04-12",
+  "title": "보험자산배분전략-(3) 고정비율 포트폴리오 보험(CPPI)",
+  "sourceChapter": "제3과목 제4장 주식투자운용/투자전략",
+  "sourceTopic": "Topic 12 보험자산배분전략-(3) 고정비율 포트폴리오 보험(CPPI)",
+  "sourcePage": "인쇄 pp.226–227 (PDF 물리 pp.1078–1079)",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "CPPI의 Floor·Cushion·Multiplier·Exposure 공식과 계산 예시, OBPI와의 차이, 이론적 성질과 현실적 위험을 설명한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "status": "complete",
+  "scrollAssets": [
+    "scroll/04-12-001.png",
+    "scroll/04-12-002.png",
+    "scroll/04-12-003.png",
+    "scroll/04-12-004.png",
+    "scroll/04-12-005.png",
+    "scroll/04-12-006.png",
+    "scroll/04-12-007.png",
+    "scroll/04-12-008.png"
+  ],
+  "exportDirectory": "../../upload_ready/naver_challenge/04-12",
+  "review": "webtoon_review.json",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS"
+}

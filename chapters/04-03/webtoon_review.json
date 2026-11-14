@@ -1,0 +1,8 @@
+﻿{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "4개 PNG를 순서대로 확인하고 690px JPG를 모바일 너비에서 검토했다. 원전 인쇄 pp.208–209/PDF 물리 pp.1053–1055와 승인 캐릭터 참조를 대조했다. 임의의 권장 비율·수익률은 넣지 않았다. 공식 네이버 가이드에 맞춘 JPG 합계 1,149,721 bytes이며 파일별·회차별 용량 기준을 통과했다."
+}

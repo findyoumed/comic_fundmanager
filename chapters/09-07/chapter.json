@@ -1,0 +1,33 @@
+{
+  "id": "09-07",
+  "sourceChapter": "제9장 분산투자기법",
+  "sourceTopic": "Topic 07 차익거래 가격결정이론(APT)",
+  "sourcePage": "인쇄 pp.455–457 (PDF 물리 pp.1363–1365)",
+  "title": "차익거래 가격결정이론(APT)",
+  "episodeGoal": "APT의 무차익 원리와 요인 모형을 설명하고, 공통요인 노출을 상쇄하는 교재 차익거래 예를 계산한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "status": "complete",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "scrollAssets": [
+    "scroll/09-07-001.png",
+    "scroll/09-07-002.png",
+    "scroll/09-07-003.png",
+    "scroll/09-07-004.png",
+    "scroll/09-07-005.png",
+    "scroll/09-07-006.png",
+    "scroll/09-07-007.png",
+    "scroll/09-07-008.png",
+    "scroll/09-07-009.png"
+  ],
+  "exportDirectory": "../../upload_ready/naver_challenge/09-07",
+  "review": {
+    "mobileReadability": "passed",
+    "scrollFlow": "passed",
+    "characterConsistency": "passed",
+    "sourceAccuracy": "passed",
+    "naverExportCheck": "passed"
+  }
+}

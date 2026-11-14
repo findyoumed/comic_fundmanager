@@ -1,9 +1,20 @@
-{
-  "id": "08-06",
-  "sourceChapter": "????嫄곗떆寃쎌젣",
-  "sourceTopic": "?댁옄?⑥쓽 湲곌컙援ъ“",
-  "sourcePage": "p.415",
-  "title": "留뚭린???곕씪 湲덈━媛 ?щ씪吏???댁쑀",
-  "episodeGoal": "留뚭린蹂?梨꾧텒?섏씡瑜좎쓽 愿怨꾩? ?섏씡瑜좉끝?좎씠 二쇰뒗 ?뺣낫瑜??댄빐?쒕떎.",
-  "status": "legacy-page-draft"
+﻿{
+    "id":  "08-06",
+    "sourceChapter":  "제8장 거시경제",
+    "sourceTopic":  "Topic 06 이자율의 기간구조",
+    "sourcePage":  "인쇄 pp.415–416 (PDF 물리 pp.1315–1316)",
+    "title":  "이자율의 기간구조",
+    "episodeGoal":  "기간구조 네 이론의 위험태도·채권대체성·프리미엄을 구별한다.",
+    "sourceStatus":  "source-reviewed-art-in-progress",
+    "format":  "naver-webtoon-vertical-scroll",
+    "status":  "scroll-draft-in-progress",
+    "script":  "script.md",
+    "storyboard":  "storyboard.md",
+    "explanation":  "explanation.md",
+    "scrollAssets":  [
+                         "scroll/08-06-001.png",
+                         "scroll/08-06-002.png",
+                         "scroll/08-06-003.png",
+                         "scroll/08-06-004.png"
+                     ]
 }

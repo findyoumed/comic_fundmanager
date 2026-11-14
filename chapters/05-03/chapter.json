@@ -1,0 +1,45 @@
+{
+  "id": "05-03",
+  "title": "채권의 분류와 종류-(3) 기타의 분류",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 03 채권의 분류와 종류-(3) 기타의 분류",
+  "sourcePage": "인쇄 pp.257–258 (PDF 물리 pp.1114–1115)",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "채권의 만기·보증·담보·변제순위·금리구조·신용등급을 서로 다른 분류축으로 구분한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "scrollAssets": [
+    "scroll/05-03-001.png",
+    "scroll/05-03-002.png",
+    "scroll/05-03-003.png",
+    "scroll/05-03-004.png",
+    "scroll/05-03-005.png",
+    "scroll/05-03-006.png",
+    "scroll/05-03-007.png",
+    "scroll/05-03-008.png",
+    "scroll/05-03-009.png",
+    "scroll/05-03-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-03",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "sourceDetails": "Printed pages 257–258 visually matched to PDF physical pages 1114–1115.",
+  "naverRequirementsVerifiedAt": "2026-11-13",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": ["jpg", "gif"],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-13"
+  },
+  "imageGenerationStatus": {
+    "state": "complete",
+    "completedAt": "2026-11-14",
+    "assetCount": 10
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "id": "05-07",
+  "title": "유통시장(Secondary Market)",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 07 유통시장(Secondary Market)",
+  "sourcePage": "인쇄 pp.268–269 (PDF 물리 pp.1127–1128)",
+  "sourceDetails": "2026-11-14 p1476 판본의 PDF 물리 pp.1127–1128을 시각 대조했다. 원전 표는 과거 시장 구분과 2026년 주석이 함께 실려 있어 거래단위·결제·PD 수치는 교재 학습 기준으로 표시한다. 원전 문제 선택지를 재현하지 않고 설명 자료로 각색한다.",
+  "goal": "유통시장의 기능과 장내·장외 구조, IDM·IDB·PD의 역할을 구분하고 거래단위·결제·딜러 의무 수치를 교재 기준으로 해석한다.",
+  "conflict": "만기 전에는 돈이 묶인다고 생각한 남자 친구가 채권을 되파는 길을 배우지만, 유동성이 원하는 가격이나 원금을 보장하지 않음을 깨닫는다.",
+  "explanation": "# 유통시장 개념 해설\n\n발행시장이 새 채권으로 자금을 모으는 곳이라면 유통시장은 이미 발행된 채권을 투자자 사이에서 거래하는 곳이다. 자금 회수와 유동성, 가격 형성, 발행가격 결정의 지표, 담보력 제고 기능이 있다. 유동성은 원금이나 즉시 체결을 보장하지 않는다(인쇄 p.268).\n\n교재는 장내를 경쟁매매·상장채권, 장외를 상대매매·상장 및 비상장채권의 거래로 비교한다. 장외 거래단위 100억 원은 관행의 설명이지 법정 최소금액이 아니다. 교재 표의 주식관련채권 10만 원·소액채권 1,000원·IDM 10억 원과 결제 기준은 과거 구분이 포함된 교재표 학습 값으로 표시한다. 원전 하단에는 일반채권시장으로의 통합 주석도 있다. 현재 일반채권시장 단위에 관한 온라인 안내의 시점 차이가 확인되므로 본편에서 현재 주문 규칙으로 단정하지 않는다(인쇄 p.268).\n\nIDM은 국채딜러 간 경쟁매매 시장이며 IDB는 자기 채권 포지션을 보유하지 않고 딜러 사이를 중개하는 자다. PD는 일정 요건과 지정 절차를 거치는 국고채전문딜러다. 교재 기준으로 인수 10%·양방향 호가 각 10개·유통 110%·보유 1조 원·매입 및 교환 5% 의무가 제시된다. 이는 수익률 수치가 아니며 만기별 예외와 현행 세부 규정을 대신하지 않는다(인쇄 p.269).\n\n거래 체결과 결제는 서로 다른 단계다. 실제 거래에서는 해당 시장·상품의 적용 규정과 거래조건을 확인한다. 만화의 표는 교재 학습을 위한 재구성이며 개인별 투자 권유가 아니다.\n\n공식 확인 참고(2026-11-14): 국채시장 PD 의무 https://ktb.mofe.go.kr/bnefNdDuty.do ; KRX 시장 안내 https://www.krx.co.kr/contents/OPN/01/01020000/OPN01020000.jsp . KRX 상세 페이지는 직접 열기에서 403이 발생해 검색 확인 범위만 참고했으며 현행 거래단위 확정 근거로 삼지 않았다.",
+  "cuts": [
+    {
+      "title": "만기 전에도 채권을 팔 수 있을까?",
+      "source": "인쇄 p.268 / PDF 물리 p.1127",
+      "scene": "카페에서 남자 친구가 만기까지 잠긴 자물쇠 모양 채권을 보고 걱정한다. 누나가 기존 채권을 다른 투자자에게 넘기는 장면을 보여 준다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "급히 돈이 필요하면 만기까지 기다려야 해?"
+        },
+        {
+          "speaker": "누나",
+          "text": "유통시장에서 기존 채권을 다른 투자자에게 팔 수 있어."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "팔 수 있어도 산 가격 그대로 받는 건 아니야."
+        }
+      ],
+      "labels": [
+        "기존 투자자 → 새 투자자: 채권",
+        "새 투자자 → 기존 투자자: 매매대금"
+      ],
+      "constraints": "Show opposite bond/cash arrows accurately. No promise of immediate sale or principal protection."
+    },
+    {
+      "title": "유통이 있어야 발행도 이어진다",
+      "source": "인쇄 p.268 / PDF 물리 p.1127",
+      "scene": "세로 흐름으로 채권 재판매가 자금 회수와 새 채권 발행 여건에 연결됨을 보여준다. 아래는 다섯 기능을 간결한 카드로 표시.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "중간에 거래할 길이 있으면 장기채권에 참여하기도 쉬워져."
+        }
+      ],
+      "labels": [
+        "유동성 부여",
+        "가격 형성",
+        "발행가격 결정의 지표",
+        "담보력 제고",
+        "투자자금 회수"
+      ],
+      "constraints": "Do not depict liquidity as guaranteed price increases. Price formation occurs through trading and is not a no-loss guarantee."
+    },
+    {
+      "title": "장내와 장외, 거래하는 방식이 다르다",
+      "source": "인쇄 p.268 / PDF 물리 p.1127",
+      "scene": "왼쪽은 거래소에 주문이 모이는 장내시장, 오른쪽은 딜러와 고객이 협의하는 장외시장. 두 공간을 세로로 비교.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "장외라고 비상장채권만 거래하는 건 아니네."
+        }
+      ],
+      "labels": [
+        "교재 기준 비교",
+        "장내: 경쟁매매 · 상장채권",
+        "장외: 상대매매 · 상장·비상장채권",
+        "교재 설명: 채권은 장외시장 비중이 큼"
+      ],
+      "constraints": "No current market share percentages. Distinguish trading venue from listing status."
+    },
+    {
+      "title": "IDM은 시장, IDB는 중개자",
+      "source": "인쇄 p.269 / PDF 물리 p.1128",
+      "scene": "첫 장면은 국채딜러들이 거래소 화면으로 서로 거래하는 IDM. 둘째 장면은 재고를 보유하지 않고 딜러 사이를 잇는 IDB. 여자 친구가 둘을 구분한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "IDM은 거래하는 시장, IDB는 딜러 사이를 잇는 중개자!"
+        }
+      ],
+      "labels": [
+        "IDM · Inter Dealer Market",
+        "국채딜러 간 경쟁매매",
+        "IDB · Inter Dealer Broker",
+        "자기 채권 포지션 없이 중립적으로 중개"
+      ],
+      "constraints": "Do not draw the IDB holding a bond inventory or trading for its own account. The intermediary links two dealers."
+    },
+    {
+      "title": "표의 거래단위는 적용 기준을 확인하자",
+      "source": "인쇄 p.268 / PDF 물리 p.1127",
+      "scene": "교재 표를 공부하는 세 사람. 과거 시장 구분이 포함된 표라는 안내를 크게 표시하고 세 거래단위를 구분. 최신 주문화면처럼 그리지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재의 표와 현재 거래 규정을 구분해서 봐야 해."
+        }
+      ],
+      "labels": [
+        "교재표 학습 기준 · 과거 분류 포함",
+        "주식관련채권: 10만 원",
+        "소액채권: 1,000원",
+        "IDM 국고채: 10억 원",
+        "장외: 수량 제한 없음 · 관행상 100억 원",
+        "현재 시장 구분·거래단위는 별도 확인"
+      ],
+      "constraints": "All numbers are SOURCE TEXTBOOK TABLE, not current trading instructions. 100억 is practice, NOT minimum size. No numeric price chart."
+    },
+    {
+      "title": "거래 체결과 결제는 다르다",
+      "source": "인쇄 p.268 / PDF 물리 p.1127",
+      "scene": "주문 악수 장면 뒤 달력과 채권·대금 교환을 분리. 교재 결제 비교를 세 카드로 제시.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "거래가 됐다고 채권과 돈이 바로 오가는 건 아니구나."
+        }
+      ],
+      "labels": [
+        "교재표 기준 · 결제 시점",
+        "장내 일반 거래: 당일결제",
+        "IDM: 익일결제",
+        "장외: 보통 익일결제",
+        "교재 설명: 30일 이내 원칙",
+        "50억 원 미만 소액거래는 당일결제도 가능",
+        "실제 결제 조건은 거래 규정 확인"
+      ],
+      "constraints": "All timing/threshold labels explicitly source textbook basis, not current guarantee. Avoid dates and fictional clock prices."
+    },
+    {
+      "title": "PD는 자격과 의무가 있는 전문딜러",
+      "source": "인쇄 p.269 / PDF 물리 p.1128",
+      "scene": "단계 사다리가 인가·요건 심사에서 PPD, PD로 이어진다. 딜러가 지정서와 의무 체크리스트를 함께 받는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "국고채전문딜러는 자격을 갖추고 지정받아야 해."
+        },
+        {
+          "speaker": "남자 친구",
+          "text": "거래할 권한에 의무도 함께 붙는구나."
+        }
+      ],
+      "labels": [
+        "국고채전문딜러 · PD",
+        "교재 기준 지정 절차",
+        "투자매매업 인가 · 재무건전성·실적 요건",
+        "PPD 지정 → PD 지정",
+        "인수 · 호가 · 유통 · 보유 · 매입·교환 의무"
+      ],
+      "constraints": "Do not invent designation thresholds or ministry names. Do not imply every investor needs PD qualification to buy any government bond."
+    },
+    {
+      "title": "인수와 호가: 시장을 계속 열어 두는 역할",
+      "source": "인쇄 p.269 / PDF 물리 p.1128",
+      "scene": "교재 기준임을 표시한 두 카드. 첫 카드는 발행 국고채를 인수하는 딜러, 두번째는 매수와 매도 양쪽 호가를 내는 딜러.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "국고채를 인수하고 매수·매도 호가를 제시하는 의무가 있어."
+        }
+      ],
+      "labels": [
+        "교재 기준 · 세부 예외는 규정 확인",
+        "인수: 지표종목별 매월 경쟁입찰 발행물량의 10% 이상",
+        "호가: 지표종목별 매수·매도 각 10개 이상",
+        "장내시장 개장시간 동안 호가 제출"
+      ],
+      "constraints": "10% is underwriter obligation, NOT investment return or asset allocation. 10 refers number of quotes on each side, not ten bonds. Clearly distinguish bid and ask."
+    },
+    {
+      "title": "유통·보유·매입에도 기준이 있다",
+      "source": "인쇄 p.269 / PDF 물리 p.1128",
+      "scene": "PD가 세로로 쌓인 세 의무 카드를 확인한다. 거래량은 막대와 거래 아이콘으로 표시하며 수익률 차트를 쓰지 않는다.",
+      "labels": [
+        "교재 기준 · PD 의무",
+        "유통: 기관별 평균 국고채 거래량의 110% 이상",
+        "보유: 분기별 자기매매용 국고채 평균잔액 1조 원 이상",
+        "매입·교환: 해당 물량의 5% 이상 낙찰"
+      ],
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "110%와 5%는 딜러 의무 기준이야. 수익률이 아니고."
+        }
+      ],
+      "constraints": "No rising price line, no profit symbols. 110% is transaction volume obligation, 1조 is holdings, 5% is auction allocation. All are source textbook values."
+    },
+    {
+      "title": "주문·가격·결제를 함께 보자",
+      "source": "인쇄 p.268 / PDF 물리 p.1127",
+      "scene": "남자 친구가 중고 채권을 팔기 전에 거래 상대·가격·결제일 세 가지를 확인한다. 여자 친구는 호가와 실제 체결을 구분한다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "유통시장이 있어도 원하는 가격에 바로 팔린다는 보장은 없네."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "호가가 있는지, 어떤 가격에 체결되는지, 언제 결제되는지 봐야지."
+        }
+      ],
+      "labels": [
+        "유동성은 원금 보장과 다르다",
+        "거래 상대 · 체결가격 · 결제조건"
+      ],
+      "constraints": "A fictional everyday conversation only, with NO invented prices or returns. No investment recommendation."
+    },
+    {
+      "title": "이제 채권의 가격을 따져 볼 차례",
+      "source": "인쇄 p.268 / PDF 물리 p.1127; 인쇄 p.269 / PDF 물리 p.1128",
+      "scene": "세 사람이 카페에서 장내/장외, IDM/IDB/PD 세 구분을 노트에 정리하고 다음 주제의 현금흐름 그림을 펼친다. 따뜻한 마무리.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "유통시장은 기존 채권을 거래해 자금을 회수하는 길이야."
+        },
+        {
+          "speaker": "남자 친구",
+          "text": "그럼 그 채권의 가격은 어떻게 정할까?"
+        }
+      ],
+      "labels": [
+        "장내·장외: 거래 방식",
+        "IDM: 국채딜러 간 시장",
+        "IDB: 딜러 간 중개자",
+        "PD: 지정받은 국고채전문딜러",
+        "다음 이야기: 채권가격 계산"
+      ],
+      "constraints": "No review quiz and no chapter/episode number. Simple cash flow icon without invented values."
+    }
+  ]
+}

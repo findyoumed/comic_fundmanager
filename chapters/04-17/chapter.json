@@ -1,0 +1,28 @@
+{
+  "id": "04-17",
+  "title": "주식포트폴리오의 구성",
+  "sourceChapter": "제3과목 제4장 주식투자운용/투자전략",
+  "sourceTopic": "Topic 17 주식포트폴리오의 구성",
+  "sourcePage": "인쇄 pp.238–239 (PDF 물리 pp.1094–1095)",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "주식 포트폴리오 구성 기준·단계와 하향식·상향식 접근, 이상현상 분류를 이해한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "status": "complete",
+  "scrollAssets": [
+    "scroll/04-17-001.png",
+    "scroll/04-17-002.png",
+    "scroll/04-17-003.png",
+    "scroll/04-17-004.png",
+    "scroll/04-17-005.png",
+    "scroll/04-17-006.png",
+    "scroll/04-17-007.png",
+    "scroll/04-17-008.png"
+  ],
+  "exportDirectory": "../../upload_ready/naver_challenge/04-17",
+  "review": "webtoon_review.json",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS"
+}
