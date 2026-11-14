@@ -49,7 +49,7 @@
     .cover p { max-width: 490px; margin: 18px 0 0; color: #e5ebe5; font-size: 15px; }
     .cover-mark { position: relative; z-index: 1; display: flex; align-items: center; gap: 10px; margin-top: 34px; font-size: 12px; color: #e9e6db; }
     .progress { width: 116px; height: 4px; background: #ffffff38; }
-    .progress span { display: block; width: 50.00%; height: 100%; background: #f0b45d; }
+    .progress span { display: block; width: 61.11%; height: 100%; background: #f0b45d; }
     .reader-note { margin: 0; padding: 13px 18px; border-bottom: 1px solid var(--rule); background: #f8f6ed; color: var(--muted); font-size: 12px; }
     .episode { margin-top: 34px; background: var(--paper); }
     .episode-head { padding: 26px 30px 18px; }
@@ -111,8 +111,8 @@
           <li class="toc-item is-done"><a class="toc-link" href="#episode-05-07"><span class="toc-number">05-07</span><span>유통시장(Secondary Market)</span><span class="toc-status">완성 · 읽기</span></a></li>
           <li class="toc-item is-done"><a class="toc-link" href="#episode-05-08"><span class="toc-number">05-08</span><span>채권가격계산</span><span class="toc-status">완성 · 읽기</span></a></li>
           <li class="toc-item is-done"><a class="toc-link" href="#episode-05-09"><span class="toc-number">05-09</span><span>채권수익률의 종류와 계산</span><span class="toc-status">완성 · 읽기</span></a></li>
-          <li class="toc-item"><span class="toc-link"><span class="toc-number">05-10</span><span>말킬의 채권가격정리</span><span class="toc-status">제작 대기</span></span></li>
-          <li class="toc-item"><span class="toc-link"><span class="toc-number">05-11</span><span>맥컬레이 듀레이션<br>(Macaulay Duration)</span><span class="toc-status">제작 대기</span></span></li>
+          <li class="toc-item is-done"><a class="toc-link" href="#episode-05-10"><span class="toc-number">05-10</span><span>말킬의 채권가격정리</span><span class="toc-status">완성 · 읽기</span></a></li>
+          <li class="toc-item is-done"><a class="toc-link" href="#episode-05-11"><span class="toc-number">05-11</span><span>맥컬레이 듀레이션</span><span class="toc-status">완성 · 읽기</span></a></li>
           <li class="toc-item"><span class="toc-link"><span class="toc-number">05-12</span><span>듀레이션으로 측정하는<br>가격변동률</span><span class="toc-status">제작 대기</span></span></li>
           <li class="toc-item"><span class="toc-link"><span class="toc-number">05-13</span><span>볼록성 (Convexity)</span><span class="toc-status">제작 대기</span></span></li>
           <li class="toc-item"><span class="toc-link"><span class="toc-number">05-14</span><span>수익률곡선 (Yield Curve)</span><span class="toc-status">제작 대기</span></span></li>
@@ -127,7 +127,7 @@
           <p class="cover-kicker">투자자산운용사 · 채권투자운용/투자전략</p>
           <h1 id="book-title">채권을 읽는<br>만화교과서</h1>
           <p>채권이 누구에게서 나오고, 언제 이자를 주며, 금리 변화에 가격이 왜 움직이는지 이야기와 그림으로 따라갑니다.</p>
-          <div class="cover-mark"><span>제작 진행</span><span class="progress" aria-label="18개 중 9개 완성"><span></span></span><strong>9 / 18 회차</strong></div>
+          <div class="cover-mark"><span>제작 진행</span><span class="progress" aria-label="18개 중 11개 완성"><span></span></span><strong>11 / 18 회차</strong></div>
         </section>
         <p class="reader-note">이 화면은 세로 스크롤 웹툰 원본을 목차와 개념 해설에 연결해 읽는 독자용 보기입니다. 창을 아래로 스크롤하거나 왼쪽 목차에서 완성 회차를 선택하세요.</p>
 
@@ -286,7 +286,38 @@
 <img src="chapters/05-09/scroll/05-09-010.png" alt="채권수익률의 종류와 계산 · 10번째 세로 컷" loading="lazy"></div>
 <section class="explanation"><h3>개념 해설</h3><p>경상수익률은 연간 이자지급액 C를 현재 채권가격 P로 나눈 값 C/P다. 인쇄 p.272의 예제는 액면 10,000원, 표면이율 8%, 가격 9,600원이므로 연 이자는 800원이고 경상수익률은 800/9,600≈8.33%다. 만기까지의 총 쿠폰을 누적해 계산하지 않는다. 가격이 올라가면 같은 연 이자에 대한 C/P는 낮아진다.</p>
 <p>만기수익률(YTM)은 채권의 미래 현금흐름 현재가치를 시장가격과 일치시키는 할인율이다. 교재의 간이법은 [C+(F−P)/n]/[(F+P)/2]로 근사한다. p.273의 액면 10,000원, 연 쿠폰 600원, 4년, 가격 9,200원 예제는 [600+(10,000−9,200)/4]/[(10,000+9,200)/2]=800/9,600≈8.33%다. 정확한 YTM과 간이 추정치를 혼동하지 않는다. 쿠폰채 YTM은 만기 보유와 쿠폰의 YTM 재투자 가정을 포함하며, 재투자수익은 보장되지 않는다.</p>
-<p>연 복리 횟수가 m이고 명목 연이율이 i이면 실효 연수익률은 y=(1+i/m)^m−1이다. 분기마다 2%를 적용하는 경우 i=8%, m=4이고 실효 연수익률은 (1+0.08/4)^4−1≈8.24%다. 단리 채권등가수익률 8%와 다르다. 수익률 계산은 주어진 가격·현금흐름·가정에 따른 지표이지 실현수익 보장이 아니다.</p></section></article><section class="upcoming" id="episode-05-10"><h2>다음 회차 · 05-10</h2><p>원전 순서대로 제작하고 있습니다. 그림과 검토를 마친 회차를 이 화면에 추가합니다.</p></section>
+<p>연 복리 횟수가 m이고 명목 연이율이 i이면 실효 연수익률은 y=(1+i/m)^m−1이다. 분기마다 2%를 적용하는 경우 i=8%, m=4이고 실효 연수익률은 (1+0.08/4)^4−1≈8.24%다. 단리 채권등가수익률 8%와 다르다. 수익률 계산은 주어진 가격·현금흐름·가정에 따른 지표이지 실현수익 보장이 아니다.</p></section></article>
+<article class="episode" id="episode-05-10">
+<header class="episode-head"><p class="episode-overline">TOPIC 10 · 완성</p><h2>말킬의 채권가격정리</h2><p class="source">원전 연결: 인쇄 pp.274–275 (지정된 p1192 PDF 물리 pp.921–922)</p></header>
+<div class="comic" aria-label="05-10 세로 스크롤 만화"><img src="chapters/05-10/scroll/05-10-001.png" alt="말킬의 채권가격정리 · 1번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-002.png" alt="말킬의 채권가격정리 · 2번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-003.png" alt="말킬의 채권가격정리 · 3번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-004.png" alt="말킬의 채권가격정리 · 4번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-005.png" alt="말킬의 채권가격정리 · 5번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-006.png" alt="말킬의 채권가격정리 · 6번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-007.png" alt="말킬의 채권가격정리 · 7번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-008.png" alt="말킬의 채권가격정리 · 8번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-009.png" alt="말킬의 채권가격정리 · 9번째 세로 컷" loading="lazy">
+<img src="chapters/05-10/scroll/05-10-010.png" alt="말킬의 채권가격정리 · 10번째 세로 컷" loading="lazy"></div>
+<section class="explanation"><h3>개념 해설</h3><p>채권가격과 채권수익률은 반대 방향으로 움직인다. 다른 조건이 같다면 잔존기간이 길수록 일정한 수익률 변화에 대한 가격변동폭이 커지지만, 잔존기간이 늘어날수록 증가폭은 체감한다. 만기가 같을 때 수익률 하락에 따른 가격 상승폭은 같은 크기의 수익률 상승에 따른 가격 하락폭보다 크다. 이는 가격과 수익률 관계의 볼록성에서 나타나는 비대칭이다. 표면이자율이 높을수록 동일한 수익률 변화에 대한 가격변동폭은 작아진다(인쇄 p.274).</p>
+<p>말킬 정리에서 도출되는 가격변동성은 듀레이션과 연결된다. 교재의 방향 관계는 표면이자율이 낮을수록, 잔존만기가 길수록, 만기수익률이 낮을수록 가격변동성이 커진다는 것이다. 이 비교는 한 번에 한 조건을 바꾸고 나머지를 같게 둘 때 해석한다. 가격과 수익률은 작은 변화에서 대략 대칭적으로 근사할 수 있지만, 큰 변화에서는 대칭이 아니다(인쇄 p.274).</p>
+<p>따라서 가격변동을 설명할 때는 수익률 변화의 방향과 폭, 잔존기간, 쿠폰, 수익률 수준을 함께 밝혀야 한다. 이 관계는 가격 민감도에 대한 이론 설명이며 실제 가격이나 투자수익을 보장하지 않는다.</p></section></article>
+<article class="episode" id="episode-05-11">
+<header class="episode-head"><p class="episode-overline">TOPIC 11 · 완성</p><h2>맥컬레이 듀레이션</h2><p class="source">원전 연결: 인쇄 pp.276–278 (지정된 p1192 PDF 물리 pp.923–925)</p></header>
+<div class="comic" aria-label="05-11 세로 스크롤 만화"><img src="chapters/05-11/scroll/05-11-001.png" alt="맥컬레이 듀레이션 · 1번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-002.png" alt="맥컬레이 듀레이션 · 2번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-003.png" alt="맥컬레이 듀레이션 · 3번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-004.png" alt="맥컬레이 듀레이션 · 4번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-005.png" alt="맥컬레이 듀레이션 · 5번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-006.png" alt="맥컬레이 듀레이션 · 6번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-007.png" alt="맥컬레이 듀레이션 · 7번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-008.png" alt="맥컬레이 듀레이션 · 8번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-009.png" alt="맥컬레이 듀레이션 · 9번째 세로 컷" loading="lazy">
+<img src="chapters/05-11/scroll/05-11-010.png" alt="맥컬레이 듀레이션 · 10번째 세로 컷" loading="lazy"></div>
+<section class="explanation"><h3>개념 해설</h3><p>듀레이션은 각 현금흐름이 지급되는 시점 t를 그 현금흐름 현재가치의 비중으로 가중한 평균기간이다. 쿠폰채의 듀레이션은 가격변동성(금리 민감도)을 나타내는 지표이자 투자원금의 가중평균 회수기간으로 설명된다.</p>
+<p>원전 핵심 예제는 액면 10,000원, 표면이율 6%, 잔존 3년, 연 1회 후급, YTM 4%다. 1·2·3년 말 현금흐름은 600원, 600원, 10,600원이다. 현재가치는 각각 576.92원, 554.73원, 9,423.36원이다. 현재가치 합은 10,555.01원이고, 시점 가중합은 1×576.92+2×554.73+3×9,423.36=29,956.46원이다.</p>
+<p>듀레이션은 29,956.46/10,555.01=2.838…년이다. 원전 핵심문제는 소수 둘째 자리 미만 절사 기준으로 2.83년을 제시한다. 일반 반올림을 적용하면 2.84년이 되므로 두 기준을 분명히 나눈다(인쇄 p.276).</p>
+<p>이표채는 만기 전 쿠폰을 받으므로 듀레이션이 만기보다 짧다. 만기일시상환채는 듀레이션과 만기가 같다. 듀레이션은 가격 민감도를 간편하게 비교하는 지표이며, 가격변화의 근사나 실제 투자수익 보장이 아니다(인쇄 pp.277–278).</p></section></article><section class="upcoming" id="episode-05-12"><h2>다음 회차 · 05-12</h2><p>원전 순서대로 제작하고 있습니다. 그림과 검토를 마친 회차를 이 화면에 추가합니다.</p></section>
 <footer class="footer"><span>원전 순서를 따르는 세로 스크롤 학습만화</span><span>학습용 예시이며 개인별 투자 권유가 아닙니다.</span></footer>
       </main>
     </div>

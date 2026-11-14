@@ -1,31 +1,43 @@
 {
-  "goal": "Complete Chapter 05 Topics 08–18 sequentially using only p1192 PDF",
+  "goal": "Complete Chapter 05 Topics 12-18 sequentially using only p1192 PDF, preserving saved cuts and stopping at any source gap.",
   "status": "active",
-  "currentEpisode": "05-10",
-  "stage": "awaiting-source-review",
-  "expectedCuts": 0,
+  "currentEpisode": "05-12",
+  "stage": "paused-tool-limit",
+  "expectedCuts": 10,
   "liveExecCellId": null,
   "liveExecDescription": null,
-  "resumeInstruction": "Begin 05-10 using only ../책_투자자산운용사_p1192.pdf. Verify its printed and physical pages, prepare script/storyboard, generate and checkpoint every cut, review, export, and continue sequentially.",
+  "resumeInstruction": "Resume 05-12 at cut 005 when image_gen quota resets. Keep cuts 001-004. Save and checkpoint each remaining cut, complete visual/source review, export and inspect 690px JPGs, then run finalize and proceed sequentially.",
   "sourceRenderDirectory": ".codex/source-renders/chapter05",
   "characterReference": "chapters/14/014.png",
   "sourcePdf": "../책_투자자산운용사_p1192.pdf",
   "plan": "AUTO_PRODUCTION_PLAN.md",
-  "sourceCaveat": "p1192 physical pp.921–922 visually verified as printed pp.274–275; Topic 10 Malke bond price theorem.",
-  "visuallyReviewedCuts": [],
+  "sourceCaveat": "p1192 physical pp.926-927 visually verified; Topic 12 printed pp.279-280. Price change formula, modified duration periodicity, worked example and hedge example transcribed directly.",
+  "visuallyReviewedCuts": [
+    "05-12-001",
+    "05-12-002",
+    "05-12-003",
+    "05-12-004"
+  ],
   "missingPageAudit": "Adjacent image-object and footer audit: all 1476 image objects referenced; PDF physical 1104-1231 footer contact sheets inspected, no printed 301-302 found in this range. Full other-position search remains open.",
   "pendingCorrectionCells": {},
   "pendingCorrectionCuts": [],
-  "savedCutCount": 0,
+  "savedCutCount": 4,
   "pushHelperFix": "push_github.bat delegates to scripts/push_github.ps1. Real --check passed; mocked Success, NoChanges, AuthFailure and Diverged passed. No real commit or push executed.",
   "sourceCorrection": "05-06 physical 1123-1124 are identical duplicate scans of printed 265, confirmed pixel-for-pixel. Metadata, script, source map, plan and reader corrected.",
-  "lastCompletedEpisode": "05-09",
+  "lastCompletedEpisode": "05-11",
   "pdfEquivalenceAudit": "Do not use p1476 as source. Historic cross-edition hash notes are archival only; all current page references must be verified in p1192.",
-  "missingCuts": [],
-  "sourcePhysicalPages": [
-    921,
-    922
+  "missingCuts": [
+    "05-12-005",
+    "05-12-006",
+    "05-12-007",
+    "05-12-008",
+    "05-12-009",
+    "05-12-010"
   ],
-  "lastExecHandleCheck": "Previous cell g2:156 is not present; resume from saved files.",
-  "nextEpisode": "05-10"
+  "sourcePhysicalPages": [
+    926,
+    927
+  ],
+  "lastExecHandleCheck": "Retried image_gen for 05-12-005 on 2026-11-15; HTTP 429 usage_limit_reached, resets_in_seconds=14634. No image created; no live cell remains.",
+  "nextEpisode": "05-12"
 }

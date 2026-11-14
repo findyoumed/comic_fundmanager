@@ -1,0 +1,21 @@
+{
+  "id": "05-12",
+  "title": "듀레이션으로 측정하는 가격변동률",
+  "sourceChapter": "제5과목 채권투자운용/투자전략",
+  "sourceTopic": "Topic 12 듀레이션으로 측정하는 가격변동률",
+  "sourcePage": "인쇄 pp.279–280 (지정 p1192 PDF 물리 pp.926–927)",
+  "sourceDetails": "p1192 물리 pp.926–927 원문을 직접 확인했다. 가격변동률 ΔP/P = -Duration/(1+r) × Δr. 수정듀레이션은 연 이자 지급 때 Macaulay Duration/(1+r), 연 m회 지급 때 Duration/(1+r/m). 연단위가 아닌 예에서 Macaulay Duration 8.16, r=10%, m=4이면 수정듀레이션 7.96. Topic 12 핵심문제의 액면 10,000원, 표면이율 8%, 연단위 후급, YTM 10%, 가격 9,502.63원, Duration 2.78년. YTM 8%로 하락 시 근사 가격변동률 +5.05%, 정답 선택지 ②. p.927에는 듀레이션 헤지비율 h=(현물금액×현물듀레이션)/(선물금액×선물듀레이션), 100억원×5.5/(1억원×10)=55계약 매도 예제. 뒤 보충문제 가격상승률 순서는 듀레이션 순서와 같고 정답 ④. 핵심문제의 근사 계산과 실제 가격 변동을 혼동하지 않도록 설명한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "수정듀레이션과 금리변화로 채권의 근사 가격변동률을 구하고, 원문의 예제에서 금리 하락 시 가격 변화 방향과 크기를 계산한다. 보조 장면에서 듀레이션 헤지비율 예제를 정확히 읽는다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "script-ready-art-pending",
+  "plannedCutCount": 10,
+  "scrollAssets": [],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-12",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv"
+}

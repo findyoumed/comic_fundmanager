@@ -24,3 +24,11 @@
 - 05-17~05-18: p1192에서 확인되는 내용만 제작. 인쇄 pp.301–302 누락은 추정·대체하지 않는다.
 
 컷 수는 원전 내용에 맞게 정한다. 교재 예제와 가상 예시를 구분하고, 도구 성공만으로 회차를 완료 처리하지 않는다.
+
+
+## 2026-11-15 resume checkpoint
+
+- 05-11 completed; all ten 690px JPGs reviewed; chapter scoped hook passed.
+- 05-12 source pages p1192 physical 926?927 verified. Four of ten cuts are saved in order.
+- Image generation reached HTTP 429 usage limit at cut 005. Resume at 05-12-005 when the tool becomes available; do not regenerate cuts 001?004.
+- p1192 source facts for 05-12 are recorded in `chapters/05-12/production.json` and source pages in `.codex/production_state.json`.
