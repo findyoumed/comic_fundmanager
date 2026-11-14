@@ -6,7 +6,7 @@
   "expectedCuts": 10,
   "liveExecCellId": null,
   "liveExecDescription": null,
-  "resumeInstruction": "Resume 05-12 at cut 005 when image_gen quota resets. Keep cuts 001-004. Save and checkpoint each remaining cut, complete visual/source review, export and inspect 690px JPGs, then run finalize and proceed sequentially.",
+  "resumeInstruction": "Resume at 05-12-005 when image_gen is available. Preserve saved cuts 001-004; create and checkpoint only missing cuts 005-010, finish visual and source review/export, then continue Topic order.",
   "sourceRenderDirectory": ".codex/source-renders/chapter05",
   "characterReference": "chapters/14/014.png",
   "sourcePdf": "../책_투자자산운용사_p1192.pdf",
@@ -38,6 +38,6 @@
     926,
     927
   ],
-  "lastExecHandleCheck": "Re-attempted 05-12-005 on 2026-11-15; image_gen again returned HTTP 429 usage_limit_reached, resets_at=1794712685, resets_in_seconds=14438. No image created; no live cell remains.",
+  "lastExecHandleCheck": "Fresh post-resume retry for cut 05-12-005 returned HTTP 429 usage_limit_reached; resets_at=1794712685, resets_in_seconds=13164. No image created and no live generation handle exists.",
   "nextEpisode": "05-12"
 }
