@@ -38,6 +38,6 @@
     926,
     927
   ],
-  "lastExecHandleCheck": "After goal resume, image_gen retry for 05-12-005 returned HTTP 429 usage_limit_reached; resets_at=1794712686, resets_in_seconds=13110. No image was created; generation handle is terminal.",
+  "lastExecHandleCheck": "Third consecutive retry after goal resume failed for 05-12-005: HTTP 429 usage_limit_reached, resets_at=1794712686, resets_in_seconds=13029. No image created; no live exec cell.",
   "nextEpisode": "05-12"
 }
