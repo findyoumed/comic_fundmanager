@@ -3,7 +3,7 @@
   "title": "기타의 합성채권(PB, 옵션부사채)",
   "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
   "sourceTopic": "Topic 05 기타의 합성채권(PB, 옵션부사채)",
-  "sourcePage": "인쇄 pp.262–264 (PDF 물리 pp.1120–1122)",
+  "sourcePage": "인쇄 pp.262–264 (PDF 물리 pp.909–911)",
   "sourceStatus": "source-verified",
   "format": "naver-webtoon-vertical-scroll",
   "episodeGoal": "PB와 옵션부사채를 이해하고 Callable·Putable의 행사자·행사 환경·가치 차이를 설명한다.",
@@ -27,7 +27,7 @@
   "review": "webtoon_review.json",
   "exportDirectory": "../../upload_ready/naver_challenge/05-05",
   "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
-  "sourceDetails": "Printed pp.262–264 visually matched to PDF physical pp.1120–1122.",
+  "sourceDetails": "Printed pp.262–264 visually matched to PDF physical pp.909–911.",
   "naverRequirementsVerifiedAt": "2026-11-14",
   "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
   "naverUploadLimitsVerified": {
