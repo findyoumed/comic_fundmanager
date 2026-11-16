@@ -1,0 +1,48 @@
+{
+  "id": "04-03",
+  "title": "자산배분, 큰 계획과 중간 조정",
+  "sourceChapter": "제3과목 제4장 주식투자운용/투자전략",
+  "sourceTopic": "Topic 03 자산배분의 개념",
+  "sourcePage": "인쇄 pp.208–209 / p1192 PDF 물리 pp.855–856",
+  "sourceDetails": "p1192 물리 p.855 인쇄 p.208과 물리 p.856 인쇄 p.209를 직접 확인했다. 자산배분은 위험 특성이 다른 여러 자산집단에 투자자금을 나누어 포트폴리오를 구성하는 의사결정이다. 전략적 자산배분은 장기 투자목표를 위해 자산집단별 배분비율을 정하고, 전술적 자산배분은 이미 구성한 자산집단 비중을 중단기적으로 허용한계 안에서 조정한다. 원문 보충문제 예시는 전략적 비중을 주식 40%, 채권 30%, 부동산 20%, 유동성 10%로 두고 각 자산 비중의 상하 10%를 허용한계로 둔다. 주식의 전술적 최대 비중은 40%의 110%인 44%(최저 36%)다. 해당 수치는 원문 예제에만 속하며 일반적인 투자 기준이 아니다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "전략적 자산배분과 전술적 자산배분을 기간과 역할로 구분하고 원문 예제의 허용범위를 계산할 수 있다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 7,
+  "scrollAssets": [
+    "scroll/04-03-001.png",
+    "scroll/04-03-002.png",
+    "scroll/04-03-003.png",
+    "scroll/04-03-004.png",
+    "scroll/04-03-005.png",
+    "scroll/04-03-006.png",
+    "scroll/04-03-007.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/04-03",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "sourceReview": "source_review.md",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 7,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?osType=COMMONOS&ostype=commonos",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

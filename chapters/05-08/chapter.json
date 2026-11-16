@@ -12,16 +12,40 @@
   "storyboard": "storyboard.md",
   "explanation": "explanation.md",
   "imagePrompts": "image_prompts.md",
-  "status": "art-in-progress",
+  "status": "complete",
   "plannedCutCount": 10,
-  "scrollAssets": [],
+  "scrollAssets": [
+    "scroll/05-08-001.png",
+    "scroll/05-08-002.png",
+    "scroll/05-08-003.png",
+    "scroll/05-08-004.png",
+    "scroll/05-08-005.png",
+    "scroll/05-08-006.png",
+    "scroll/05-08-007.png",
+    "scroll/05-08-008.png",
+    "scroll/05-08-009.png",
+    "scroll/05-08-010.png"
+  ],
   "review": "webtoon_review.json",
   "exportDirectory": "../../upload_ready/naver_challenge/05-08",
   "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
   "sourceReview": "source_review.md",
   "imageGenerationStatus": {
-    "state": "in-progress",
-    "assetCount": 0,
-    "expectedCuts": 10
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-16",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-16",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-16"
   }
 }

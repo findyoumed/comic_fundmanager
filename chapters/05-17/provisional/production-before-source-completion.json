@@ -1,0 +1,123 @@
+{
+  "id": "05-17",
+  "title": "채권운용전략 (1) 적극적인 전략",
+  "format": "naver-webtoon-vertical-scroll",
+  "sourcePdf": "../../../책_투자자산운용사_p1192.pdf",
+  "sourcePage": "임시 확인 범위: 인쇄 pp.298–300 / PDF 물리 pp.945–947. 계획상 Topic 범위 pp.298–301이며 p.301 누락.",
+  "sourceStatus": "partial-source-verified",
+  "status": "provisional-incomplete",
+  "episodeGoal": "p1192에서 확인한 적극적 채권운용전략의 분류, 수익률곡선타기, 채권교체, 스프레드전략, Barbell/Bullet 조건을 구분한다. p.301 내용은 포함하지 않는다.",
+  "script": "provisional/script.md",
+  "storyboard": "provisional/storyboard.md",
+  "explanation": "provisional/explanation.md",
+  "sourceReview": "provisional/source_review.md",
+  "plannedCutCount": 9,
+  "provisionalOnly": true,
+  "completionBlockedBy": "p1192 printed p.301 is missing; verify full Topic 17 boundary before final review or export.",
+  "cuts": [
+    {
+      "id": "05-17-001",
+      "source": "인쇄 p.298 / 물리 p.945",
+      "topic": "다섯 적극적 전략 분류",
+      "labels": [
+        "금리예측전략(듀레이션조절)",
+        "채권교체전략",
+        "스프레드전략",
+        "수익률곡선타기전략",
+        "수익률곡선전략"
+      ]
+    },
+    {
+      "id": "05-17-002",
+      "source": "인쇄 p.298 / 물리 p.945",
+      "topic": "수익률곡선타기와 투자기간",
+      "labels": [
+        "투자기간 < 채권 만기",
+        "교재 예시: 투자기간 1년 / 채권 만기 3년"
+      ]
+    },
+    {
+      "id": "05-17-003",
+      "source": "인쇄 p.298 / 물리 p.945",
+      "topic": "롤링효과와 숄더효과",
+      "labels": [
+        "장기채: 롤링효과(ΔA)",
+        "중·단기채: 숄더효과(ΔB)",
+        "잔존만기 감소 → 수익률 하락 → 자본수익 가능"
+      ]
+    },
+    {
+      "id": "05-17-004",
+      "source": "인쇄 p.299 / 물리 p.946",
+      "topic": "수익률곡선타기의 전제와 위험",
+      "labels": [
+        "우상향 수익률곡선 전제",
+        "금리 상승 시 손실 가능"
+      ]
+    },
+    {
+      "id": "05-17-005",
+      "source": "인쇄 p.299 / 물리 p.946",
+      "topic": "동종채권교체",
+      "labels": [
+        "일시적 불균형 이용",
+        "같은 듀레이션에서 더 큰 볼록성의 채권으로 교체"
+      ]
+    },
+    {
+      "id": "05-17-006",
+      "source": "인쇄 p.299 / 물리 p.946",
+      "topic": "이종채권교체와 Yield Give-Up/Pick-Up",
+      "labels": [
+        "불황기·스프레드 확대: 회사채 매도, 국채 매수",
+        "호황기·스프레드 축소: 회사채 매수, 국채 매도"
+      ]
+    },
+    {
+      "id": "05-17-007",
+      "source": "인쇄 p.299 / 물리 p.946",
+      "topic": "스프레드전략",
+      "labels": [
+        "일시적 확대 → 축소 전략",
+        "일시적 축소 → 확대 전략",
+        "정상 수준 회귀 시 청산"
+      ]
+    },
+    {
+      "id": "05-17-008",
+      "source": "인쇄 p.300 / 물리 p.947",
+      "topic": "Barbell/Bullet 금리 예상",
+      "labels": [
+        "Barbell: 단기↓ 중기↑ 장기↓",
+        "Bullet: 단기↑ 중기↓ 장기↑"
+      ]
+    },
+    {
+      "id": "05-17-009",
+      "source": "인쇄 p.300 / 물리 p.947",
+      "topic": "Barbell/Bullet 가격 예상과 만기 구성",
+      "labels": [
+        "Barbell: 단기채(+) 중기채(-) 장기채(+); 단기·장기 구성",
+        "Bullet: 단기채(-) 중기채(+) 장기채(-); 중기 구성"
+      ]
+    }
+  ],
+  "scrollAssets": [
+    "scroll/05-17-001.png",
+    "scroll/05-17-002.png",
+    "scroll/05-17-003.png",
+    "scroll/05-17-004.png",
+    "scroll/05-17-005.png",
+    "scroll/05-17-006.png",
+    "scroll/05-17-007.png",
+    "scroll/05-17-008.png",
+    "scroll/05-17-009.png"
+  ],
+  "imageGenerationStatus": {
+    "state": "provisional-incomplete",
+    "assetCount": 9,
+    "tool": "built-in image_gen"
+  },
+  "mobilePreviewDirectory": "../../.tmp_05-17_mobile",
+  "provisionalReview": "provisional/webtoon_review.md"
+}

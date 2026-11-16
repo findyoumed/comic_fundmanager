@@ -1,0 +1,168 @@
+{
+  "id": "06-07",
+  "title": "선물거래전략-(2) 차익거래",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 07 선물거래전략-(2) 차익거래",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "sourcePage": "인쇄pp.325–326 / 현재p1195물리pp.973–974",
+  "sourceDetails": "2026-11-16 인쇄325–326(현재p1195물리973–974)전체시각대조.975의Topic08 인쇄327경계확인. 105−100=5,102−100=2,105−102=3검산.시장F와이론F*구별,조건부β및절세서술의적용범위검토.선택지복제없이설명으로재구성.",
+  "goal": "시장가격과이론가격의괴리에따른거래방향과금리/알파/조건부베이시스요소를구별한다.",
+  "conflict": "선물가격이높으면모두확정이익이라고생각하는초보가이론가격과비용을함께본다.",
+  "explanation": "# 차익거래 해설\n\n현재p1195물리973–974의인쇄325–326본문전체를시각확인했고975에서Topic08 인쇄327시작을확인했다.시장선물F가이론F*보다높으면현물매수·선물매도,반대면현물매도·선물매수다.순수한F>S만으로고평가를판정하지않는다.교재의콘탱고·양의보유비용설명은해당가정아래연결해읽으며,차익방향의기준은시장가격대이론가격이다.\n\nS100,F105,F*102예제에서시장베이시스5,이론베이시스2,알파3포인트다.이론금리수익2를조달비용을뺀확정차익과동일시하지않는다.5포인트전체를비용차감후차익이라고하지않는다.교재가β라고부르는추가베이시스수익은향후시장변화와청산시점에달린요소이므로확정수익처럼표시하지않는다.\n\n합성채권은현물매수와선물매도를묶어만기현금흐름을설명하는구조다.교재의F*−S표현은공정가격F=F*등의이론조건과조달·배당·결제를구분해설명한다.시장선물가격이이론과다른별도예제를같은만기수익으로혼합하지않는다.원전의절세비교는그서술을소개하는범위이며현행모든상품·투자자에서비과세이거나유리하다는세무안내로재사용하지않는다.구체적과세판단은이회차에서새로제시하지않는다.\n",
+  "cuts": [
+    {
+      "title": "현물과 선물을 함께 비교",
+      "source": "인쇄p.325 / 현재p1195물리973–974",
+      "scene": "두가격카드와한개의이론가격카드.친구가단순히선물가격이높으면무조건차익이라고묻는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "현물과의 단순 차이만 보지 말고, 보유비용을 반영한 이론가격과 비교해야 해."
+        }
+      ],
+      "labels": [
+        "현물가격 S",
+        "선물 시장가격 F",
+        "선물 이론가격 F*"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "고평가된 선물",
+      "source": "인쇄p.325–326 / 현재p1195물리973–974",
+      "scene": "F>F*판과현물매수/선물매도반대방향의두화살표.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "선물이 이론가격보다 높으면, 교재의 매수차익거래는 현물을 사고 선물을 파는 조합이네."
+        }
+      ],
+      "labels": [
+        "F > F*",
+        "현물 매수 + 선물 매도",
+        "매수차익거래 / Cash & Carry"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "저평가된 선물",
+      "source": "인쇄p.325 / 현재p1195물리973–974",
+      "scene": "반대경우F<F*에서선물매수와현물매도를정확히뒤집는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "반대 괴리라면 거래 방향도 반대야. 현물매도에 필요한 조달 조건도 확인해야 해."
+        }
+      ],
+      "labels": [
+        "F < F*",
+        "현물 매도 + 선물 매수",
+        "매도차익거래 / Reverse Cash & Carry"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "베이시스 두 종류",
+      "source": "인쇄p.325–326 / 현재p1195물리973–974",
+      "scene": "교재의S100,F105,F*102조건을서로다른칸에배치한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "시장 베이시스와 이론 베이시스를 따로 계산해야겠네."
+        }
+      ],
+      "labels": [
+        "교재 예제: S=100 / F=105 / F*=102",
+        "시장 베이시스 = 105−100 = 5포인트",
+        "이론 베이시스 = 102−100 = 2포인트"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "금리수익과 알파 구별",
+      "source": "인쇄p.325–326 / 현재p1195물리973–974",
+      "scene": "높이100·102·105눈금에서100→102구간2,102→105구간3을나누어표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재의 금리수익 구간은 2포인트, 베이시스 차이 수익 알파는 3포인트야."
+        }
+      ],
+      "labels": [
+        "F*−S = 2포인트: 교재의 금리수익",
+        "α = F−F* = 3포인트",
+        "보유·금융비용을 빼기 전후를 구별"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "추가 베이시스 수익은 조건부",
+      "source": "인쇄p.325–326 / 현재p1195물리973–974",
+      "scene": "교재의금리+α+β카드에서β만예상구간으로점선처리한다.만기전청산시그때의베이시스가영향줌을표시한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "추가 베이시스 변화까지 확정 수익이라고 볼 수는 없네."
+        }
+      ],
+      "labels": [
+        "교재 표기: 금리 + α + β",
+        "β는 향후 베이시스 변화에 따른 추가 요소",
+        "청산 시점과 거래비용·위험 확인"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "합성채권의 뜻",
+      "source": "인쇄p.326 / 현재p1195물리973–974",
+      "scene": "현물매수와선물매도를합친미래현금흐름을보여준다.공정가격조건F=F*배지를분명히표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이론가격 조건에서 현물과 선물을 묶어 만기 현금흐름을 고정하는 합성 구조로 설명하는 거야."
+        }
+      ],
+      "labels": [
+        "현물 매수 + 선물 매도",
+        "F=F* 등 교재의 이론 조건 구별",
+        "배당·조달·결제 조건 확인"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "교재의 절세 서술은 구분",
+      "source": "인쇄p.326 / 현재p1195물리973–974",
+      "scene": "책갈피에교재절세비교,다른작은판에과세대상·시점·상품조건을적는다.실제세율숫자추가금지.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "교재의 절세 비교만 보고 모든 상황에서 세금이 없다고 읽으면 안 되겠네."
+        }
+      ],
+      "labels": [
+        "교재의 합성채권 절세 비교",
+        "세후 유불리를 확정하지 않음",
+        "과세 시점·상품·투자자 조건은 별도 확인"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "한쪽 가격 예측과 구별",
+      "source": "인쇄p.325–326 / 현재p1195물리973–974",
+      "scene": "현물/선물두포지션의연결을정리한다.다음두선물계약의가격차로관심을옮긴다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "가격 관계의 괴리를 이용하는 구조와 단순 방향성 거래를 구분하자."
+        }
+      ],
+      "labels": [
+        "이론가격·시장가격·비용을 함께 비교",
+        "다음: 두 선물의 스프레드"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 and06-01through06 complete"
+}

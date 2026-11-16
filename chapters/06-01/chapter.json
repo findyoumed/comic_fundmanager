@@ -1,0 +1,21 @@
+{
+  "id": "06-01",
+  "title": "파생상품의 개요",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 01 파생상품의 개요",
+  "sourcePage": "인쇄 pp.310–311 / 현재 p1195 PDF 물리 pp.958–959",
+  "sourceDetails": "2026-11-16 현재 캡처0958·0959의 인쇄310·311 본문 전체와0960의 Topic02 인쇄312 시작을 시각 확인했다. 새PDF 물리958–960과PNG를 대조하고 current_pdf_manifest에 기록했다. 장내/장외 상품사례는 교재 기준이며 현재 상장현황으로 일반화하지 않는다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "기초자산·거래장소·계약종류·거래목적이라는 네 분류기준을 구별한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "script-ready-art-pending",
+  "plannedCutCount": 8,
+  "scrollAssets": [],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/06-01",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv"
+}

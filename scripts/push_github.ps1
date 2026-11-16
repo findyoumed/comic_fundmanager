@@ -36,8 +36,9 @@ try {
     $candidatePaths = @(& git -c core.quotepath=false ls-files --cached --others --exclude-standard)
     if ($LASTEXITCODE -ne 0) { throw 'Could not inspect upload files.' }
     $largeFiles = @($candidatePaths | Select-Object -Unique | ForEach-Object {
+        # [LOG: 20261116_1726] 숨김/시스템 파일(desktop.ini 등) 조회를 위해 -Force 추가
         if (Test-Path -LiteralPath $_ -PathType Leaf) {
-            $item = Get-Item -LiteralPath $_
+            $item = Get-Item -LiteralPath $_ -Force
             if ($item.Length -ge 100MB) { $item.FullName }
         }
     })

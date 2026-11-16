@@ -1,0 +1,184 @@
+{
+  "id": "06-08",
+  "title": "선물거래전략-(3) 스프레드거래",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 08 선물거래전략-(3) 스프레드거래",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "sourcePage": "인쇄pp.327–329 / 현재p1195물리pp.975–977",
+  "sourceDetails": "2026-11-16 인쇄327–329(현재p1195물리975–977)전체시각대조,978의Topic09 인쇄330경계확인.검산95−90=5,102−100=2,110−105=5,(110−102)+(100−105)=3.정상3과실제청산5를구분.선물가격차와실제증거금현금흐름을혼동하지않도록편집보완.선택지복제없이재구성.",
+  "goal": "스프레드정의를먼저고정하고확대·축소의포지션과두계약손익을계산한다.",
+  "conflict": "선물가격이둘다오르면양쪽모두이익이라고생각하는초보가상대가격차를배운다.",
+  "explanation": "# 스프레드거래 해설\n\n현재p1195물리975–977의인쇄327–329본문전체를시각확인했고978에서Topic09 인쇄330시작을확인했다.같은상품의다른만기간거래는상품내시간스프레드,다른상품간조합은상품간스프레드로구분한다.원전TED사례는당시상품명설명으로남기며현재거래가능상품으로안내하지않는다.\n\n이대본은D=원월물−근월물로정의한다.근월90·원월95·정상차2인예제는현재차5의축소예상으로근월매수·원월매도다.별도예제근월100·원월102·정상차3은현재차2의확대예상으로근월매도·원월매수다.정상차3으로예상했다고반드시3에서청산한것은아니며원전의실제청산예시는근월105·원월110,차5다.롱원월8과숏근월−5합계3포인트로진입차2에서청산차5로의증가와같다.승수나계약수는추가로주어지지않아금액수익을새로만들지않는다.\n\n원전의Long/Short Spread 참고서술을선물계약전액매매대금의순지출/순수취로도식화하지않는다.선물은증거금·일일정산을사용하므로가격차와실제현금흐름은구분한다.전략명은교재정의를소개하되순프리미엄지급이있는옵션전략과혼동하지않는다.\n\n교재는콘탱고가정에서근월상대강세를근월매수·원월매도인축소,상대약세를반대인확대로설명한다.이는두가격의상대움직임이며둘다오르거나둘다내릴수있다.옵션의수평스프레드는같은행사가격·다른만기,수직은다른행사가격이라는원전기초구분만예고한다.옵션에서강세/약세는기초자산상승/하락시수익이라는별도명명기준이므로선물의근월기준과혼합하지않는다.\n",
+  "cuts": [
+    {
+      "title": "스프레드의 기준",
+      "source": "인쇄p.327–329 / 현재p1195물리975–977",
+      "scene": "두선물만기카드를나란히놓고무엇에서무엇을빼는지먼저정한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이 예제에서는 원월물 가격에서 근월물 가격을 뺀 값을 스프레드로 두자."
+        }
+      ],
+      "labels": [
+        "스프레드 D = 원월물 − 근월물",
+        "절대 가격 방향과 상대 가격차를 구별"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "상품 내와 상품 간",
+      "source": "인쇄p.327 / 현재p1195물리975–977",
+      "scene": "같은상품3월물/6월물과다른상품조합이라는두분류판.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "상품은 같고 만기만 다르면 시간스프레드, 상품도 다르면 상품 간 스프레드네."
+        }
+      ],
+      "labels": [
+        "상품 내: 교재 예시 3월물·6월물",
+        "시간스프레드 / Calendar Spread",
+        "상품 간 스프레드"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "축소 예상 예제",
+      "source": "인쇄p.327 / 현재p1195물리975–977",
+      "scene": "근월90과원월95의가격차5,정상2라는교재조건을보여준다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재처럼 가격차가 5이고 정상 수준 2로 좁아질 것으로 예상하면 어떻게 할까?"
+        }
+      ],
+      "labels": [
+        "교재 예제: 근월 90 / 원월 95",
+        "현재 스프레드 = 5",
+        "정상 스프레드 = 2"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "축소에 맞는 두 포지션",
+      "source": "인쇄p.327–329 / 현재p1195물리975–977",
+      "scene": "근월매수·원월매도화살표를가격카드에정확히배치한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "싼 근월물을 사고 비싼 원월물을 파는 축소 포지션이구나."
+        }
+      ],
+      "labels": [
+        "근월물 매수 + 원월물 매도",
+        "D 축소 예상",
+        "회귀가 보장되지는 않음"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "확대 예상 예제",
+      "source": "인쇄p.328 / 현재p1195물리975–977",
+      "scene": "별도교재예제3월100/6월102,정상3을표시하고3월매도6월매수의반대포지션.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "별도 예제는 현재 가격차 2가 넓어질 것으로 예상해."
+        }
+      ],
+      "labels": [
+        "별도 교재 예제: 3월 100 / 6월 102",
+        "현재 D=2 / 정상 D=3",
+        "3월물 매도 + 6월물 매수"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "청산 손익을 합산",
+      "source": "인쇄p.328 / 현재p1195물리975–977",
+      "scene": "6월102→110롱8과3월100→105숏−5를나란히합산한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "두 계약이 모두 올라도, 원월물이 더 많이 오르면 이 조합은 이익이네."
+        }
+      ],
+      "labels": [
+        "교재 청산 예시: 6월물 110 / 3월물 105",
+        "6월 매수 손익: 110−102 = +8",
+        "3월 매도 손익: 100−105 = −5",
+        "합계 +3포인트 = 청산 D5 − 진입 D2"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "가격차와 매매대금은 달라",
+      "source": "인쇄p.328 + Topic03편집보완 / 현재p1195물리975–977",
+      "scene": "선물가격차2포인트판과별도증거금/정산판을분리한다.2포인트를현금납부하는그림금지.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "선물의 가격차를 현물처럼 전액 주고받는 매매대금으로 그리면 안 돼. 증거금과 일일정산을 구분하자."
+        }
+      ],
+      "labels": [
+        "가격차·손익 포인트 ≠ 계약대금 전액 지급",
+        "증거금·정산 현금흐름은 별도"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "강세와 약세의 이름",
+      "source": "인쇄p.328–329 / 현재p1195물리975–977",
+      "scene": "교재콘탱고가정에서근월상대강세와상대약세의두판.양쪽모두하락가능함을문구로구별한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "강세라는 이름도 절대 가격이 아니라 근월물의 상대 움직임을 기준으로 읽어야겠네."
+        }
+      ],
+      "labels": [
+        "교재의 콘탱고 가정",
+        "강세: 근월 매수·원월 매도 → D 축소",
+        "약세: 근월 매도·원월 매수 → D 확대"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "옵션 스프레드 용어 예고",
+      "source": "인쇄p.327·329 / 현재p1195물리975–977",
+      "scene": "원전콜K2001개월매수/2개월매도는수평,콜195매수/200매도는수직이라고판으로비교하되옵션손익선은아직안그린다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "원전은 옵션의 수평·수직 스프레드도 소개해. 선물의 강세·약세 이름과 그대로 섞지 말자."
+        }
+      ],
+      "labels": [
+        "수평: 같은 행사가격·다른 만기",
+        "수직: 다른 행사가격",
+        "옵션 강세·약세의 명칭 기준은 별도"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "무엇이 변해야 이익일까",
+      "source": "인쇄p.327–329 / 현재p1195물리975–977",
+      "scene": "정의D와두포지션을다시연결하고다음옵션의권리로이야기를잇는다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "이름부터 외우기보다 가격차의 정의와 두 매매 방향을 확인하겠어."
+        }
+      ],
+      "labels": [
+        "정의 → 예상 → 포지션 → 두 손익 합산",
+        "다음: 옵션기초"
+      ],
+      "constraints": "Use only sourced textbook examples, clearly labeled reconstructed. No invented returns,prices,fees,contractsizes. No guaranteedprofit, no universaltaxadvantage. Futuresquotes are notfullpurchasecashpayments. Keep diagramdirections consistentwith labels. Approvedreferencechapters/14/014.png only."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 and06-01through07 complete"
+}

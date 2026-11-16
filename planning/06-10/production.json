@@ -1,0 +1,186 @@
+{
+  "id": "06-10",
+  "title": "옵션내재가치와 옵션가격",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 10 옵션내재가치와 옵션가격",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "sourcePage": "인쇄 pp.333–336 / 현재 p1195 물리 pp.981–984",
+  "sourceDetails": "2026-11-16 인쇄333–336(현재p1195 물리981–984) 전체 시각 대조.985에서Topic11 인쇄337 시작 확인. 표3행의IV/TV합계,콜3.5−3=0.5,풋1−0=1,콜손익분기103을 검산했다.103에서손익0/초과시이익으로 구분하고 원전의 이상이라는 경계문구를 정확히 풀었다.",
+  "goal": "내재가치·시간가치·옵션가격과 만기 순손익을 구별하고 원전 수치로 검산한다.",
+  "conflict": "내가격이면순이익이라고 생각하고음수내재가치를계산하는초보가가치와손익을분리한다.",
+  "explanation": "# 옵션내재가치와 옵션가격 해설\n\n현재 p1195 PDF 물리 981–984쪽의 인쇄 333–336쪽을 전체 시각 대조했다. 985쪽에서 Topic 11 인쇄 337쪽 시작을 확인했다.\n\n콜 내재가치는 max(S−K,0), 풋 내재가치는 max(K−S,0)다. 행사가격100, 기초자산120인 교재 예제에서 콜20, 풋0이며 풋−20으로 쓰지 않는다. 내재가치는 지급 프리미엄을 차감한 순손익과 구별한다. 콜의 S>K는 내가격, 풋의 S<K는 내가격이고 S=K는 둘 다 등가격이다.\n\n교재는 옵션가격=내재가치+시간가치로 분해한다. K100 콜 표의 S80·100·120은 서로 다른 가격조건이고, 옵션가격은 각각0.09·3.50·20.40이다. 내재가치는0·0·20, 시간가치는0.09·3.50·0.40으로 각 행을 검산했다. 교재의 등가격 시간가치 비교는 다른 조건이 같은 기본 예제이며, 행사방식·금리·배당 등 조건이 다른 모든 상품으로 확장하지 않는다.\n\n별도 콜 예제 S103,K100,가격3.5는 IV3,TV0.5다. 별도 풋 예제 S253,K250,가격1은 IV0,TV1이다. 이 두 예제의 프리미엄을 다른 문제에 가져오지 않는다.\n\n손익분기점 예제는 또 다른 조건 K100,콜 매수 프리미엄3이다. 만기 순손익 max(S_T−100,0)−3은 S_T103에서0이고,103보다 높아야 이익이다. 현재의 내재가치가 양수라는 사실만으로 매수 후 순이익이 났다고 단정할 수 없다. 프리미엄·평가 시점·실제 청산조건을 구별한다. 원전 선택지와 시험 회차 메모는 복제하지 않고 계산과 의미로 재구성했다.\n",
+  "cuts": [
+    {
+      "title": "내재가치는 무엇일까",
+      "source": "인쇄 p.333·335 / 현재 p1195 물리 pp.981–984",
+      "scene": "당장 행사할 때의 이득과 옵션을 산 전체손익을 다른 칸으로 분리한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "내재가치와 순손익은 달라. 내재가치는 음수가 되지 않도록 0과 비교해."
+        }
+      ],
+      "labels": [
+        "콜 IV=max(S−K,0)",
+        "풋 IV=max(K−S,0)"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "행사가 100, 가격 120",
+      "source": "인쇄 p.333 / 현재 p1195 물리 pp.981–984",
+      "scene": "교재예제의콜/풋내재가치를두식으로보여준다.프리미엄미차감임을표시한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "콜은 20이지만 풋은 −20이 아니라 0이네."
+        }
+      ],
+      "labels": [
+        "교재 예제: K=100 / S=120",
+        "콜 IV=20",
+        "풋 IV=0",
+        "프리미엄 차감 전 가치"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "내가격·등가격·외가격",
+      "source": "인쇄 p.333–334 / 현재 p1195 물리 pp.981–984",
+      "scene": "콜과풋의관계를반대방향두표로나눈다.ATM은동일.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "콜의 내가격 관계는 풋에서는 반대가 돼."
+        }
+      ],
+      "labels": [
+        "콜: S>K 내가격 / S=K 등가격 / S<K 외가격",
+        "풋: S<K 내가격 / S=K 등가격 / S>K 외가격"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "가격을 두 부분으로",
+      "source": "인쇄 p.334 / 현재 p1195 물리 pp.981–984",
+      "scene": "옵션가격을IV와TV두덩어리로 나눠 표시한다.최종손익비교축과혼동하지않는다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "옵션가격에서 내재가치를 빼면 시간가치를 구할 수 있네."
+        }
+      ],
+      "labels": [
+        "옵션가격 = 내재가치 + 시간가치",
+        "TV = 옵션가격 − IV"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "교재의 세 가격 비교",
+      "source": "인쇄 p.334 / 현재 p1195 물리 pp.981–984",
+      "scene": "K100콜의S80,100,120표와가격0.09,3.50,20.40을IV/TV열로정확히기재한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재 표는 내재가치가 0이어도 만기 전 가격이 남을 수 있음을 보여 줘."
+        }
+      ],
+      "labels": [
+        "교재 표: 행사가격 100인 콜",
+        "S80: IV0 / TV0.09 / 가격0.09",
+        "S100: IV0 / TV3.50 / 가격3.50",
+        "S120: IV20 / TV0.40 / 가격20.40"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "시간가치의 비교 조건",
+      "source": "인쇄 p.334·336 / 현재 p1195 물리 pp.981–984",
+      "scene": "등가격예시를강조하되다른조건동일이라는꼬리표.만기전과만기순간을구별하는달력.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "이 교재의 비교에서는 등가격의 시간가치가 크네. 비교 조건도 같아야겠어."
+        }
+      ],
+      "labels": [
+        "교재의 다른 조건 동일한 비교",
+        "남은 시간과 가격 변화 가능성",
+        "모든 상품의 무조건적 순위로 일반화하지 않기"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "콜 시간가치 계산",
+      "source": "인쇄 p.335 / 현재 p1195 물리 pp.981–984",
+      "scene": "S103 K100 C3.5조건에서 IV3먼저구하고TV0.5계산.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "두 번 나눠 계산하자. 먼저 내재가치, 그다음 시간가치야."
+        }
+      ],
+      "labels": [
+        "교재 예제: S103 / K100 / 콜가격3.5",
+        "IV=103−100=3",
+        "TV=3.5−3=0.5포인트"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "풋 시간가치 계산",
+      "source": "인쇄 p.336 / 현재 p1195 물리 pp.981–984",
+      "scene": "별도풋예제S253K250P1에서음수−3을0과비교해0으로설정한뒤TV1을계산한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "풋 내재가치는 0이라서 이 예제의 가격 1이 전부 시간가치네."
+        }
+      ],
+      "labels": [
+        "별도 교재 예제: S253 / K250 / 풋가격1",
+        "IV=max(250−253,0)=0",
+        "TV=1−0=1포인트"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "손익분기점은 행사 가격과 달라",
+      "source": "인쇄 p.336 / 현재 p1195 물리 pp.981–984",
+      "scene": "별도콜예제K100C3.만기ST축에서K100과BEP103을다른세로선으로표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "만기 103에서는 손익이 0이고, 비용을 제외한 이 예제에서 그보다 높아야 이익이야."
+        }
+      ],
+      "labels": [
+        "별도 교재 예제: K100 / 매수 프리미엄3",
+        "BEP=100+3=103",
+        "S_T=103: 손익0",
+        "S_T>103: 이익"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "가치와 손익을 분리해 기억",
+      "source": "인쇄 p.333–336 / 현재 p1195 물리 pp.981–984",
+      "scene": "세메모IV/TV/순손익을분리하고다음합성전략으로연결한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "내가격이라고 이미 순이익이 확정된 건 아니네. 지급 프리미엄과 시점도 봐야겠어."
+        }
+      ],
+      "labels": [
+        "가치의 구성과 거래 손익을 구별",
+        "서로 다른 교재 예제의 수치를 섞지 않기",
+        "다음: 옵션 방향성 전략"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 and06-01through09 complete"
+}

@@ -1,0 +1,39 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "reviewedAt": "2026-11-16",
+  "notes": "11컷 PNG와 실제690px JPG를 전부 시각 검토했다. 원전302–303의 다섯전략·면역조건·듀레이션예제·69.62근사와 위험표현을 대조했다.006/009/010/011을 원전과 대본에 맞춰 교정하고 이전원화를보존했다. 출력파일규격과manifest도 확인했다.",
+  "sourceEvidence": "source_review.md",
+  "visualReview": {
+    "pngCuts": 11,
+    "jpgCuts": 11,
+    "allActualJpgsOpened": true
+  },
+  "exportTotalBytes": 3175334,
+  "corrections": [
+    {
+      "cut": "05-18-006",
+      "original": "revisions/05-18-006-before-duration-fix.png",
+      "change": "자산비중 도식을 투자기간·듀레이션 일치/이탈/재정렬로 교정"
+    },
+    {
+      "cut": "05-18-009",
+      "original": "revisions/05-18-009-before-floor-label-fix.png",
+      "change": "Floor를 최소자산가치로 통일"
+    },
+    {
+      "cut": "05-18-010",
+      "original": "revisions/05-18-010-before-cost-note-fix.png",
+      "change": "잘못 생성된 비용 비율·출처를 삭제하고 원전의 액티브 대비 비용 이점으로 교정"
+    },
+    {
+      "cut": "05-18-011",
+      "original": "revisions/05-18-011-before-strategy-recap.png",
+      "change": "일반 투자습관 카드를 다섯 소극적 채권전략으로 교체"
+    }
+  ],
+  "naverOfficialGuide": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS"
+}

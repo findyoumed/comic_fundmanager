@@ -1,0 +1,8 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "Reviewed all 8 ordered 690x1035 JPG exports; total 2022076 bytes. Formula SRc > SRp ? Corr(c,p) and example SRp=0.50, SRc=0.35, Corr<0.7 (choice 0.6) checked against p1192 printed pp.210?211 only. Naver official Challenge Webtoon upload guide checked 2026-11-15."
+}

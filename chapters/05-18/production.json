@@ -1,0 +1,279 @@
+{
+  "id": "05-18",
+  "title": "채권운용전략-(2) 소극적인 전략",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 18 채권운용전략-(2) 소극적인 전략",
+  "sourcePage": "인쇄 pp.302–303 / 현재 p1195 PDF 물리 pp.950–951. 보완302 원본은 sources/supplements/chapter05/printed-302.png에 보존.",
+  "sourceDetails": "2026-11-16 사용자 수동 보완0950.png의 Topic18 시작 인쇄302와 기존0948.png의 인쇄303 전체를 시각 대조했다. 원전 물리p.1172는 인쇄304 보충문제 구간으로 Topic본문과 구분한다. 파일명 순서로 원전 순서를 추정하지 않는다.",
+  "goal": "다섯 소극적 전략을 구분하고 듀레이션 면역과 순자산가치 면역의 조건·계산·한계를 설명한다.",
+  "conflict": "금리 예측에 지친 초보가 소극적 전략을 무관리·무위험으로 오해한다. 목표와 위험을 맞추는 과정으로 그 오해를 푼다.",
+  "explanation": "# 소극적 채권운용전략 해설\n\n원전 인쇄302쪽은 사용자 보완PNG,303쪽은 기존p1476 물리1171에서 시각 확인했다. 소극적 전략은 만기보유·사다리형만기·채권면역·현금흐름일치·채권인덱싱으로 구성된다. 이는 시장 금리 예측에 따른 초과수익 추구보다 목표와 기준에 맞춘 운용에 초점을 둔 구분이다.\n\n만기보유는 교재의 약정 이행 등 가정 아래 설명하며 신용위험이나 재투자위험까지 사라진다는 뜻이 아니다. 사다리형은 만기별 동일 비중을 유지하고 만기도래 상환금으로 다시 장기채를 편입한다. 단기·중기·장기 모두 편입하므로 중기채를 비우는 바벨과 다르다.\n\n전통적 면역은 투자기간과 듀레이션을 맞춰 가격손익과 재투자수익의 반대 효과를 상쇄한다. 작은 금리변화와 수익률곡선 이동 등 이론 조건을 전제로 하며 시간이 흐르면 재조정이 필요하다. 교재는 다양한 듀레이션 채권 확보와 비평행 곡선 이동을 한계로 든다.\n\n순자산가치면역은 시장가치 가중 민감도를 맞춘다. 교재의 자산100조·부채60조·부채듀레이션5년에서는100×DA=60×5이므로DA=3년이다. 자산과 부채 듀레이션 자체를 같게 하는 조건이 아니다. 자산200·부채120·DA4.5·DL3,금리4%→6% 예제에서는 ΔK≈−(200×4.5−120×3)/(1.04)×0.02=−10.384615…이고 초기자본80에서 빼면69.615384…→69.62다. 이는 듀레이션에 기초한 근사로 볼록성 등 고차효과는 반영하지 않는다.\n\n상황대응적 면역은 여유가 있을 때 적극 운용하다가 최소자산가치에 도달하면 면역을 개시한다. Floor는 시간에 따라 달라진다. 현금흐름일치는 미래 유출 시점과 금액에 대응하는 유입을 구성하는 방식이다. 채권인덱싱은 교재의 시장효율성 가정 아래 시장 흐름을 따른다. 교재의 보수·거래비용30~40% 비교는 출처 당시 액티브 대비 서술이며 현재 모든상품 수수료의 확정 비율이 아니다.\n",
+  "cuts": [
+    {
+      "title": "소극적인 채권운용전략",
+      "source": "사용자 보완 인쇄p.302: sources/supplements/chapter05/printed-302.png",
+      "scene": "카페. 남자 친구가 시장 금리를 예측하다 지친다. 누나가 목표 달력과 다섯 전략 카드를 펼친다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "금리를 계속 맞혀야만 운용할 수 있어?"
+        },
+        {
+          "speaker": "누나",
+          "text": "소극적 전략은 목표에 맞춰 포트폴리오를 구성하는 데 초점을 둬."
+        }
+      ],
+      "labels": [
+        "만기보유",
+        "사다리형만기",
+        "채권면역",
+        "현금흐름일치",
+        "채권인덱싱"
+      ],
+      "constraints": ""
+    },
+    {
+      "title": "만기보유전략",
+      "source": "사용자 보완 인쇄p.302: sources/supplements/chapter05/printed-302.png",
+      "scene": "채권 매입에서 만기까지 달력. 중간 시장가격은 흔들리지만 약정 현금흐름 표는 구분해 보여준다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재의 만기보유전략은 금리 예측 없이 만기까지 보유하는 방식이야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "그렇다고 신용위험까지 사라지는 건 아니지."
+        }
+      ],
+      "labels": [
+        "만기까지 보유",
+        "약정 이행 등 교재의 가정 확인"
+      ],
+      "constraints": "Do not promise a guaranteed realized return or portray default/reinvestment risk as absent."
+    },
+    {
+      "title": "사다리형만기전략",
+      "source": "사용자 보완 인쇄p.302: sources/supplements/chapter05/printed-302.png",
+      "scene": "단기·중기·장기 세 칸에 같은 높이의 채권 묶음. 만기도래 후 상환금이 장기 구간으로 돌아가는 한 방향 화살표.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "만기별로 같은 비중을 유지하는 전략이야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "단기·중기·장기 모두 편입하네. 바벨과 다르구나."
+        }
+      ],
+      "labels": [
+        "단기·중기·장기",
+        "만기별 동일 비중",
+        "만기도래 → 상환금 재투자"
+      ],
+      "constraints": "Do not invent maturity years, amounts or allocation percentages. All3 bars equalheight."
+    },
+    {
+      "title": "전통적 채권면역",
+      "source": "사용자 보완 인쇄p.302: sources/supplements/chapter05/printed-302.png",
+      "scene": "목표 투자기간 달력과 듀레이션 눈금을 맞춘다. 가격위험과 재투자위험 두 카드가 서로 상쇄하는 개념도.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "투자기간과 듀레이션을 맞춰 금리 변화의 두 효과가 상쇄되도록 하는 거야."
+        },
+        {
+          "speaker": "남자 친구",
+          "text": "매매손익과 재투자수익을 동시에 늘리는 전략은 아니구나."
+        }
+      ],
+      "labels": [
+        "투자기간 = 듀레이션",
+        "가격위험 ↔ 재투자위험",
+        "상쇄를 통한 목표 달성"
+      ],
+      "constraints": "Do not say all risks disappear or both income sources increase."
+    },
+    {
+      "title": "금리 방향과 두 효과",
+      "source": "사용자 보완 인쇄p.302: sources/supplements/chapter05/printed-302.png 및 인쇄p.303: p1476 PDF 물리p.1171, 원본0948.png",
+      "scene": "두 행 비교. 첫째금리상승 가격하락 재투자수익증가. 둘째금리하락 가격상승 재투자수익감소. 누나가 상쇄조건을 가리킨다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "금리 상승 때는 가격하락과 재투자수익 증가가 맞서."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "하락 때는 반대구나. 이론의 조건을 함께 봐야겠어."
+        }
+      ],
+      "labels": [
+        "금리↑: 가격↓ / 재투자수익↑",
+        "금리↓: 가격↑ / 재투자수익↓",
+        "전통적 면역의 가정"
+      ],
+      "constraints": "Make arrows agree exactly with labels; distinguish yield from bondprice."
+    },
+    {
+      "title": "면역에도 점검이 필요해",
+      "source": "인쇄p.303: p1476 PDF 물리p.1171, 원본0948.png",
+      "scene": "정렬된 듀레이션 눈금이 시간경과 후 어긋나고 누나가 다시 맞춘다. 다른 모양의 수익률곡선 카드에는 주의 표시.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "시간과 시장 상황이 바뀌면 리밸런싱이 필요할 수 있어."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "다양한 채권을 구하기 어렵고, 수익률곡선이 평행하게 움직이지 않을 수도 있네."
+        }
+      ],
+      "labels": [
+        "듀레이션 재점검",
+        "리밸런싱",
+        "수익률곡선 이동 가정의 한계"
+      ],
+      "constraints": ""
+    },
+    {
+      "title": "순자산가치면역전략",
+      "source": "인쇄p.303: p1476 PDF 물리p.1171, 원본0948.png",
+      "scene": "교재 예제판. 자산100조 부채60조 자기자본40조. 부채듀레이션5년, 자산듀레이션미지수. 균형식으로3년을 구한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "순자산가치는 자산과 부채의 금리 민감도를 함께 맞춰."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "자산과 부채의 듀레이션 숫자를 그냥 같게 만드는 건 아니네."
+        }
+      ],
+      "labels": [
+        "교재 예제",
+        "자산 100조 / 부채 60조 / 자기자본 40조",
+        "부채 듀레이션 5년",
+        "100 × 자산 듀레이션 = 60 × 5",
+        "자산 듀레이션 = 3년"
+      ],
+      "constraints": "This uses marketvalue-weighted dollar-duration equality, not DA=DL. Avoid inventing newbalanceamounts."
+    },
+    {
+      "title": "자본가치 변화 계산",
+      "source": "인쇄p.303: p1476 PDF 물리p.1171, 원본0948.png",
+      "scene": "교재 수치 한 칸씩 계산. 자산200 부채120 DA4.5 DL3. 금리4%에서6%. 처음자본80에서근사손실10.38빼서69.62.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "금리가 2%포인트 오르는 교재 예제로 계산해 보자."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "변화율은 0.02를 넣고, 결과는 근삿값이네."
+        }
+      ],
+      "labels": [
+        "교재 예제: 자산 200 / 부채 120",
+        "자산 듀레이션 4.5 / 부채 듀레이션 3",
+        "금리 4% → 6%, Δr = 0.02",
+        "초기 자본 = 200 − 120 = 80",
+        "ΔK ≈ −(200×4.5 − 120×3)÷1.04×0.02",
+        "ΔK ≈ −10.38",
+        "변화 후 자본 ≈ 69.62"
+      ],
+      "constraints": "Use very spacious3-4 panels, minimalothertext. Minus sign essential. Do not mislabel69.62 asreturnpercent. All values sourced, no currencyunit added."
+    },
+    {
+      "title": "상황대응적 면역",
+      "source": "인쇄p.303: p1476 PDF 물리p.1171, 원본0948.png",
+      "scene": "목표자산가치 floor선과 여유구간. 여유있을때적극운용, 최소자산가치도달시 면역개시. floor는시간에따라달라짐을 달력으로표시.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "여유가 있을 때 적극적으로 운용하다가 최소자산가치에 도달하면 면역을 시작하는 방식도 있어."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "최소자산가치도 시간에 따라 달라진다는 점을 봐야겠네."
+        }
+      ],
+      "labels": [
+        "상황대응적 면역전략",
+        "최소자산가치 도달 → 면역 개시",
+        "Floor는 시간에 따라 변함"
+      ],
+      "constraints": "No invented floor amounts, triggerpercentages, or guaranteedsafety."
+    },
+    {
+      "title": "현금흐름일치와 인덱싱",
+      "source": "인쇄p.303: p1476 PDF 물리p.1171, 원본0948.png",
+      "scene": "위아래 두장면. 위는시점별 현금유입과 예정유출을 맞춤. 아래는채권시장지수와포트폴리오를나란히비교.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "현금흐름일치는 미래의 지급에 필요한 현금흐름을 맞추는 방식이야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "인덱싱은 시장 전체 흐름을 따르는 전략이고, 교재는 비용상 이점도 설명하네."
+        }
+      ],
+      "labels": [
+        "현금흐름일치: 지급 시점과 금액에 대응",
+        "채권인덱싱: 시장 흐름 추종",
+        "교재는 시장 효율성을 전제로 설명"
+      ],
+      "constraints": "Do not invent expectedreturns or claimcosts universallyfixed. Exact30-40% textbookcostcomparison belongs in explanation with source qualification, not a modernfeeclaim."
+    },
+    {
+      "title": "목표와 위험을 함께 보자",
+      "source": "사용자 보완 인쇄p.302: sources/supplements/chapter05/printed-302.png 및 인쇄p.303: p1476 PDF 물리p.1171, 원본0948.png",
+      "scene": "다섯 전략 카드를 정리한 세사람. 마지막장면은다음파생상품학습을앞두고계약서덮개를여는누나.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "소극적이라는 말이 아무 관리도 안 한다는 뜻은 아니구나."
+        },
+        {
+          "speaker": "누나",
+          "text": "목표 시점과 현금흐름, 위험과 가정을 함께 맞추는 거야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "다음은 파생상품 계약을 알아보자."
+        }
+      ],
+      "labels": [
+        "목표 시점",
+        "현금흐름",
+        "위험과 가정",
+        "마무리 전략 카드: 만기보유 / 사다리형만기 / 채권면역 / 현금흐름일치 / 채권인덱싱"
+      ],
+      "constraints": "Closing of bondchapter; no guaranteedreturns and no personalrecommendation."
+    }
+  ],
+  "historicalSourcePage": "인쇄pp.302–303: 사용자 보완PNG sources/supplements/chapter05/printed-302.png + p1476 PDF 물리p.1171(인쇄303)",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "currentPdfMappingVerifiedAt": "2026-11-16",
+  "status": "complete",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 11,
+    "completedAt": "2026-11-16",
+    "tool": "built-in image_gen"
+  },
+  "scrollAssets": [
+    "scroll/05-18-001.png",
+    "scroll/05-18-002.png",
+    "scroll/05-18-003.png",
+    "scroll/05-18-004.png",
+    "scroll/05-18-005.png",
+    "scroll/05-18-006.png",
+    "scroll/05-18-007.png",
+    "scroll/05-18-008.png",
+    "scroll/05-18-009.png",
+    "scroll/05-18-010.png",
+    "scroll/05-18-011.png"
+  ]
+}

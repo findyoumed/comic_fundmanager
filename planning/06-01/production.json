@@ -1,0 +1,155 @@
+{
+  "id": "06-01",
+  "title": "파생상품의 개요",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 01 파생상품의 개요",
+  "sourcePage": "인쇄pp.310–311 / p1476 PDF물리pp.1186–1187",
+  "sourceDetails": "2026-11-16 본문2쪽과 물리1188의 다음Topic시작을 시각 확인했다. 장내/장외 상품예시는 교재기준이며 현재전세계상장현황으로 일반화하지 않는다.",
+  "goal": "기초자산·거래장소·계약종류·거래목적이라는 네 분류기준을 구별한다.",
+  "conflict": "주식·선물·장외·헤지를 한 층위의 종류로 생각하는 초보가 분류기준을 구별한다.",
+  "explanation": "기초자산, 거래 장소, 계약 종류, 거래 목적은 같은 층위의 분류가 아니다. 하나의 계약을 여러 기준으로 각각 설명할 수 있다. 계약 가치가 기초자산에서 파생된다는 설명은 계약이 무가치하다는 뜻이 아니다. 손익 방향은 계약 구조와 매수·매도 위치에 따라 달라진다.\n\n인쇄 p.311의 국내 상장상품 예시나 신용파생상품의 장외 중심 설명은 교재의 서술 시점에 따른 사례다. 이번 대본은 이를 현재 시장의 전 세계적·영구적 규칙으로 일반화하지 않는다. 최신 상장 현황을 추가하려면 공식 자료를 별도로 확인해야 한다.\n\n투기·헤지·차익·스프레드는 거래 목적과 구성에 관한 개요다. 위험을 줄이는 전략도 남는 위험이 있으며, 이론상 차익거래의 조건과 실제 거래의 체결·비용·상대방 위험을 혼동하지 않는다. 후속 회차에서 구조와 조건을 단계적으로 설명한다.",
+  "cuts": [
+    {
+      "title": "이름표를 한 줄로 놓지 마",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "카페 탁자. 남자 친구가 ‘주식·선물·장외·헤지’ 카드를 한 줄에 놓는다.\n남자 친구: “다 파생상품 종류라는데, 왜 분류가 안 맞지?”\n누나: “카드마다 답하는 질문이 달라. 기준부터 나누자.”\n여자 친구: “과일, 배달, 저녁 식사를 같은 칸에 넣었네.”\n연출: 혼란스러운 카드 아래로 빈 분류판을 보여 다음 컷으로 연결. 제목은 이 컷에만 ‘파생상품의 개요’.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "다 파생상품 종류라는데, 왜 분류가 안 맞지?"
+        },
+        {
+          "speaker": "누나",
+          "text": "카드마다 답하는 질문이 달라. 기준부터 나누자."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "과일, 배달, 저녁 식사를 같은 칸에 넣었네."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    },
+    {
+      "title": "무엇의 변화와 연결될까",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "누나가 ‘기초자산’과 ‘계약 가치’를 연결한다.\n누나: “파생상품의 가치는 기초자산의 가격이나 지표 변화와 연결돼.”\n남자 친구: “계약 자체가 아무 가치 없다는 뜻은 아니구나.”\n도식: 기초자산·지표 → 계약 가치. 상승 화살표로 그리지 않는다. 가치가 늘 같은 방향으로 움직인다는 오해를 피한다.\n출처: 인쇄 p.310 정의.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "파생상품의 가치는 기초자산의 가격이나 지표 변화와 연결돼."
+        },
+        {
+          "speaker": "남자 친구",
+          "text": "계약 자체가 아무 가치 없다는 뜻은 아니구나."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    },
+    {
+      "title": "기초자산 다섯 갈래",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "여자 친구가 주식·금리/채권·통화·상품·신용위험 다섯 카드를 펼친다.\n여자 친구: “무엇의 위험이나 가격에 연결됐는지 묻는 기준이네.”\n누나: “맞아. ‘주·채·통·상·신’으로 기억해도 좋아.”\n연출: 기초자산이 기초 계약 종류와 섞이지 않게 한 카드에 한 항목만 표기한다.\n출처: 인쇄 pp.310–311.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "무엇의 위험이나 가격에 연결됐는지 묻는 기준이네."
+        },
+        {
+          "speaker": "누나",
+          "text": "맞아. ‘주·채·통·상·신’으로 기억해도 좋아."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    },
+    {
+      "title": "어디에서 거래할까",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "탁자 왼쪽은 ‘장내’, 오른쪽은 ‘장외’ 표지. 누나가 동일한 ‘통화’ 카드를 양쪽으로 연결한다.\n누나: “거래 장소에 따른 분류는 장내와 장외야.”\n여자 친구: “통화도 장외 계약의 기초자산이 될 수 있어.”\n하단 작은 설명: 교재 예시 — 통화선물·통화옵션 / 선물환.\n연출: 장외를 위험이 없거나 불법인 장소처럼 묘사하지 않는다.\n출처: 인쇄 p.311 표와 중요 상자.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "거래 장소에 따른 분류는 장내와 장외야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "통화도 장외 계약의 기초자산이 될 수 있어."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    },
+    {
+      "title": "어떤 계약일까",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "누나가 선도·선물·옵션·스왑 네 카드를 별도의 줄에 놓는다.\n누나: “이건 거래하는 계약의 종류를 묻는 기준이지.”\n남자 친구: “기초자산 이름하고 한 줄로 비교하면 안 되겠네.”\n연출: 상세 손익곡선은 후속 Topic에서 설명하므로 이 컷에 임의로 추가하지 않는다.\n출처: 인쇄 p.310 분류.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이건 거래하는 계약의 종류를 묻는 기준이지."
+        },
+        {
+          "speaker": "남자 친구",
+          "text": "기초자산 이름하고 한 줄로 비교하면 안 되겠네."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    },
+    {
+      "title": "같은 계약도 목적은 다를 수 있어",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "남자 친구가 ‘이익 기회’ 카드를, 여자 친구가 ‘이미 가진 위험 줄이기’ 카드를 든다.\n누나: “위험을 받아들이며 이익을 노리면 투기, 기존 위험을 상쇄하려면 헤지야.”\n여자 친구: “헤지도 모든 위험을 없애 주는 보장은 아니야.”\n연출: 계약에 ‘투기 전용’, ‘헤지 전용’ 도장을 찍지 않는다.\n출처: 인쇄 p.311 거래전략. 위험 보장 방지 문장은 편집 설명.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "위험을 받아들이며 이익을 노리면 투기, 기존 위험을 상쇄하려면 헤지야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "헤지도 모든 위험을 없애 주는 보장은 아니야."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    },
+    {
+      "title": "차익과 스프레드도 구분",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "누나가 두 시장의 가격 연결판과 두 자산의 상대가격 판을 따로 보여 준다.\n누나: “차익거래는 가격 관계의 괴리를 이용해. 이론상 무위험이라는 설명에는 조건이 있어.”\n여자 친구: “스프레드는 두 가격의 차이를 거래하니 상대가격 위험이 남아.”\n연출: 돈이 반드시 늘어나는 그림, 무조건 수익이라는 도장을 쓰지 않는다. 임의 수익률을 넣지 않는다.\n출처: 인쇄 p.311 거래전략. 실무 위험과 이론 조건의 구별은 편집 설명.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "차익거래는 가격 관계의 괴리를 이용해. 이론상 무위험이라는 설명에는 조건이 있어."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "스프레드는 두 가격의 차이를 거래하니 상대가격 위험이 남아."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    },
+    {
+      "title": "질문 네 개로 정리",
+      "source": "인쇄p.310–311 / p1476물리1186–1187",
+      "scene": "세 사람이 분류판을 완성한다.\n분류판: 무엇에 연결? 기초자산 / 어디서 거래? 장내·장외 / 어떤 계약? 선도·선물·옵션·스왑 / 왜 거래? 투기·헤지·차익·스프레드.\n남자 친구: “이제 이름을 외우기 전에 어떤 질문인지 보겠어.”\n누나: “다음은 선도계약이 실제로 어떤 약속인지 보자.”\n연출: 분류 기준만 정리하고 반복 퀴즈나 투자 권유를 넣지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "이제 이름을 외우기 전에 어떤 질문인지 보겠어."
+        },
+        {
+          "speaker": "누나",
+          "text": "다음은 선도계약이 실제로 어떤 약속인지 보자."
+        }
+      ],
+      "labels": [],
+      "constraints": "Use only supplied Korean dialogue and labels. No invented numbers. No guaranteed returns. Characters match chapters/14/014.png; preserve all script caveats."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 complete"
+}

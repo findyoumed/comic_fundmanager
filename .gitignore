@@ -1,3 +1,4 @@
+# [LOG: 20261116_1726]
 # Regenerable source renders, previews, and one-off work files
 /tmp/
 # Derived print/export artifacts; canonical webtoon art lives in chapters/
@@ -5,3 +6,8 @@
 # Python bytecode caches
 __pycache__/
 *.py[cod]
+
+# Windows system files
+desktop.ini
+Desktop.ini
+Thumbs.db

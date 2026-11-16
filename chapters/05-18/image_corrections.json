@@ -1,0 +1,26 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-16",
+  "corrections": [
+    {
+      "cut": "05-18-006",
+      "original": "revisions/05-18-006-before-duration-fix.png",
+      "change": "자산비중 도식을 투자기간·듀레이션 일치/이탈/재정렬로 교정"
+    },
+    {
+      "cut": "05-18-009",
+      "original": "revisions/05-18-009-before-floor-label-fix.png",
+      "change": "Floor를 최소자산가치로 통일"
+    },
+    {
+      "cut": "05-18-010",
+      "original": "revisions/05-18-010-before-cost-note-fix.png",
+      "change": "잘못 생성된 비용 비율·출처를 삭제하고 원전의 액티브 대비 비용 이점으로 교정"
+    },
+    {
+      "cut": "05-18-011",
+      "original": "revisions/05-18-011-before-strategy-recap.png",
+      "change": "일반 투자습관 카드를 다섯 소극적 채권전략으로 교체"
+    }
+  ]
+}

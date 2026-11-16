@@ -1,0 +1,149 @@
+{
+  "id": "06-02",
+  "title": "선도(Forward)거래",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 02 선도(Forward)거래",
+  "sourcePage": "인쇄pp.312–313 / p1476 PDF물리pp.1188–1189",
+  "sourceDetails": "2026-11-16 본문312·313 전체와 다음Topic시작314(물리1190)를 시각 확인했다. 배추 예제는 원전 조건을 사용한 재구성이며 문제 선택지 복제 아님.",
+  "goal": "선도와 선물을 구분하고 미래 거래 약속의 계약손익·헤지 목적·신용위험을 설명한다.",
+  "conflict": "미래 원재료 가격이 걱정인 초보가 가격 고정 계약을 무위험 수익으로 오해한다.",
+  "explanation": "# 선도거래 해설\n\n원전 인쇄312–313쪽(p1476물리1188–1189)을 전체 시각 대조했으며 다음 물리1190에서 Topic03 인쇄314 시작을 확인했다. 선도는 미래 거래 조건을 미리 정하는 맞춤형 장외계약이다. 선물과 이름이 비슷하지만 장내·표준화라는 구분이 다르다. 선도는 상대매매이며 유동성·신용위험을 고려해야 한다. 교재는 선도의 실물인수도를 일반적 특징으로 설명하며 모든 선도가 반드시 실물인수도라는 규칙으로 확대하지 않는다.\n\n교재 p.312의 배추10,000포기,계약가격3,000원,3개월 후 시장가격5,000원 조건을 재구성했다. 시장가격 대비 포기당 계약손익은 매수자+2,000원,매도자−2,000원이다. 이는 생산비·가공비·다른 사업현금흐름을 고려한 이익이 아니다. 계약에 따른 인도와 현금 지급을 별도 현금차액결제처럼 묘사하지 않는다.\n\np.313에는 시장가격7,000원인 별도 사례가 있으나 이번 이야기의5,000원 조건과 섞지 않았다. 사후적 제로섬은 비용 등을 제외한 같은 계약 양측 손익의 반대 관계이며 양측의 위험관리 효용이 모두 없다는 뜻이 아니다. 가격위험을 관리하더라도 상대방이 약속을 이행하지 못하는 신용위험이 남는다.\n",
+  "cuts": [
+    {
+      "title": "미래의 거래를 지금 약속",
+      "source": "인쇄pp.312 / p1476물리pp.1188–1189",
+      "scene": "김치 재료 가격을 걱정하는 여자 친구에게 누나가 생산자와 가공업자의 계약을 설명한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "지금 조건을 정하고 미래에 거래하는 약속부터 보자."
+        }
+      ],
+      "labels": [
+        "교재 예제 재구성",
+        "3개월 후 배추 10,000포기",
+        "포기당 계약가격 3,000원"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    },
+    {
+      "title": "계약과 시장가격은 달라",
+      "source": "인쇄pp.312 / p1476물리pp.1188–1189",
+      "scene": "계약가격 카드와 인수도 시점 시장가격 카드를 분리한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "교재처럼 인수도 때 시장가격이 5,000원이 되어도 약속한 가격은 3,000원이네."
+        }
+      ],
+      "labels": [
+        "계약가격 3,000원",
+        "인수도 때 시장가격 5,000원"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    },
+    {
+      "title": "시장가격 대비 계약손익",
+      "source": "인쇄pp.312 / p1476물리pp.1188–1189",
+      "scene": "계약 매수자·매도자 두 줄을 나란히 보여 같은 차이의 반대 부호를 확인한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "시장가격 대비 계약손익은 매수자에게 플러스, 매도자에게 마이너스야."
+        }
+      ],
+      "labels": [
+        "포기당 매수자: 5,000 − 3,000 = +2,000원",
+        "포기당 매도자: 3,000 − 5,000 = −2,000원",
+        "생산·가공비를 뺀 사업이익과 구별"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    },
+    {
+      "title": "맞춤형 장외 계약",
+      "source": "인쇄pp.312 / p1476물리pp.1188–1189",
+      "scene": "수량·가격·인도시점이라는 계약 항목과 당사자 간 약속을 보여준다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "선도는 선물과 달리 장외에서 조건을 맞춤으로 정할 수 있구나."
+        }
+      ],
+      "labels": [
+        "선도: 장외·맞춤형",
+        "선물: 장내·표준화",
+        "계약 종류와 거래 장소를 구별"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    },
+    {
+      "title": "맞춤형의 다른 면",
+      "source": "인쇄pp.312–313 / p1476물리pp.1188–1189",
+      "scene": "맞춤 계약 서류를 다시 거래하려는 친구와 조건을 비교하는 누나.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재는 선도가 표준화되지 않아 유동성이 부족할 수 있다고 설명해."
+        }
+      ],
+      "labels": [
+        "선도: 상대매매",
+        "선물: 경쟁매매",
+        "선도는 일반적으로 실물인수도"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    },
+    {
+      "title": "위험을 줄이는 목적",
+      "source": "인쇄pp.313 / p1476물리pp.1188–1189",
+      "scene": "생산자는 판매대금 예측, 가공업자는 원재료 매입조건 예측이라는 두 말풍선.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "나중 가격을 못 맞혀도 판매·매입 조건을 계획하는 데 도움이 되겠네."
+        }
+      ],
+      "labels": [
+        "가격위험 회피 목적",
+        "이익을 보장하는 계약은 아님"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    },
+    {
+      "title": "손익이 반대라는 뜻",
+      "source": "인쇄pp.312–313 / p1476물리pp.1188–1189",
+      "scene": "같은 기초자산의 계약 매수·매도 손익선을 보여주되 가격축과 손익축, 영점에서 같은 손익 크기임을 표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "같은 계약의 두 쪽 손익은 반대야. 교재는 사후적 제로섬이라고 해."
+        }
+      ],
+      "labels": [
+        "같은 계약·같은 수량",
+        "매수자 계약손익 + 매도자 계약손익 = 0",
+        "비용 등 제외한 계약손익 비교"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    },
+    {
+      "title": "약속을 지킬 수 있을까",
+      "source": "인쇄pp.312–313 / p1476물리pp.1188–1189",
+      "scene": "불리해진 계약의 이행을 걱정하는 친구와 신용위험 카드를 보여주는 누나.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "불리해진 상대방이 약속을 지키지 못할 위험도 봐야 해."
+        }
+      ],
+      "labels": [
+        "장외 선도의 상대방 신용위험",
+        "가격위험을 줄여도 모든 위험이 없어지진 않음",
+        "다음: 선물거래의 메커니즘"
+      ],
+      "constraints": "No invented prices, maturities or return percentages. Label textbook example as reconstructed. Use approvedreference chapters/14/014.png; no copying reference text. No guarantee. Contract payoff is relative to spot price, not business profit."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 complete;06-01 complete"
+}

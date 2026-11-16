@@ -1,0 +1,50 @@
+{
+  "id": "05-16",
+  "title": "수익률곡선의 기간구조이론",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 16 수익률곡선의 기간구조이론",
+  "sourcePage": "인쇄 pp.292–297 (p1192 PDF 물리 pp.939–944)",
+  "sourceDetails": "p1192 PDF 물리 pp.939–944, 인쇄 pp.292–297을 시각 대조했다. 불편기대이론은 위험중립 가정에서 내재 선도이자율을 미래 현물이자율 기대값과 같게 보고 장기수익률을 기하평균으로 설명한다. 유동성선호가설은 양의 기간별 유동성 프리미엄을 더하며 만기가 길수록 증가한다고 설명한다. 편중기대이론은 금리 기대와 프리미엄을 함께 반영하고 상승·하락·수평·굴곡형을 설명할 수 있다. 시장분할이론은 만기별 하위시장의 수요와 공급으로 수익률이 결정된다고 본다. 원문 p.296 예시 결과는 약 6.26%, 내재 프리미엄 약 0.26%p이며 별도 p.297 예시는 7.5%와 약 6%의 차이 1.5%p다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "수익률곡선 기간구조를 설명하는 네 이론의 전제와 차이를 구분하고 유동성 프리미엄 예제를 해석한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.json",
+  "status": "complete",
+  "plannedCutCount": 10,
+  "scrollAssets": [
+    "scroll/05-16-001.png",
+    "scroll/05-16-002.png",
+    "scroll/05-16-003.png",
+    "scroll/05-16-004.png",
+    "scroll/05-16-005.png",
+    "scroll/05-16-006.png",
+    "scroll/05-16-007.png",
+    "scroll/05-16-008.png",
+    "scroll/05-16-009.png",
+    "scroll/05-16-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-16",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

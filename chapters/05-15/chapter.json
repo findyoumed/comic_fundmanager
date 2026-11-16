@@ -1,0 +1,50 @@
+{
+  "id": "05-15",
+  "title": "현물이자율과 선도이자율",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 15 현물이자율과 선도이자율",
+  "sourcePage": "인쇄 pp.290–291 (p1192 PDF 물리 pp.937–938)",
+  "sourceDetails": "p1192 PDF 물리 pp.937–938을 직접 시각 확인했다. 상승형 수익률곡선 예에서 S1=5%, 액면 10,000원, 표면금리 6%, 2년 만기 연단위 후급 이표채 가격 9,500원이다. 약식 YTM2=8.72%, 2년 현물이자율 S2=8.96%, 1년 후 시작 1년 선도이자율 f1,1=13.07%. 순서는 선도>현물>만기수익률. 불편기대이론은 장기채수익률을 단기채수익률과 선도수익률의 기하평균으로 설명한다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "현물이자율, 만기수익률, 선도이자율을 현금흐름과 적용 기간에 따라 구분하고 원문 예제로 값을 계산한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.json",
+  "status": "complete",
+  "plannedCutCount": 10,
+  "scrollAssets": [
+    "scroll/05-15-001.png",
+    "scroll/05-15-002.png",
+    "scroll/05-15-003.png",
+    "scroll/05-15-004.png",
+    "scroll/05-15-005.png",
+    "scroll/05-15-006.png",
+    "scroll/05-15-007.png",
+    "scroll/05-15-008.png",
+    "scroll/05-15-009.png",
+    "scroll/05-15-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-15",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

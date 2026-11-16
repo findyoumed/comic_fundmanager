@@ -1,0 +1,28 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "reviewedAt": "2026-11-16",
+  "notes": "11컷 PNG와 실제690px JPG를 모두 시각 확인했다. 인쇄298–301 전체 대조. 기존7컷 해시 불변,003 방향 및005 작은 곡선만 교정하고 원본 보존,010–011 추가. 스프레드 지수4와%p 단위, 교체 방향, 바벨/불릿 금리·가격·구성, 손실 가능성 및 승인 캐릭터를 확인했다.",
+  "sourceEvidence": "source_review.md",
+  "visualReview": {
+    "pngCuts": 11,
+    "jpgCuts": 11,
+    "allJpgsOpened": true
+  },
+  "preservation": {
+    "unchangedOriginals": 7,
+    "correctedWithOriginalsPreserved": [
+      "05-17-003",
+      "05-17-005"
+    ],
+    "newCuts": [
+      "05-17-010",
+      "05-17-011"
+    ]
+  },
+  "exportTotalBytes": 3013640,
+  "naverOfficialGuide": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS"
+}

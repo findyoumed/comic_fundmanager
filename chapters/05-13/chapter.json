@@ -1,0 +1,50 @@
+{
+  "id": "05-13",
+  "title": "볼록성(Convexity)",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 13 볼록성(Convexity)",
+  "sourcePage": "교재 인쇄 pp.281–286 (p1192 PDF 물리 pp.928–933)",
+  "sourceDetails": "p1192 PDF 물리 pp.928–933을 직접 렌더링해 확인했다. 볼록성은 수익률에 대한 채권가격 함수의 2차 도함수를 가격으로 나눈 값으로 설명된다. 듀레이션은 접선에 따른 선형 추정이며 볼록성 항은 1/2×Convexity×(Δr)^2이다. 전체 근사 가격변동률은 듀레이션 효과와 볼록성 효과의 합이다. 원문 예제에는 수정듀레이션 3.24, 수익률 2%p 하락, 가격상승률 7.32%, 볼록성 42가 나온다. 다른 예제는 볼록성 8.94와 Δr=-0.01에서 볼록성 효과 +0.0447%를 보인다. 인쇄 p.284에는 산술 오기가 있으므로 source_review.md를 확인하고 이미지에 오기 숫자를 옮기지 않는다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "채권가격-수익률 곡선의 굽음이 듀레이션의 직선 근사 오차를 어떻게 보정하는지 설명하고, 원문 예제로 볼록성 항을 계산한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 10,
+  "scrollAssets": [
+    "scroll/05-13-001.png",
+    "scroll/05-13-002.png",
+    "scroll/05-13-003.png",
+    "scroll/05-13-004.png",
+    "scroll/05-13-005.png",
+    "scroll/05-13-006.png",
+    "scroll/05-13-007.png",
+    "scroll/05-13-008.png",
+    "scroll/05-13-009.png",
+    "scroll/05-13-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-13",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

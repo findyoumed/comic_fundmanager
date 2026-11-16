@@ -1,0 +1,155 @@
+{
+  "id": "06-04",
+  "title": "선물(Futures)거래의 경제적 기능",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 04 선물(Futures)거래의 경제적 기능",
+  "sourcePage": "인쇄pp.317–318 / p1476물리pp.1194–1195",
+  "sourceDetails": "2026-11-16 본문317–318 및다음Topic경계319 시각대조. 부외거래 서술은IFRS공식자료로현행인식원칙을별도보완.",
+  "goal": "선물시장의 경제적기능을 구분하고 헤지방향·교재의콘탱고정의·회계서술의적용범위를 설명한다.",
+  "conflict": "선물시장기능을 모두 수익증가라고 생각하는 초보가 위험과 가격정보·회계구분을배운다.",
+  "explanation": "# 선물거래의 경제적 기능 해설\n\n인쇄317–318쪽(p1476물리1194–1195)을 시각 확인했고, 물리1196에서 Topic05 인쇄319 시작을 확인했다. 교재가 제시한 주요 기능은 위험 전가, 가격 발견, 효율성 증대, 거래비용 절감이다.\n\n달러를 수취할 수출업자는 환율 하락위험에 대해 매도헤지를, 달러를 지급할 수입업자는 환율 상승위험에 대해 매수헤지를 구분한다. 실제 거래 추천이 아니라 교재 사례의 방향을 설명한다. 가격 발견은 예상과 정보가 시장가격에 반영되는 기능이며 미래 가격을 확실히 맞힌다는 뜻이 아니다. 차익거래는 이론적 관계와 시장가격 간 괴리를 줄이는 효율성 기능에 연결된다. 비용·거래 제약을 무시한 수익 보장으로 해석하지 않는다.\n\n계약금액1억원·개시증거금률15%·증거금1500만원은 교재 예제의 가정이다. 낮은 증거금은 계약 전체 가격위험이 작다는 뜻이 아니며 현재 특정 상품의 증거금률이나 규격을 안내하지 않는다.\n\n인쇄318쪽은 부외거래라는 표현과 주석 기재를 설명한다. 이 서술을 현행 IFRS에서 파생상품을 모두 재무상태표 밖에 둔다는 규칙으로 일반화하지 않는다. IFRS 공식 IFRS9 설명은 금융상품 계약의 당사자가 될 때 금융자산·금융부채를 재무상태표에 인식하는 원칙과 최초 공정가치 측정을 설명한다. 개별 상품의 적용범위와 공시 문제는 구분해야 한다. 현재 기준 보완은 원전 인용과 분리해 명시한다.\n\n교재의 이 Topic은 F를 선물가격,S를 현물가격으로 두고 F>S를 콘탱고,F<S를 백워데이션으로 정의한다. 만기가 서로 다른 선물계약 간 기울기 설명으로 도식을 임의 변경하지 않는다. 다음 회차에서는 선물 균형가격과 자금조달·보유 조건을 별도로 설명한다.\n\n공식 보완 자료(2026-11-16 확인): https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/\n",
+  "cuts": [
+    {
+      "title": "선물시장은 어떤 일을 할까",
+      "source": "인쇄pp.317 / p1476물리pp.1194–1195",
+      "scene": "누나가 지난 회차의 계약 장치를 접고 경제적기능 지도 네 칸을 펼친다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "계약이 어떻게 작동하는지 봤으니, 시장에서 어떤 역할을 하는지 나눠 보자."
+        }
+      ],
+      "labels": [
+        "위험 전가",
+        "가격 발견",
+        "효율성 증대",
+        "거래비용 절감"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "가격위험을 옮기는 헤지",
+      "source": "인쇄pp.317–318 / p1476물리pp.1194–1195",
+      "scene": "달러를 받을 수출업자와 달러를 지급할 수입업자를 나란히 보여준다. 방향은 말풍선별로 분리한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "달러를 받을 수출업자는 매도헤지, 지급할 수입업자는 매수헤지로 구별하네."
+        }
+      ],
+      "labels": [
+        "교재 예시",
+        "수출업자: 달러 수취 → 매도헤지",
+        "수입업자: 달러 지급 → 매수헤지"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "가격 발견",
+      "source": "인쇄pp.317 / p1476물리pp.1194–1195",
+      "scene": "미래 거래를 바라보는 여러참가자의정보가선물시장가격으로모이는개념도. 미래실현가격과같다고그리지않는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "시장의 경쟁으로 형성된 가격에 참가자들의 미래 예상이 반영되는 거야."
+        }
+      ],
+      "labels": [
+        "미래 예상과 정보 반영",
+        "예상은 미래 실현가격의 보장이 아님"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "차익거래와 효율성",
+      "source": "인쇄pp.317–318 / p1476물리pp.1194–1195",
+      "scene": "현물가격과선물이론가격관계가어긋난그림에서거래를거쳐괴리가줄어드는개념도. 임의숫자금지.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "교재는 차익거래가 가격 관계의 괴리를 줄이는 기능과 연결된다고 설명하네."
+        }
+      ],
+      "labels": [
+        "시장가격과 이론가격의 괴리",
+        "차익거래 → 괴리 축소",
+        "효율성 증대"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "적은 증거금과 거래비용",
+      "source": "인쇄pp.317 / p1476물리pp.1194–1195",
+      "scene": "계약금액1억원/개시증거금1500만원/15%는교재가정임을큰상단배지로표시한다. 아래기존보유현물과선물매도방식을비교하되수익보장금지.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재는 낮은 증거금과 선물매도를 통한 비용상 이점을 들어. 하지만 손실위험이 작다는 뜻은 아니야."
+        }
+      ],
+      "labels": [
+        "교재 가정: 계약금액 1억원",
+        "개시증거금률 15% → 1,500만원",
+        "현행 상품 규격을 뜻하지 않음"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "부외거래라는 설명은 구분해서",
+      "source": "인쇄pp.318 + IFRS9 공식 설명 / p1476물리pp.1194–1195",
+      "scene": "책갈피에는교재서술,다른설명판에는현재기준보완.부외거래단어를삭제하지않고서술과교정분리.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "교재의 부외거래 설명을, 지금도 파생상품은 주석에만 적는다는 뜻으로 읽으면 안 되겠네."
+        }
+      ],
+      "labels": [
+        "교재 서술: 부외거래",
+        "현재 기준 보완: IFRS 9 인식 원칙",
+        "금융자산·부채 인식과 주석 공시는 구별"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "콘탱고와 백워데이션",
+      "source": "인쇄pp.318 / p1476물리pp.1194–1195",
+      "scene": "현재현물가격S와동일시점선물가격F카드의높이를두경우로나눠비교한다.만기별선물곡선으로바꾸지않는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이 교재는 선물가격과 현물가격의 관계로 두 용어를 설명해."
+        }
+      ],
+      "labels": [
+        "교재의 비교 기준: 선물 F / 현물 S",
+        "F > S: 콘탱고",
+        "F < S: 백워데이션"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "기능과 가격의 관계",
+      "source": "인쇄pp.317–318 / p1476물리pp.1194–1195",
+      "scene": "네기능지도와기타교재개념을정리한다.남자친구가선물가격이왜현물과다른지질문하고누나가다음회차로연결한다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "그럼 선물가격은 어떤 조건에서 균형을 이루는 거야?"
+        }
+      ],
+      "labels": [
+        "기능을 구분하고 가정을 확인",
+        "다음: 선물거래의 균형가격"
+      ],
+      "constraints": "No invented returns, prices or allocation percentages. Preserve textbook-assumption and current-accounting distinction. Do not imply guaranteed profit, zero risk or off-balance-only treatment today. Use approvedreference chapters/14/014.png."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 and06-01through03 complete",
+  "officialSupplement": {
+    "url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/",
+    "verifiedAt": "2026-11-16",
+    "purpose": "Do not present textbook off-balance wording as universal current IFRS treatment"
+  }
+}

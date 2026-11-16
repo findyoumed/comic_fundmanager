@@ -1,0 +1,20 @@
+[
+  {
+    "cut": "05-17-003",
+    "prompt": "Minimal edit: reverse only the two bottom-panel shoulder-effect arrows to left/down; preserve all other content.",
+    "original": "revisions/05-17-003-before-direction-fix.png"
+  },
+  {
+    "cut": "05-17-010",
+    "prompt": "Use case illustration-story. Create ONE new finished Korean vertical-scroll educational webtoon image, portrait1024x1536, 3spacious panels, matching approved reference ONLY character identities/style, never its text. Sister long low ponytail, beige blazer blacktop nofreckles; boy shortstocky spikyhair thickeyebrows orangehoodie; girl bob freckles tealoveralls. Warm ink watercolor cafe, large accurate Korean text legible at690px. No IDs, chapterlabels or titlebanner. TOP panel boy looks at spread chart and asks '스프레드가 얼마나 벌어졌는지 어떻게 비교해?' Sister replies '평균에서 얼마나 떨어졌는지 표준편차 단위로 보는 거야.' MIDDLE panel a clean worksheet labeled '교재 예제' with EXACT lines '현재 스프레드 4%' / '평균 스프레드 2%' / '표준편차 0.5%p'. Large clear formula with numerator '현재 스프레드 − 평균 스프레드' over denominator '표준편차', preceded '스프레드 지수 ='. Below show '(4% − 2%) ÷ 0.5%p = 4'. BOTTOM girl says '평균보다 표준편차 네 배만큼 위에 있네.' Sister says '정상 범위로 돌아올 때 청산하는 전략이지. 회귀가 보장되진 않아.' Smallnote '정상 범위는 전략에서 미리 정함'. Do not invent a ±2 threshold, returns or prices. Correct units: 4%-2% =2 percentagepoints divided0.5percentagepoints=4, dimensionless. It is source-based learning example, not a buy recommendation."
+  },
+  {
+    "cut": "05-17-011",
+    "prompt": "Use case illustration-story. ONE finished Korean vertical-scroll educational webtoon, portrait1024x1536,3 spacious panels, large Korean lettering legible690px, warm handdrawn ink watercolor cafe. Use attached approvedref ONLY characteridentity/style NEVER its text. Sister low longponytail beige blazer blacktop nofreckles, stockyshortboy spikyhair thickeyebrows orangehoodie, girl bob freckles tealoveralls. No chapter numbers, IDs,titlebanner or inventednumbers. TOP boy holds cards and says '불릿은 소극적인 전략이야?' Sister replies '아니. 수익률곡선 변화를 예상하는 적극적인 전략이야.' MIDDLE two clearly labeled simple allocation diagrams, left '바벨형: 단기·장기', two bars at short and long only, center empty; right '불릿형: 중기', one bar at mediumonly. Label xpositions '단기' '중기' '장기'. Sister smallspeech '교재는 바벨형의 볼록성이 더 크다고 설명해.' Smallnote directly under '볼록성 비교에는 듀레이션 등 조건을 맞춰야 함'. BOTTOM allthree at desk, girl says '볼록성이 크다고 언제나 수익이 더 큰 건 아니네.' Sister says '금리 예상과 곡선 모양, 위험을 함께 봐야 해.' Finalnotecard '다음: 목표에 맞추는 소극적 운용전략'. Do NOT show guaranteed profit or claim barbell universallybetter. Clear correct barbellshortlong vsbulletmedium. Preserve exact dialogue."
+  },
+  {
+    "cut": "05-17-005",
+    "prompt": "Preserve all other art/text. Replace only bottom bond-card U-shaped mini-curves with decreasing convex bond price-yield curves; B has greater curvature.",
+    "original": "revisions/05-17-005-before-convexity-diagram-fix.png"
+  }
+]

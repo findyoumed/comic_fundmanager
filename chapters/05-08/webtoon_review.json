@@ -1,8 +1,23 @@
 {
-  "mobile_readability": "pending",
-  "scroll_flow": "pending",
-  "character_consistency": "pending",
-  "source_accuracy": "pending",
-  "naver_export_check": "pending",
-  "notes": "원전 시각 대조와 대본·콘티 확정. 그림 검토 전."
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "reviewedAt": "2026-11-16",
+  "notes": "기존 원화 10컷과 복원한 실제 690px JPG 10컷을 전부 시각 검토했다. source_review.md의 원전 대조 및 Decimal 재계산과 수치·반올림 기준을 확인했다. 005의 단리식 적용 기간은 explanation.md에 명시했다. 새 그림을 생성하지 않았다.",
+  "sourceEvidence": "source_review.md",
+  "exportTotalBytes": 2890143,
+  "visuallyReviewedJpgs": [
+    "05-08-001.jpg",
+    "05-08-002.jpg",
+    "05-08-003.jpg",
+    "05-08-004.jpg",
+    "05-08-005.jpg",
+    "05-08-006.jpg",
+    "05-08-007.jpg",
+    "05-08-008.jpg",
+    "05-08-009.jpg",
+    "05-08-010.jpg"
+  ]
 }

@@ -1,27 +1,143 @@
 {
-  "goal": "Complete Chapter 05 Topics 07–18 sequentially",
+  "goal": "D:/temp/책/투자만화책에서 기존 05-01~16 완료본과 05-17 잠정 그림 9컷을 보존하고 중복 생성하지 않는다. p1476 원전 제3과목 제5장 미완료 Topic 17~18을 마친 뒤 제6장 파생상품투자운용/투자전략과 제7장 투자운용결과분석을 원전 Topic 순서대로 완성한다. 먼저 제5장 인쇄 pp.301~302를 확보·시각 확인하며, 확보 전에는 미확인 내용을 지어내거나 두 회차를 완료 처리하지 않는다. 원전 확보 후 05-17에 필요한 부분만 보완하고 05-18, 제6장, 제7장을 차례로 제작한다. 각 회차의 원전 인쇄/물리 페이지 시각 대조, 대본·콘티·해설·승인 캐릭터 그림, 모바일/원전 검토, 공식 규격 JPG·manifest·독자 화면 갱신과 해당 장 scoped hook 통과까지 진행한다. 기존 hook·skill을 재사용하고 임시 자료는 OS 임시 경로에만 둔다.",
   "status": "active",
-  "currentEpisode": "05-08",
-  "stage": "image-generation-running",
-  "expectedCuts": 10,
-  "liveExecCellId": "g2:156",
-  "liveExecDescription": "10 built-in image_gen calls; each completed output copied immediately into chapters/05-08/scroll.",
-  "resumeInstruction": "Poll existing live exec g2:156 with functions.wait; do not restart on timeout. Review saved PNGs individually or at most two per view_image exec to avoid discarded image outputs. Compare every formula against chapters/05-08/source_review.md and production.json. Correct errors using image_gen. Export with scripts/episode_tools.py export 05-08, inspect actual 690px JPGs, write truthful passed review statuses, finalize with scripts/finalize_episode.py 05-08, then continue 05-09.",
+  "currentEpisode": "06-01",
+  "stage": "06-01-image-generation-running",
+  "expectedCuts": 8,
+  "liveExecCellId": "43",
+  "liveExecDescription": "Eight built-in imagegen calls for06-01; outputs copied immediately; preserveexistingart.",
+  "resumeInstruction": "Poll functions.wait cell43. Do not restart ontimeout. Inspectall8 PNGs andactual690px JPGs; correctonlydefects keepingoriginal. Export06-01, recordtruthfulpassedreview, finalize06-01 using generalizedfinalizer. Reader06 willbecreated thencheckbrowsermobile. Continue06-02through19 and07-01through11 in sourceorder. Remaining06preparation11–19 andall07 fullsource checks stillrequired.",
   "sourceRenderDirectory": "C:/Users/new01/AppData/Local/Temp/codex-comic-ch05-source",
   "characterReference": "chapters/14/014.png",
-  "sourcePdf": "../책_투자자산운용사_p1476.pdf",
+  "sourcePdf": "../책_투자자산운용사_p1195.pdf",
   "plan": "AUTO_PRODUCTION_PLAN.md",
   "sourceCaveat": "08: 1129-1130 identical duplicate p270. YTM is discount rate. Discount example recalculated 9876.88/9406.55 differs from textbook whole-won approximations. Coupon example component-rounded sum 10555.01 versus exact-final-rounded 10555.02; explicitly distinguish.",
   "visuallyReviewedCuts": [
-    "05-08-001",
-    "05-08-002"
+    "06-01-003"
   ],
-  "missingPageAudit": "Adjacent image-object and footer audit: all 1476 image objects referenced; PDF physical 1104-1231 footer contact sheets inspected, no printed 301-302 found in this range. Full other-position search remains open.",
+  "missingPageAudit": "Historical PDFs lacked301-302; user suppliedverifiedPNG301/302 andnew1195PDF. Sources/supplements andcurrent_pdf_manifest preserveupdatedmapping.",
   "pendingCorrectionCells": {},
   "pendingCorrectionCuts": [],
   "savedCutCount": 2,
   "pushHelperFix": "push_github.bat delegates to scripts/push_github.ps1. Real --check passed; mocked Success, NoChanges, AuthFailure and Diverged passed. No real commit or push executed.",
   "sourceCorrection": "05-06 physical 1123-1124 are identical duplicate scans of printed 265, confirmed pixel-for-pixel. Metadata, script, source map, plan and reader corrected.",
-  "lastCompletedEpisode": "05-07",
-  "pdfEquivalenceAudit": "p1476 contains 1192 unique embedded image payload hashes; p1192 contains exactly those 1192 images in first-occurrence order. No additional scans in p1192."
+  "lastCompletedEpisode": "05-18",
+  "pdfEquivalenceAudit": "p1476 contains 1192 unique embedded image payload hashes; p1192 contains exactly those 1192 images in first-occurrence order. No additional scans in p1192.",
+  "appGoalStatus": "active",
+  "updatedAt": "2026-11-16",
+  "futureChapters": [
+    {
+      "chapter": "06",
+      "topics": 19,
+      "stage": "toc-visually-verified"
+    },
+    {
+      "chapter": "07",
+      "topics": 11,
+      "stage": "toc-visually-verified"
+    }
+  ],
+  "nextAction": "Preparechapter06scriptswhileimagequotaresets; retryonlysixmissingcutsafterreset.",
+  "scopeCheckPreparation": {
+    "06-": {
+      "plannedTopics": 19,
+      "episodes": 0,
+      "result": "expected missing manifests: production not started"
+    },
+    "07-": {
+      "plannedTopics": 11,
+      "episodes": 0,
+      "result": "expected missing manifests: production not started"
+    }
+  },
+  "sourcePreparation": {
+    "06-01": {
+      "printedPages": "310-311",
+      "physicalPages": "958-959",
+      "status": "source-and-script-reviewed;8 PNGgenerations running",
+      "document": "chapters/06-01/production.json",
+      "sourcePdf": "../책_투자자산운용사_p1195.pdf"
+    },
+    "06-02": {
+      "printedPages": "312-313",
+      "physicalPages": "1188-1189",
+      "status": "source-verified;8-cut script/storyboard/explanation prepared;noart",
+      "document": "planning/06-02/production.json"
+    },
+    "06-03": {
+      "printedPages": "314-316",
+      "physicalPages": "1190-1193;1192/1193duplicate",
+      "status": "source-verified;10-cut script/storyboard/explanation prepared;noart",
+      "document": "planning/06-03/production.json"
+    },
+    "06-04": {
+      "printedPages": "317-318",
+      "physicalPages": "1194-1195",
+      "status": "source-verified;8-cut package;official accounting supplement;noart",
+      "document": "planning/06-04/production.json"
+    },
+    "06-05": {
+      "printedPages": "319-320",
+      "physicalPages": "1196-1200;1196through1199duplicate",
+      "status": "source-verified;10-cut package;approximation/cashflowchecked;noart",
+      "document": "planning/06-05/production.json"
+    },
+    "06-06": {
+      "printedPages": "321-324",
+      "sourcePdf": "../책_투자자산운용사_p1195.pdf",
+      "physicalPages": "969-972",
+      "status": "source-verified;12-cut package;payoff/hedgeratiounitschecked;noart",
+      "document": "planning/06-06/production.json"
+    },
+    "06-07": {
+      "printedPages": "325-326",
+      "sourcePdf": "../책_투자자산운용사_p1195.pdf",
+      "physicalPages": "973-974",
+      "status": "source-verified;9-cut package;noart",
+      "document": "planning/06-07/production.json"
+    },
+    "06-08": {
+      "printedPages": "327-329",
+      "sourcePdf": "../책_투자자산운용사_p1195.pdf",
+      "physicalPages": "975-977",
+      "status": "source-verified;10-cut package;noart",
+      "document": "planning/06-08/production.json"
+    },
+    "06-09": {
+      "printedPages": "330-332",
+      "sourcePdf": "../책_투자자산운용사_p1195.pdf",
+      "physicalPages": "978-980",
+      "status": "source-verified;9-cut package;noart",
+      "document": "planning/06-09/production.json"
+    },
+    "06-10": {
+      "printedPages": "333-336",
+      "sourcePdf": "../책_투자자산운용사_p1195.pdf",
+      "physicalPages": "981-984",
+      "status": "source-verified;10-cut package;noart",
+      "document": "planning/06-10/production.json"
+    }
+  },
+  "userProvidedSourceFolderAudit": {
+    "path": "D:/temp/책/책_투자자산운용사_p1476",
+    "files": 1192,
+    "adjacentVerified": {
+      "0947.png": "printed300",
+      "0948.png": "printed303"
+    },
+    "missingPagesStillUnverified": false,
+    "evidence": "SOURCE_VARIANT_NOTE.md",
+    "resolvedBy": "User manual0949=301,0950=302, projectsourcecopiesmanifest"
+  },
+  "sourceBlockerResolved": "2026-11-16 user supplied printed301 and302, preserved with hashes in sources/supplements/chapter05",
+  "visualReviewScope": "PNG only for06-01-003; otherPNGandallJPGreviews pending",
+  "missingCuts": [],
+  "imageQuotaResetAt": "2026-11-16T12:45:08+09:00",
+  "lastQuotaCheckAt": "2026-11-16T15:22:16+09:00",
+  "historicalSourcePdf": "../책_투자자산운용사_p1476.pdf",
+  "sourcePdfManifest": "sources/current_pdf_manifest.json",
+  "executionPlan": "EXECUTION_PLAN.md",
+  "chapter05Audit": "reviews/chapter05-completion-20261116.json",
+  "readerPreviewSession": null,
+  "readerPreviewStatus": "chapter5mobileverified; previewHTTPserver stopped; temporaryscreenshots moved toOS temp"
 }

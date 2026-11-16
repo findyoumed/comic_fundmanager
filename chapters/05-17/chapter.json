@@ -1,0 +1,55 @@
+{
+  "id": "05-17",
+  "title": "채권운용전략-(1) 적극적인 전략",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 17 채권운용전략-(1) 적극적인 전략",
+  "sourcePage": "인쇄 pp.298–301 / 현재 p1195 PDF 물리 pp.945–947 및949 (948은 인쇄303). 보완301 원본은 sources/supplements/chapter05/printed-301.png에 보존.",
+  "sourceDetails": "2026-11-16 인쇄298–300의 원본 PNG0945–0947 및 사용자 보완0949.png의 인쇄301을 직접 시각 대조했다. 0950.png에서 Topic18 인쇄302 시작을 확인했다. PNG 파일명 순서는 쪽수 순서가 아니므로 별도 매핑한다. 보완 원전은 프로젝트 sources/supplements/chapter05에 보존했다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "적극적 운용전략의 분류·전제·위험을 구분하고 스프레드 지수와 바벨·불릿 구성의 의미를 설명한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "sourceReview": "source_review.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 11,
+  "scrollAssets": [
+    "scroll/05-17-001.png",
+    "scroll/05-17-002.png",
+    "scroll/05-17-003.png",
+    "scroll/05-17-004.png",
+    "scroll/05-17-005.png",
+    "scroll/05-17-006.png",
+    "scroll/05-17-007.png",
+    "scroll/05-17-008.png",
+    "scroll/05-17-009.png",
+    "scroll/05-17-010.png",
+    "scroll/05-17-011.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-17",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 11,
+    "completedAt": "2026-11-16",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-16",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-16"
+  },
+  "historicalSourcePage": "인쇄 pp.298–301: p1476 PDF 물리 pp.1168–1170(인쇄298–300) + 사용자 보완 PNG sources/supplements/chapter05/printed-301.png(인쇄301). PDF에 보완 면은 아직 포함되지 않음.",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "currentPdfMappingVerifiedAt": "2026-11-16"
+}

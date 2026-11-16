@@ -1,0 +1,54 @@
+{
+  "id": "05-18",
+  "title": "채권운용전략-(2) 소극적인 전략",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 18 채권운용전략-(2) 소극적인 전략",
+  "sourcePage": "인쇄 pp.302–303 / 현재 p1195 PDF 물리 pp.950–951. 보완302 원본은 sources/supplements/chapter05/printed-302.png에 보존.",
+  "sourceDetails": "2026-11-16 사용자 수동 보완0950.png의 Topic18 시작 인쇄302와 기존0948.png의 인쇄303 전체를 시각 대조했다. 원전 물리p.1172는 인쇄304 보충문제 구간으로 Topic본문과 구분한다. 파일명 순서로 원전 순서를 추정하지 않는다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "다섯 소극적 전략을 구분하고 듀레이션 면역과 순자산가치 면역의 조건·계산·한계를 설명한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 11,
+  "scrollAssets": [
+    "scroll/05-18-001.png",
+    "scroll/05-18-002.png",
+    "scroll/05-18-003.png",
+    "scroll/05-18-004.png",
+    "scroll/05-18-005.png",
+    "scroll/05-18-006.png",
+    "scroll/05-18-007.png",
+    "scroll/05-18-008.png",
+    "scroll/05-18-009.png",
+    "scroll/05-18-010.png",
+    "scroll/05-18-011.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-18",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 11,
+    "completedAt": "2026-11-16",
+    "tool": "built-in image_gen"
+  },
+  "historicalSourcePage": "인쇄pp.302–303: 사용자 보완PNG sources/supplements/chapter05/printed-302.png + p1476 PDF 물리p.1171(인쇄303)",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "currentPdfMappingVerifiedAt": "2026-11-16",
+  "naverRequirementsVerifiedAt": "2026-11-16",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-16"
+  }
+}

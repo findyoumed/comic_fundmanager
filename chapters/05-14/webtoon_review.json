@@ -1,0 +1,20 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "전 10컷 PNG와 실제 690×1035 JPG 확인. 스프레드 수치·정의·그래프 모양과 위험 항목을 p1192 pp.287–289에 대조했다. 005에서 임의 신용등급을 제거했고, 007–008 굴곡형을 단봉형으로 교정했으며 008의 우상향 설명을 원문 문구로 맞췄다. 교정 전 파일은 revisions에 보존. 네이버 공식 기준 확인 완료. JPG 총량 2,905,446 bytes.",
+  "restorationAudit": {
+    "checkedAt": "2026-11-16",
+    "fileCount": 10,
+    "totalBytes": 2905446,
+    "widthPx": 690,
+    "allFilesDecoded": true,
+    "visualSamples": [
+      "05-14-001.jpg",
+      "05-14-010.jpg"
+    ],
+    "reviewScope": "기존 원전·캐릭터 검토 결과를 유지. 이번에는 JPG 복원과 파일 규격 전수 검사, 첫 컷·마지막 컷 시각 점검을 실시했다."
+  }
+}

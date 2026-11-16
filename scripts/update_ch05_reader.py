@@ -2,6 +2,7 @@ from pathlib import Path
 from html import escape
 import json
 import re
+from PIL import Image
 
 root = Path(__file__).resolve().parents[1]
 path = root / 'book_reader.html'
@@ -39,6 +40,13 @@ text = text[:start] + '\n'.join(articles) + upcoming + '\n' + text[end:]
 text = re.sub(r'aria-label="18개 중 \d+개 완성"', f'aria-label="18개 중 {len(completed)}개 완성"', text)
 text = re.sub(r'<strong>\d+ / 18 회차</strong>', f'<strong>{len(completed)} / 18 회차</strong>', text)
 text = re.sub(r'(\.progress span\s*\{[^}]*?width:)\s*[^;]+;', rf'\g<1> {len(completed)/18*100:.2f}%;', text)
+def reserve_image_size(match):
+    tag=match.group(0)
+    if re.search(r'\bwidth=',tag) and re.search(r'\bheight=',tag): return tag
+    asset=re.search(r'\bsrc="([^"]+)"',tag).group(1)
+    with Image.open(root/asset) as im: width,height=im.size
+    return tag[:-1]+f' width="{width}" height="{height}">'
+text=re.sub(r'<img\b[^>]*>',reserve_image_size,text)
 path.write_text(text, encoding='utf-8')
 # Validate all locally referenced images and in-page links.
 for asset in re.findall(r'<img[^>]+src="([^"]+)"', text):

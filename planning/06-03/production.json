@@ -1,0 +1,188 @@
+{
+  "id": "06-03",
+  "title": "선물거래 메커니즘",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 03 선물거래 메커니즘",
+  "sourcePage": "인쇄pp.314–316 / p1476물리pp.1190–1193(1192–1193은316중복)",
+  "sourceDetails": "2026-11-16 본문314–316 전체시각대조. 316중복은내부이미지SHA256일치. 다음Topic은물리1194의인쇄317. 모든수치와승수·증거금률은교재가정으로명시.",
+  "goal": "반대거래·일일정산·마진콜을 구별하고 거래별 미결제약정 변화를 계산한다.",
+  "conflict": "증거금이계약금액전체라고생각하고 매도는항상새숏이라고오해하는초보가 거래구조를배운다.",
+  "explanation": "# 선물거래 메커니즘 해설\n\n원전: p1476물리1190·1191·1192의 인쇄314·315·316. 물리1193은1192와 같은 이미지 payload SHA256인316 중복스캔이다. 물리1194에서Topic04 인쇄317 시작을 확인했다.\n\n선물의 롱은매수포지션,숏은매도포지션이다. 기존롱의 청산매도는전매도,기존숏의 청산매수는환매수로 구별한다. 신규매수/신규매도와 청산매수/청산매도를 혼동하지 않는다.\n\n교재는 개시증거금·유지증거금·일일정산·마진콜을 설명한다. 개시1500만원,유지1000만원,정산후잔액600만원인교재예제에서는1500−600=900만원을 추가납부한다. 유지증거금은 마진콜의 기준이고 이 예제의 보충목표는 개시증거금이다. 현재실제계좌의 계약·상품별 요구액을 안내하는 문서가 아니다.\n\np.315의 지수200포인트·승수50만원·개시증거금률15%는 문제의 명시적가정이다.200×50만원=1억원,그15%=1500만원이다. 같은쪽2022년 참고사항에도 승수25만원이라는 별도시점의정보가 있어,이번대본은50만원이나15%를 현행규격으로단정하지않는다.\n\n미결제약정은 일정시점에 청산되지않은 계약수다. 새매수/새매도는+1,한쪽신규/반대쪽청산은변화없음,양쪽청산은−1이다. p.316의 네거래를 재구성하면 누적미결제약정은1→1→1→0이다. 계약양측을각각세어2계약으로표시하지않는다. 거래량이 늘어도 미결제약정이반드시늘지는않는다.\n\n청산소와증거금·일일정산은 결제이행장치이며,시장가격변동에 따른 투자손실까지없앤다는의미가아니다. 교재의신용위험설명과시장위험을구별한다. 보충문제선택지는복제하지않고계산과계약수관계로재구성했다.\n",
+  "cuts": [
+    {
+      "title": "선물의 매수와 매도",
+      "source": "인쇄pp.314·316 / p1476물리pp.1190–1193",
+      "scene": "계약을 사는 롱, 계약을 파는 숏 카드를 나란히 보여 준다. 두 쪽 모두 증거금 표지와 연결한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "선물은 매수와 매도 양쪽 모두 증거금이 필요해."
+        }
+      ],
+      "labels": [
+        "롱: 매수 포지션",
+        "숏: 매도 포지션",
+        "양쪽 모두 증거금"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "반대거래로 포지션 정리",
+      "source": "인쇄pp.314–315 / p1476물리pp.1190–1193",
+      "scene": "롱→전매도,숏→환매수라는 두 화살표. 계약 종류와 신규/청산 여부를 분리한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "선물 매도라고 모두 새 숏은 아니네. 기존 롱을 끝내는 매도도 있구나."
+        }
+      ],
+      "labels": [
+        "롱 청산: 전매도",
+        "숏 청산: 환매수",
+        "만기 전 반대거래"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "증거금과 일일정산",
+      "source": "인쇄pp.314 / p1476물리pp.1190–1193",
+      "scene": "하루 단위 달력과 증거금 잔액판. 손익 정산 뒤 잔액이 변한다. 가격 상승/하락 손익 방향을 특정하지 않는 중립도식.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "보유 포지션 손익을 매일 정산하고 증거금 잔액을 확인해."
+        }
+      ],
+      "labels": [
+        "일일정산",
+        "손익 반영 → 잔액 변동",
+        "결제이행을 위한 증거금"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "마진콜 예제",
+      "source": "인쇄pp.314 / p1476물리pp.1190–1193",
+      "scene": "개시1500만원·유지1000만원·현재600만원을 큰 숫자로 분리하고 차이를 계산한다.",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "유지증거금까지만이 아니라 예제의 개시증거금까지 채우는 거구나."
+        }
+      ],
+      "labels": [
+        "교재 예제",
+        "개시증거금 1,500만원",
+        "유지증거금 1,000만원",
+        "현재 잔액 600만원",
+        "추가증거금 = 1,500 − 600 = 900만원"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "계약금액과 증거금은 달라",
+      "source": "인쇄pp.315 / p1476물리pp.1190–1193",
+      "scene": "한 계약금액과 거래에 필요한 증거금이 다른 개념임을 대조. 교재가정 배지를 식보다 먼저 표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "교재가 가정한 승수와 증거금률로 계산한 값이야. 현재 거래 규격이라고 외우면 안 돼."
+        }
+      ],
+      "labels": [
+        "교재 가정: 지수 200포인트 × 승수 50만원",
+        "계약금액 = 1억원",
+        "개시증거금률 15% → 1,500만원",
+        "계약금액 ≠ 증거금"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "거래량과 미결제약정",
+      "source": "인쇄pp.315–316 / p1476물리pp.1190–1193",
+      "scene": "거래횟수 계수기와 아직청산되지않은계약서 묶음을 따로 그린다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "많이 거래됐다는 사실만으로 미결제약정이 늘었다고 할 수는 없네."
+        }
+      ],
+      "labels": [
+        "미결제약정: 아직 청산되지 않은 계약 수",
+        "거래량과 구별",
+        "이하 교재 보충문제를 재구성"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "두 쪽이 모두 신규",
+      "source": "인쇄pp.315–316 / p1476물리pp.1190–1193",
+      "scene": "투자자A 신규매수와B 신규매도를 잇고 계약1개가 생기는 도식.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "신규 매수와 신규 매도가 만나면 미결제약정은 한 개 늘어."
+        }
+      ],
+      "labels": [
+        "A 신규매수 ↔ B 신규매도",
+        "미결제약정 +1",
+        "예제 누적: 1계약"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "포지션이 다른 사람에게 넘어가면",
+      "source": "인쇄pp.315–316 / p1476물리pp.1190–1193",
+      "scene": "첫행C신규매수↔A전매도,둘째행B환매수↔D신규매도. 각각기존계약유지. 숫자증가화살표금지.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "한쪽이 새로 들어오고 다른 쪽이 나가면 미결제약정 수는 그대로네."
+        }
+      ],
+      "labels": [
+        "C 신규매수 ↔ A 전매도: 변화 없음",
+        "B 환매수 ↔ D 신규매도: 변화 없음",
+        "예제 누적: 여전히 1계약"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "두 쪽 모두 청산",
+      "source": "인쇄pp.316 / p1476물리pp.1190–1193",
+      "scene": "D환매수와C전매도를 연결하고 미결제계약서 한 개를 닫는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "두 쪽이 모두 포지션을 청산하면 한 개 줄어."
+        }
+      ],
+      "labels": [
+        "D 환매수 ↔ C 전매도",
+        "미결제약정 −1",
+        "예제 최종: 0계약"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    },
+    {
+      "title": "거래 장치와 위험을 구별",
+      "source": "인쇄pp.314–316 / p1476물리pp.1190–1193",
+      "scene": "청산소·증거금·일일정산 세 장치 카드와 시장가격 변동 카드. 초보가 다음회차 경제적기능으로 질문을잇는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이 장치가 있다고 시장가격 변동에 따른 손실까지 없어지는 건 아니야."
+        }
+      ],
+      "labels": [
+        "청산소·증거금·일일정산",
+        "가격변동에 따른 손실 가능",
+        "다음: 선물거래의 경제적 기능"
+      ],
+      "constraints": "All numericalexamples and oldcontract specifications MUST be labeled textbook assumptions, never currenttradingrules. Do not copy reference allocation tables. Use approvedcharacters fromchapters/14/014.png. Openinterest counts contracts once, never bothsides twice. No guarantees or personaladvice."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 and06-01through02 complete"
+}

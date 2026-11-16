@@ -1,0 +1,191 @@
+{
+  "id": "06-01",
+  "title": "파생상품의 개요",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 01 파생상품의 개요",
+  "sourcePage": "인쇄 pp.310–311 / 현재 p1195 PDF 물리 pp.958–959",
+  "sourceDetails": "2026-11-16 현재 캡처0958·0959의 인쇄310·311 본문 전체와0960의 Topic02 인쇄312 시작을 시각 확인했다. 새PDF 물리958–960과PNG를 대조하고 current_pdf_manifest에 기록했다. 장내/장외 상품사례는 교재 기준이며 현재 상장현황으로 일반화하지 않는다.",
+  "goal": "기초자산·거래장소·계약종류·거래목적이라는 네 분류기준을 구별한다.",
+  "conflict": "주식·선물·장외·헤지를 한 층위의 종류로 생각하는 초보가 분류기준을 구별한다.",
+  "explanation": "기초자산, 거래 장소, 계약 종류, 거래 목적은 같은 층위의 분류가 아니다. 하나의 계약을 여러 기준으로 각각 설명할 수 있다. 계약 가치가 기초자산에서 파생된다는 설명은 계약이 무가치하다는 뜻이 아니다. 손익 방향은 계약 구조와 매수·매도 위치에 따라 달라진다.\n\n인쇄 p.311의 국내 상장상품 예시나 신용파생상품의 장외 중심 설명은 교재의 서술 시점에 따른 사례다. 이번 대본은 이를 현재 시장의 전 세계적·영구적 규칙으로 일반화하지 않는다. 최신 상장 현황을 추가하려면 공식 자료를 별도로 확인해야 한다.\n\n투기·헤지·차익·스프레드는 거래 목적과 구성에 관한 개요다. 위험을 줄이는 전략도 남는 위험이 있으며, 이론상 차익거래의 조건과 실제 거래의 체결·비용·상대방 위험을 혼동하지 않는다. 후속 회차에서 구조와 조건을 단계적으로 설명한다.",
+  "cuts": [
+    {
+      "title": "파생상품의 개요",
+      "scene": "카페 탁자. 남자 친구가 주식·선물·장외·헤지 카드를 같은 줄에 놓고 혼란스러워한다. 누나는 빈 분류판을 펼치고 여자 친구는 서로 다른 기준을 가리킨다.",
+      "source": "인쇄 p.310–311 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "다 파생상품 종류라는데, 왜 분류가 안 맞지?"
+        },
+        {
+          "speaker": "누나",
+          "text": "카드마다 답하는 질문이 달라. 기준부터 나누자."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "과일, 배달, 저녁 식사를 같은 칸에 넣었네."
+        }
+      ],
+      "labels": [
+        "주식",
+        "선물",
+        "장외",
+        "헤지"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    },
+    {
+      "title": "가치는 어디에서 올까",
+      "scene": "기초자산·지표 카드와 계약 가치 카드를 중립적인 수평 연결선으로 잇는다. 가치가 무조건 상승한다는 그래프는 그리지 않는다.",
+      "source": "인쇄 p.310 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "파생상품의 가치는 기초자산의 가격이나 지표 변화와 연결돼."
+        },
+        {
+          "speaker": "남자 친구",
+          "text": "계약 자체가 아무 가치 없다는 뜻은 아니구나."
+        }
+      ],
+      "labels": [
+        "기초자산·지표 → 계약 가치",
+        "가치가 파생되는 관계"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    },
+    {
+      "title": "다섯 기초자산",
+      "scene": "여자 친구가 서로 다른 다섯 카드를 펼친다. 카드는 주식,금리/채권,통화,상품,신용위험이며 계약종류와 섞지 않는다.",
+      "source": "인쇄 p.310–311 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "무엇의 위험이나 가격에 연결됐는지 묻는 기준이네."
+        },
+        {
+          "speaker": "누나",
+          "text": "주식·금리·통화·상품·신용위험을 구별해 보자."
+        }
+      ],
+      "labels": [
+        "주식",
+        "금리·채권",
+        "통화",
+        "상품",
+        "신용위험"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    },
+    {
+      "title": "장내와 장외",
+      "scene": "탁자 양쪽에 장내/장외 표지. 통화 카드는 두 쪽 모두와 연결된다. 교재 예시 통화선물·통화옵션과 선물환을 각각 구분한다.",
+      "source": "인쇄 p.311 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "거래 장소에 따른 분류는 장내와 장외야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "통화도 장외 계약의 기초자산이 될 수 있어."
+        }
+      ],
+      "labels": [
+        "장내 / 장외",
+        "교재 예시",
+        "장내: 통화선물·통화옵션",
+        "장외: 선물환"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    },
+    {
+      "title": "계약 종류를 묻는 질문",
+      "scene": "선도·선물·옵션·스왑 네 장을 별도 줄에 놓는다. 매수매도 손익 그래프나 숫자는 아직 그리지 않는다.",
+      "source": "인쇄 p.310 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이건 거래하는 계약의 종류를 묻는 기준이지."
+        },
+        {
+          "speaker": "남자 친구",
+          "text": "기초자산 이름하고 한 줄로 비교하면 안 되겠네."
+        }
+      ],
+      "labels": [
+        "선도",
+        "선물",
+        "옵션",
+        "스왑"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    },
+    {
+      "title": "투기와 헤지의 목적",
+      "scene": "남자 친구는 이익 기회 카드,여자 친구는 기존 위험 줄이기 카드를 든다. 같은 계약의 두 목적을 구분한다.",
+      "source": "인쇄 p.311 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "위험을 받아들이며 이익을 노리면 투기, 기존 위험을 상쇄하려면 헤지야."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "헤지도 모든 위험을 없애 주는 보장은 아니야."
+        }
+      ],
+      "labels": [
+        "투기: 위험 수용·이익 추구",
+        "헤지: 기존 위험 상쇄 목적"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    },
+    {
+      "title": "차익과 스프레드",
+      "scene": "두 시장의 가격관계 카드와 두 자산의 상대가격 카드를 서로 다른 칸으로 나눈다. 금액·수익률·수익보장 그림은 넣지 않는다.",
+      "source": "인쇄 p.311 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "차익거래는 가격 관계의 괴리를 이용해. 이론상 무위험이라는 설명에는 조건이 있어."
+        },
+        {
+          "speaker": "여자 친구",
+          "text": "스프레드는 두 가격의 차이를 거래하니 상대가격 위험이 남아."
+        }
+      ],
+      "labels": [
+        "차익: 가격 관계의 괴리",
+        "스프레드: 상대가격 차이"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    },
+    {
+      "title": "분류 기준 네 가지",
+      "scene": "완성한 분류판은 네 행으로만 구성한다. 무엇에연결/어디서거래/어떤계약/왜거래의 질문과 분류 기준을 연결. 인물의 일반투자조언이나 기존참조의 비중표·체크리스트를 복사하지 않는다.",
+      "source": "인쇄 p.310–311 / 현재 p1195 PDF 물리 pp.958–959",
+      "dialogue": [
+        {
+          "speaker": "남자 친구",
+          "text": "이제 이름을 외우기 전에 어떤 질문인지 보겠어."
+        },
+        {
+          "speaker": "누나",
+          "text": "다음은 선도계약이 실제로 어떤 약속인지 보자."
+        }
+      ],
+      "labels": [
+        "무엇에 연결? → 기초자산",
+        "어디서 거래? → 장내·장외",
+        "어떤 계약? → 선도·선물·옵션·스왑",
+        "왜 거래? → 투기·헤지·차익·스프레드"
+      ],
+      "constraints": "Render ONLY exact dialogue and labels requested; NO extra invented captions, numbers, percentages, contractexamples, taxclaims, generic investment checklist or reference-text copying. Reference is character identities/style only. Use neutral schematic connections unless economic direction is specified. No guaranteed returns. Allcards must match stated classification criteria."
+    }
+  ],
+  "preparationOnly": false,
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "historicalSourcePage": "인쇄pp.310–311 / p1476 PDF물리pp.1186–1187"
+}

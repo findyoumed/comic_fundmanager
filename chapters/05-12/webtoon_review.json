@@ -1,0 +1,27 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "All 10 PNG masters and 690x1035 JPG exports are in sequence. Cut 05-12-004 was regenerated; its prior version is preserved under revisions. Re-reviewed the corrected PNG and exported JPG for legibility, source values, character consistency, and absence of an unsupported cash-flow timeline. Episode JPG total: 2,951,797 bytes; each file is within the verified per-file limit.",
+  "restorationAudit": {
+    "checkedAt": "2026-11-16",
+    "fileCount": 10,
+    "totalBytes": 2943652,
+    "widthPx": 690,
+    "allFilesDecoded": true,
+    "visualSamples": [
+      "05-12-001.jpg",
+      "05-12-010.jpg"
+    ],
+    "reviewScope": "기존 원전·캐릭터 검토 결과를 유지. 이번에는 JPG 복원과 파일 규격 전수 검사, 첫 컷·마지막 컷 시각 점검을 실시했다."
+  },
+  "correctionReview": {
+    "reviewedAt": "2026-11-16",
+    "cut": "05-12-010",
+    "change": "작은 순서 비교도의 부등호 4개를 오른쪽 화살표로 교정",
+    "original": "revisions/05-12-010-before-order-arrows-20261116.png",
+    "pngAndActualJpgVisuallyReviewed": true
+  }
+}

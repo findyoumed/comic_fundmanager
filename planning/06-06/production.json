@@ -1,0 +1,222 @@
+{
+  "id": "06-06",
+  "title": "선물거래전략-(1) 투기거래, 헤지거래",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 06 선물거래전략-(1) 투기거래, 헤지거래",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "sourcePage": "인쇄pp.321–324 / 현재p1195물리pp.969–972",
+  "sourceDetails": "2026-11-16 현재PDF물리969–972와PNG동일번호를픽셀유사도로대조하고PNG본문321–324전체시각확인.다음973은Topic07 인쇄325.금액·계약수와최소분산비율을구분검산.",
+  "goal": "투기손익·헤지방향·베이시스위험·계약수와최소분산비율의단위를구별한다.",
+  "conflict": "숏이익이면차익거래라고생각하고헤지비율을계약수로곧바로읽는초보가목적과단위를배운다.",
+  "explanation": "# 투기거래·헤지거래 해설\n\n현재p1195 PDF물리969–972와같은번호PNG에서인쇄321–324를전체시각확인했다.973에서Topic07 인쇄325시작을확인했다.기존p1476 PDF는현재경로에서없어새파일의물리쪽수를구분한다.\n\n투기는방향성위험을받아들이는거래이고,헤지는기존또는예정된현물포지션위험을줄이려는거래다.투기예제200매도→190환매수는(200−190)×50만원×10=5000만원,별도롱예제200매수→205전매도는2500만원이다.승수50만원과수량10은교재가정이며현재상품규격이아니다.\n\n현물가격하락위험에는매도헤지,향후매입가격상승위험에는매수헤지를구분한다.교재는베이시스를B=F−S로정의한다.현물보유와선물매도로구성한헤지에서만기전청산은베이시스위험이남고,같은기초자산·결제조건의만기수렴을가정하면교재의제로베이시스헤지를설명할수있다.기초자산불일치·신용위험·비용까지없애는무위험보장으로확대하지않는다.\n\n현물100억원,선물200포인트,승수50만원이면한계약은1억원이다.단순헤지계약수100개,베타0.8이면80개,별도β1.2예제는120개매도다.계약수산식에현물금액과한계약금액의단위를맞춘다.\n\n최소분산비율h*=cov(ΔS,ΔF)/var(ΔF)=ρσ_S/σ_F이다.교재분산25·4에서표준편차는5·2이고상관0.4를곱하면h*=1이다.원전은이를곧바로1계약으로서술하지만,주어진변동성변수가무엇의변화인지와노출규모·계약단위를확인하지않고일반적으로계약수1개로단정할수없다.가격변화기준비율과수익률기준비율은계약수환산에쓰는수량/가치단위도맞춰야한다.따라서만화는확인가능한비율1까지만수치화하고계약수에는추가단위정보가필요하다고구분한다.\n\nCME공식교육자료도헤지비율과더불어포트폴리오가치·계약가치를알아야적절한계약수를구할수있다고설명한다.공식보완자료:https://www.cmegroup.com/education/whitepapers/hedging-with-e-mini-sp-500-future (2026-11-16확인). 원전의문제선택지는복제하지않고조건·계산·의미로재구성했다.\n",
+  "cuts": [
+    {
+      "title": "목적부터 구분",
+      "source": "인쇄pp.321 / 현재p1195물리pp.969–972",
+      "scene": "투기·헤지·차익·스프레드 네카드.친구가수익이난거래는모두차익거래라고오해한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "가격 방향의 위험을 감수하는 투기와, 기존 위험을 줄이는 헤지는 목적이 달라."
+        }
+      ],
+      "labels": [
+        "투기 / 헤지 / 차익 / 스프레드",
+        "이 회차: 투기와 헤지"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "숏 포지션 손익",
+      "source": "인쇄pp.321 / 현재p1195물리pp.969–972",
+      "scene": "교재의200포인트신규매도→190포인트환매수.가격차·승수·계약수를각칸에놓는다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "매도한 뒤 가격이 내려가면, 숏 포지션에는 이익이네."
+        }
+      ],
+      "labels": [
+        "교재 가정: 200에 10계약 매도 → 190에 환매수",
+        "승수 50만원/포인트",
+        "(200−190) × 50만원 × 10 = 5,000만원"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "롱 포지션 손익",
+      "source": "인쇄pp.324 / 현재p1195물리pp.969–972",
+      "scene": "별도교재예제라는배지와200매수→205전매도.앞의숏과거래를혼합하지않는다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "반대로 롱은 가격이 오른 뒤 청산하면 이익이야."
+        }
+      ],
+      "labels": [
+        "별도 교재 예제: 200에 10계약 매수 → 205에 전매도",
+        "승수 50만원/포인트",
+        "(205−200) × 50만원 × 10 = 2,500만원"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "매도헤지와 매수헤지",
+      "source": "인쇄pp.322 / 현재p1195물리pp.969–972",
+      "scene": "기존현물을보유한쪽과앞으로현물을매입할쪽을나눈다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "가격하락 위험을 줄이려면 매도헤지, 가격상승 위험을 줄이려면 매수헤지구나."
+        }
+      ],
+      "labels": [
+        "기존 현물의 하락위험 → 매도헤지",
+        "향후 매입의 상승위험 → 매수헤지"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "베이시스의 정의",
+      "source": "인쇄pp.322 / 현재p1195물리pp.969–972",
+      "scene": "F와S가같은기초자산·인도조건이라는표시.만기접근하며차이가줄어드는개념도.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이 교재는 베이시스를 선물가격에서 현물가격을 뺀 값으로 써."
+        }
+      ],
+      "labels": [
+        "교재 정의: B = F − S",
+        "B > 0: 콘탱고 / B < 0: 백워데이션",
+        "만기 수렴은 기초자산·결제 조건 등 가정 아래 설명"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "청산 시점과 베이시스 위험",
+      "source": "인쇄pp.322–324 / 현재p1195물리pp.969–972",
+      "scene": "만기전청산과만기청산타임라인을나누며기초자산불일치위험은없어졌다고그리지않는다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "만기 전에 청산하면 그때의 베이시스가 남아 헤지 결과에 영향을 주겠네."
+        }
+      ],
+      "labels": [
+        "랜덤 베이시스 헤지: 만기 전 청산",
+        "제로 베이시스 헤지: 만기 청산 가정",
+        "모든 위험 제거를 뜻하지 않음"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "헤지 계약 수의 단위",
+      "source": "인쇄pp.323 / 현재p1195물리pp.969–972",
+      "scene": "현물100억원과1계약가치200포인트×50만원을나누는워크시트.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "계약 수를 구할 때는 현물 금액을 한 계약의 금액으로 나눠."
+        }
+      ],
+      "labels": [
+        "교재 가정: 현물 100억원",
+        "1계약 금액 = 200포인트 × 50만원 = 1억원",
+        "단순헤지: 100억원 ÷ 1억원 = 100계약 매도"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "베타 0.8 예제",
+      "source": "인쇄pp.323 / 현재p1195물리pp.969–972",
+      "scene": "동일현물금액과승수조건을유지하고베타만0.8로표시한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "현물의 시장 민감도가 다르면 단순 계약 수에 베타를 반영하네."
+        }
+      ],
+      "labels": [
+        "교재 예제: β=0.8",
+        "N = 100 × 0.8 = 80계약 매도"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "베타 1.2 예제",
+      "source": "인쇄pp.324 / 현재p1195물리pp.969–972",
+      "scene": "다른교재보충예제라는배지.β1.2에서120계약으로계산한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "보충예제의 베타 1.2라면 같은 금액 조건에서 120계약이야."
+        }
+      ],
+      "labels": [
+        "별도 교재 예제: β=1.2",
+        "N = 100 × 1.2 = 120계약 매도",
+        "현물 보유의 시장위험을 상쇄하는 방향"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "최소분산 헤지비율",
+      "source": "인쇄pp.323 / 현재p1195물리pp.969–972",
+      "scene": "분산25와4에서표준편차5와2를구하는과정을먼저보여주고상관0.4를곱한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "분산을 그대로 나누면 안 되고 표준편차를 써야겠네."
+        }
+      ],
+      "labels": [
+        "교재 예제: 현물 분산 25 / 선물 분산 4",
+        "표준편차: 5 / 2",
+        "상관계수 0.4",
+        "h* = ρ × σ_S/σ_F = 0.4 × 5/2 = 1"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "비율과 계약 수는 달라",
+      "source": "인쇄pp.323 + 편집상 단위 검토 / 현재p1195물리pp.969–972",
+      "scene": "헤지비율1카드와계약수빈칸카드를나란히놓는다.현물노출규모와한계약크기정보가추가됨을아이콘으로표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이 계산으로 확인되는 것은 비율이야. 계약 수에는 노출 규모와 한 계약 크기 등 단위 정보도 필요해."
+        }
+      ],
+      "labels": [
+        "헤지비율 1 ≠ 언제나 1계약",
+        "현물 노출·계약 크기·변동성의 측정 단위 확인"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    },
+    {
+      "title": "헤지의 한계와 다음 전략",
+      "source": "인쇄pp.321–324 / 현재p1195물리pp.969–972",
+      "scene": "베타헤지·베이시스·거래조건카드를정리한다.고유위험이전부제거된방패금지.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "거래 방향뿐 아니라 수량과 남는 위험까지 봐야 하네."
+        }
+      ],
+      "labels": [
+        "교재 가정·승수·기간을 확인",
+        "헤지 효과와 남는 위험을 구별",
+        "다음: 차익거래"
+      ],
+      "constraints": "All numeric scenarios are labeled textbook assumptions, multiplier50만원 is not current product specification. Different examples must not merge. Hedge ratio1 is NOT automatically1contract. Basis sign is F-S in thisbook. No guaranteed return or claim allrisk disappears. Use approvedreference chapters/14/014.png."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 and06-01through05 complete",
+  "officialSupplement": {
+    "url": "https://www.cmegroup.com/education/whitepapers/hedging-with-e-mini-sp-500-future",
+    "verifiedAt": "2026-11-16",
+    "purpose": "Contractsize and portfolio value needed alongside hedge ratio"
+  }
+}

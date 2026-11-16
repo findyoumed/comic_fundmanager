@@ -1,0 +1,20 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "Reviewed all ten actual 690px JPG exports: lettering and scroll order are readable; character appearance is consistent; source values and arithmetic match the verified p1192 example, including 2.83-year truncation. Each JPG is under 5 MB; episode total is under 50 MB.",
+  "restorationAudit": {
+    "checkedAt": "2026-11-16",
+    "fileCount": 10,
+    "totalBytes": 2902927,
+    "widthPx": 690,
+    "allFilesDecoded": true,
+    "visualSamples": [
+      "05-11-001.jpg",
+      "05-11-010.jpg"
+    ],
+    "reviewScope": "기존 원전·캐릭터 검토 결과를 유지. 이번에는 JPG 복원과 파일 규격 전수 검사, 첫 컷·마지막 컷 시각 점검을 실시했다."
+  }
+}

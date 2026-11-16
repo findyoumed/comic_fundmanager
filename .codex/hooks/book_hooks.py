@@ -20,6 +20,8 @@ REVIEW_KEYS = (
 CHAPTER_SCOPES = {
     '04-': {'plan': 'CHAPTER_04_PLAN.md', 'topics': 19, 'chapter_label': 'Chapter 4'},
     '05-': {'plan': 'CHAPTER_05_PLAN.md', 'topics': 18, 'chapter_label': 'Chapter 5'},
+    '06-': {'plan': 'CHAPTER_06_PLAN.md', 'topics': 19, 'chapter_label': 'Chapter 6'},
+    '07-': {'plan': 'CHAPTER_07_PLAN.md', 'topics': 11, 'chapter_label': 'Chapter 7'},
 }
 
 

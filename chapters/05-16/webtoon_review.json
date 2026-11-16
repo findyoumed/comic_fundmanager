@@ -1,0 +1,20 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "All 10 exported JPGs reviewed in sequence at 690x1035. Source formulas and examples match p1192 printed pp.292-297; upload set totals 2,871,938 bytes.",
+  "restorationAudit": {
+    "checkedAt": "2026-11-16",
+    "fileCount": 10,
+    "totalBytes": 2871938,
+    "widthPx": 690,
+    "allFilesDecoded": true,
+    "visualSamples": [
+      "05-16-001.jpg",
+      "05-16-010.jpg"
+    ],
+    "reviewScope": "기존 원전·캐릭터 검토 결과를 유지. 이번에는 JPG 복원과 파일 규격 전수 검사, 첫 컷·마지막 컷 시각 점검을 실시했다."
+  }
+}

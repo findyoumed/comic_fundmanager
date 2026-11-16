@@ -1,0 +1,50 @@
+{
+  "id": "05-14",
+  "title": "수익률곡선(Yield Curve)",
+  "sourceChapter": "제3과목 제5장 채권투자운용/투자전략",
+  "sourceTopic": "Topic 14 수익률곡선(Yield Curve)",
+  "sourcePage": "인쇄 pp.287–289 (p1192 PDF 물리 pp.934–936)",
+  "sourceDetails": "p1192 PDF 물리 pp.934–936 직접 확인. 원문 그래프: 국채 3년 3.7%, 4년 3.9%, 5년 4.0%; 회사채 3년 7.0%, 4년 7.6%, 5년 8.0%. 5년 신용스프레드 4.0%p, 회사채 4–5년 기간스프레드 0.4%p. 신용스프레드는 경기불황에 더 확대된다고 설명한다. 곡선 형태와 위험 분류는 p.288–289를 따른다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "수익률곡선의 축과 대표 형태를 이해하고 신용스프레드와 기간스프레드를 구분한다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.json",
+  "status": "complete",
+  "plannedCutCount": 10,
+  "scrollAssets": [
+    "scroll/05-14-001.png",
+    "scroll/05-14-002.png",
+    "scroll/05-14-003.png",
+    "scroll/05-14-004.png",
+    "scroll/05-14-005.png",
+    "scroll/05-14-006.png",
+    "scroll/05-14-007.png",
+    "scroll/05-14-008.png",
+    "scroll/05-14-009.png",
+    "scroll/05-14-010.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/05-14",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 10,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?lang=ko&osType=COMMONOS",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

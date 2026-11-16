@@ -1,0 +1,167 @@
+{
+  "id": "06-09",
+  "title": "옵션기초",
+  "sourceChapter": "제3과목 제6장 파생상품투자운용/투자전략",
+  "sourceTopic": "Topic 09 옵션기초",
+  "sourcePdf": "../../../책_투자자산운용사_p1195.pdf",
+  "sourcePage": "인쇄 pp.330–332 / 현재 p1195 물리 pp.978–980",
+  "sourceDetails": "2026-11-16 인쇄330–332(현재p1195 물리978–980) 전체 시각 대조.981에서Topic10 인쇄333 시작 확인. 유럽형/미국형 행사 시점, 네 포지션 만기손익과 콜/풋 위험한도, 프리미엄 포함 여부를 대조했다. 임의 프리미엄 수치는 만들지 않았다.",
+  "goal": "옵션의 권리·의무와 네 기본 포지션의 만기손익·위험한도를 구분한다.",
+  "conflict": "옵션 매수·매도와 살 권리·팔 권리를 섞는 초보가 프리미엄과 손익 구조를 배운다.",
+  "explanation": "# 옵션기초 해설\n\n현재 p1195 PDF 물리 978–980쪽의 인쇄 330–332쪽을 전체 시각 대조했다. 물리 981쪽에서 Topic 10 인쇄 333쪽 시작을 확인했다.\n\n옵션 매수자는 약정 조건으로 기초자산을 사거나 팔 권리를 얻는다. 콜은 살 권리, 풋은 팔 권리다. 옵션을 매수하는 행위와 그 옵션이 주는 기초자산 매수·매도 권리를 구별한다. 유럽형은 만기 행사, 미국형은 만기 이전에도 행사할 수 있는 방식이다.\n\n교재의 프리미엄 지급형 기본 모형에서 매수자는 프리미엄을 지급하고 매도자는 계약 이행 의무를 부담한다. 프리미엄 한도 손실은 매수 손익 구조에 관한 설명이며, 옵션 매수의 기대수익이 언제나 유리하다는 뜻이 아니다. 매도 증거금과 매수 프리미엄을 같은 현금흐름으로 그리지 않는다. 실제 상품별 제도는 별도 확인 대상으로 남긴다.\n\n만기 기초자산 가격을 S_T, 행사가격을 K, 콜·풋 프리미엄을 C·P라 두며 비용과 프리미엄의 금융비용을 제외한 교재 기본 모형을 사용한다. 콜 매수 손익은 max(S_T−K,0)−C이고 매도는 그 반대다. 콜 매수 손익분기점은 K+C이며 그 지점에서는 손익0이다. 무한 상승을 허용한 기본 모형에서 콜 매도 손실에는 상한이 없다.\n\n풋 매수는 max(K−S_T,0)−P, 풋 매도는 그 반대다. S_T≥0인 교재 모형에서 풋 매수의 최대이익은 K−P, 풋 매도의 최대손실 크기도 K−P로 유한하다. 이는 풋 매도가 안전하다는 뜻이 아니다. 기초자산 가격이 음수가 가능한 특수 상품까지 같은 경계를 일반화하지 않는다.\n\n동일 계약 양측의 손익은 반대지만 위험 한도는 대칭적으로 유리한 구조가 아니다. 같은 상승 예상에서도 콜 매수와 풋 매도의 최대손익은 다르므로, 예상 방향만으로 계약을 동일시하지 않는다. 원전 문제 선택지를 복제하지 않고 권리·의무·손익 도식으로 재구성했다.\n",
+  "cuts": [
+    {
+      "title": "옵션은 권리",
+      "source": "인쇄 p.330 / 현재 p1195 물리 pp.978–980",
+      "scene": "친구가 계약이면 반드시 거래해야 한다고 묻는다.누나는 권리와 의무를 두 카드로 구분한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "옵션 매수자는 정한 조건으로 거래할 권리를 얻어. 선도의 양쪽 의무와 구별하자."
+        }
+      ],
+      "labels": [
+        "기초자산",
+        "행사가격 K",
+        "행사 가능한 시점"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "콜과 풋",
+      "source": "인쇄 p.330 / 현재 p1195 물리 pp.978–980",
+      "scene": "살 권리와 팔 권리를 큰 두 칸으로 그린다.풋 매수의 팔 권리를 옵션 자체의 매도와 섞지 않는다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "콜은 살 권리, 풋은 팔 권리네. 풋 매수와 옵션 매도는 다른 말이구나."
+        }
+      ],
+      "labels": [
+        "콜: 매수할 권리",
+        "풋: 매도할 권리"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "유럽형과 미국형",
+      "source": "인쇄 p.330 / 현재 p1195 물리 pp.978–980",
+      "scene": "같은 만기 달력에 유럽형은 만기 한 점,미국형은 만기 전부터 만기까지 구간으로 표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "이 이름은 행사 시점의 차이야. 유럽형은 만기에, 미국형은 만기 전에도 행사할 수 있어."
+        }
+      ],
+      "labels": [
+        "유럽형: 만기 행사",
+        "미국형: 만기 이전에도 행사"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "프리미엄과 발행자의 의무",
+      "source": "인쇄 p.331–332 / 현재 p1195 물리 pp.978–980",
+      "scene": "매수자에서 매도자로 프리미엄 화살표,매도자 쪽에는 행사 시 계약 이행 의무 표지.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "교재의 기본 모형에서는 매수자는 프리미엄을 내고, 매도자는 받고 의무를 부담하네."
+        }
+      ],
+      "labels": [
+        "프리미엄 지급형 기본 모형",
+        "매수: 프리미엄 지급·권리",
+        "매도: 프리미엄 수취·이행 의무"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "콜 매수의 만기손익",
+      "source": "인쇄 p.330–331 / 현재 p1195 물리 pp.978–980",
+      "scene": "가로축ST,세로축만기손익. K까지−C에서 평평하고 그 뒤 기울기+1로 올라가 K+C에서0을 통과한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "권리의 만기 지급액에서 처음 낸 프리미엄을 빼야 손익이야."
+        }
+      ],
+      "labels": [
+        "콜 매수: max(S_T−K,0)−C",
+        "최대손실 C",
+        "손익분기점 K+C"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "콜 매도는 반대",
+      "source": "인쇄 p.331–332 / 현재 p1195 물리 pp.978–980",
+      "scene": "콜 매수 도표를 0축 대칭으로 뒤집는다.K까지+C,그 뒤 내려가 K+C에서0을 통과한다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "받은 프리미엄이 최대이익이고, 가격이 계속 오르면 손실은 크게 늘 수 있네."
+        }
+      ],
+      "labels": [
+        "콜 매도: C−max(S_T−K,0)",
+        "최대이익 C",
+        "상승 시 손실에 상한이 없는 기본 모형"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "풋 매수",
+      "source": "인쇄 p.330–331 / 현재 p1195 물리 pp.978–980",
+      "scene": "ST가낮을때양의손익에서기울기−1로내려가K에서−P가되고그뒤평평.0가격 경계를 표시한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "풋은 가격이 하락할 때 권리의 가치가 커져. 이 기본 모형에서 기초자산 가격은 0 이상이야."
+        }
+      ],
+      "labels": [
+        "풋 매수: max(K−S_T,0)−P",
+        "최대손실 P",
+        "풋의 이익이 무한대인 것은 아님"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "풋 매도",
+      "source": "인쇄 p.331–332 / 현재 p1195 물리 pp.978–980",
+      "scene": "풋 매수손익을0축대칭으로뒤집는다.낮은ST에서손실, K이상은+P로평평하다.",
+      "dialogue": [
+        {
+          "speaker": "여자 친구",
+          "text": "풋 매도도 콜 매도와 똑같이 무한손실이라고 쓰면 안 되겠네."
+        }
+      ],
+      "labels": [
+        "풋 매도: P−max(K−S_T,0)",
+        "최대이익 P",
+        "S_T≥0에서 손실은 유한하지만 클 수 있음"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    },
+    {
+      "title": "위험과 기대를 구별",
+      "source": "인쇄 p.331–332 / 현재 p1195 물리 pp.978–980",
+      "scene": "상승예상콜매수/풋매도,하락예상풋매수/콜매도 네칸.방향이같아도위험구조가다름을색으로구별한다.",
+      "dialogue": [
+        {
+          "speaker": "누나",
+          "text": "같은 방향을 예상해도 매수와 매도의 손익 구조는 달라. 프리미엄 한도 손실도 가볍게 볼 수는 없어."
+        }
+      ],
+      "labels": [
+        "예상 방향과 위험 구조는 별개",
+        "동일 계약 양측의 손익은 반대",
+        "다음: 내재가치와 옵션가격"
+      ],
+      "constraints": "Use sourced textbook conditions only, never invent premiums or prices. Premium-style basic options model; ignore fees/timevalueofmoney onlywhenstated. Label y-axis maturity profit when premiumsubtracted; never confuse intrinsicvalue with profit. American exercise beforeoratexpiry; European onlyatexpiry. Putwriters loss is not infinite under nonnegativeunderlyingprices. Approvedreferencechapters/14/014.png only."
+    }
+  ],
+  "preparationOnly": true,
+  "releaseAfter": "05-18 and06-01through08 complete"
+}

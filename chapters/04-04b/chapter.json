@@ -1,0 +1,48 @@
+{
+  "id": "04-04",
+  "title": "좋은 자산집단의 다섯 조건",
+  "sourceChapter": "제3과목 제4장 주식투자운용/투자전략",
+  "sourceTopic": "Topic 04 자산운용의 기본준비-(1) 자산집단의 요건",
+  "sourcePage": "인쇄 pp.210–211 / p1192 PDF 물리 pp.857–858",
+  "sourceDetails": "p1192 물리 p.857 인쇄 p.210과 물리 p.858 인쇄 p.211을 직접 확인했다. 자산집단의 다섯 요건은 동질성(Homogeneity), 배타성(Exclusiveness), 분산가능성(Diversifiability), 포괄성(Collectivity), 충분성(Abundance)이다. 포괄성은 자산집단 종류가 많을수록 분산투자효과가 확대되는 것, 충분성은 집단 내 종목 수와 유동성이 충분해야 원하는 효과를 얻는 것으로 설명한다. 새로운 후보 자산집단을 포함할 조건은 SRc > SRp × Corr(c,p)이다. p.211 예제는 SRp=0.50, SRc=0.35이며 조건상 상관계수가 0.7 미만이어야 한다. 보기 중 0.6이 조건을 충족한다. 이 수치는 교재 예제에 한정된다.",
+  "sourceStatus": "source-verified",
+  "format": "naver-webtoon-vertical-scroll",
+  "episodeGoal": "자산집단의 다섯 요건을 구분하고 원문 샤프비율 조건과 예제를 해석할 수 있다.",
+  "script": "script.md",
+  "storyboard": "storyboard.md",
+  "explanation": "explanation.md",
+  "imagePrompts": "image_prompts.md",
+  "status": "complete",
+  "plannedCutCount": 8,
+  "scrollAssets": [
+    "scroll/04-04-001.png",
+    "scroll/04-04-002.png",
+    "scroll/04-04-003.png",
+    "scroll/04-04-004.png",
+    "scroll/04-04-005.png",
+    "scroll/04-04-006.png",
+    "scroll/04-04-007.png",
+    "scroll/04-04-008.png"
+  ],
+  "review": "webtoon_review.json",
+  "exportDirectory": "../../upload_ready/naver_challenge/04-04",
+  "exportManifest": "../../upload_ready/NAVER_EXPORT_MANIFEST.csv",
+  "imageGenerationStatus": {
+    "state": "complete",
+    "assetCount": 8,
+    "completedAt": "2026-11-15",
+    "tool": "built-in image_gen"
+  },
+  "naverRequirementsVerifiedAt": "2026-11-15",
+  "naverRequirementsVerified": "https://help.naver.com/service/5635/contents/18779?osType=COMMONOS&ostype=commonos",
+  "naverUploadLimitsVerified": {
+    "widthPx": 690,
+    "formats": [
+      "jpg",
+      "gif"
+    ],
+    "maxFileBytes": 5242880,
+    "maxEpisodeBytes": 52428800,
+    "verifiedAt": "2026-11-15"
+  }
+}

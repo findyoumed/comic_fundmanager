@@ -1,0 +1,27 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "05-09 ?? 10? PNG ???? ?? 690px JPG? ?? ????. p1192 ?? pp.919?920? ???????? YTM ??????? ?? ????? ???? ????. ??? ??? ???? ??? ??????? ?????? ???? ????. 10? JPG? ?? ?? 5MB, ?? 50MB ?? ???.",
+  "restorationAudit": {
+    "checkedAt": "2026-11-16",
+    "fileCount": 10,
+    "totalBytes": 2914318,
+    "widthPx": 690,
+    "allFilesDecoded": true,
+    "visualSamples": [
+      "05-09-001.jpg",
+      "05-09-010.jpg"
+    ],
+    "reviewScope": "기존 원전·캐릭터 검토 결과를 유지. 이번에는 JPG 복원과 파일 규격 전수 검사, 첫 컷·마지막 컷 시각 점검을 실시했다."
+  },
+  "correctionReview": {
+    "reviewedAt": "2026-11-16",
+    "cut": "05-09-010",
+    "change": "잘못된 간이수익률 요약 분수를 제거하고 쿠폰과 가격 차이를 함께 반영한다는 문구로 교정",
+    "original": "revisions/05-09-010-before-summary-label-20261116.png",
+    "pngAndActualJpgVisuallyReviewed": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "mobile_readability": "passed",
+  "scroll_flow": "passed",
+  "character_consistency": "passed",
+  "source_accuracy": "passed",
+  "naver_export_check": "passed",
+  "notes": "전 10컷 PNG와 실제 690×1035 JPG를 검토. 현물·만기·선도수익률 정의, 8.72%·8.96%·13.07% 수치와 계산식 대조. 008의 순서 오류와 010의 원문 외 숫자 예제를 교정하고 구버전은 revisions에 보존. 네이버 공식 기준 확인. JPG 10개 총 2,751,820 bytes.",
+  "restorationAudit": {
+    "checkedAt": "2026-11-16",
+    "fileCount": 10,
+    "totalBytes": 2751820,
+    "widthPx": 690,
+    "allFilesDecoded": true,
+    "visualSamples": [
+      "05-15-001.jpg",
+      "05-15-010.jpg"
+    ],
+    "reviewScope": "기존 원전·캐릭터 검토 결과를 유지. 이번에는 JPG 복원과 파일 규격 전수 검사, 첫 컷·마지막 컷 시각 점검을 실시했다."
+  }
+}
